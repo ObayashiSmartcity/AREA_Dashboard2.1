@@ -337,7 +337,6 @@
     '来街者・観光客': 'VISITOR',
     '地域住民（単身）': 'RESIDENT_single',
     '地域住民（子育て）': 'RESIDENT_family'
-    'フィルタなし': 'NOFILTER'
   };
   const COLORS = ['#1e40af','#2563eb','#3b82f6','#60a5fa','#93c5fd','#cbd5e1','#0f172a','#334155','#475569','#64748b','#94a3b8','#cbd5e1'];
   const AGE_KEYS = ['人口_10歳未満','人口_10代','人口_20代','人口_30代','人口_40代','人口_50代','人口_60代','人口_70歳以上'];
@@ -423,7 +422,7 @@
       });
       issueBox.appendChild(t);
     });
-    const targetNames = ['オフィスワーカー','来街者・観光客','地域住民（単身）','地域住民（子育て）','フィルタなし'];
+    const targetNames = ['オフィスワーカー','来街者・観光客','地域住民（単身）','地域住民（子育て）'];
     const targetBox = document.getElementById('targetTiles');
     targetBox.innerHTML = '';
     targetNames.forEach(name => {
