@@ -332,12 +332,6 @@
   let wbChart = null, detailChart = null, currentWB = null;
   let s2Rows = [];
   let selectedIssue = null, selectedTargetId = null;
-  const TARGET_NAME_TO_ID = {
-    'オフィスワーカー': 'WORKER',
-    '来街者・観光客': 'VISITOR',
-    '地域住民（単身）': 'RESIDENT_single',
-    '地域住民（子育て）': 'RESIDENT_family'
-  };
   const COLORS = ['#1e40af','#2563eb','#3b82f6','#60a5fa','#93c5fd','#cbd5e1','#0f172a','#334155','#475569','#64748b','#94a3b8','#cbd5e1'];
   const AGE_KEYS = ['人口_10歳未満','人口_10代','人口_20代','人口_30代','人口_40代','人口_50代','人口_60代','人口_70歳以上'];
   let IND_KEYS = [];
@@ -381,11 +375,13 @@
     if (popData.length > 0) IND_KEYS = Object.keys(popData[0]).filter(k => k.startsWith('産業_')).sort();
   }
   function buildStep0Tiles() {
+    // 対象者アイコンは target_id で紐付け（名称は mart_index から動的取得するため）
     const TARGET_ICONS = {
-      'オフィスワーカー': '<rect x="3" y="7" width="18" height="13" rx="1.5"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><path d="M3 13h18"/>',
-      'テナント企業':   '<path d="M4 21V5a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v16"/><path d="M15 10h4a1 1 0 0 1 1 1v10"/><path d="M4 21h16"/><circle cx="7.5" cy="8" r=".6" fill="currentColor"/><circle cx="11.5" cy="8" r=".6" fill="currentColor"/><circle cx="7.5" cy="12" r=".6" fill="currentColor"/><circle cx="11.5" cy="12" r=".6" fill="currentColor"/><circle cx="7.5" cy="16" r=".6" fill="currentColor"/><circle cx="11.5" cy="16" r=".6" fill="currentColor"/>',
-      '来街者・観光客': '<path d="M12 2a8 8 0 0 0-8 8c0 5.5 8 12 8 12s8-6.5 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/>',
-      '地域住民':       '<path d="M3 11l9-8 9 8"/><path d="M5 9.5V21h14V9.5"/><path d="M10 21v-6h4v6"/>'
+      'WORKER':          '<rect x="3" y="7" width="18" height="13" rx="1.5"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><path d="M3 13h18"/>',
+      'VISITOR':         '<path d="M12 2a8 8 0 0 0-8 8c0 5.5 8 12 8 12s8-6.5 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/>',
+      'RESIDENT_single': '<path d="M3 11l9-8 9 8"/><path d="M5 9.5V21h14V9.5"/><path d="M10 21v-6h4v6"/>',
+      'RESIDENT_family': '<path d="M3 11l9-8 9 8"/><path d="M5 9.5V21h14V9.5"/><path d="M10 21v-6h4v6"/>',
+      'NOFILTER':        '<circle cx="9" cy="8" r="3"/><path d="M3 20c0-3 3-5 6-5s6 2 6 5"/><circle cx="17" cy="9" r="2"/><path d="M15 20c0-2 2-3 4-3s2 1 2 3"/>'
     };
     const DEFAULT_ISSUE_ICON = '<circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-.9.7-1.5 1.2-1.5 2.5"/><circle cx="12" cy="17" r=".6" fill="currentColor"/>';
     const ISSUE_ICON_RULES = [
@@ -422,18 +418,26 @@
       });
       issueBox.appendChild(t);
     });
-    const targetNames = ['オフィスワーカー','来街者・観光客','地域住民（単身）','地域住民（子育て）'];
+    // 対象者は mart_index（rawMartData）から target_id / target_name を重複排除して抽出（初出順）
+    const targetSeen = new Set();
+    const targets = [];
+    rawMartData.forEach(r => {
+      if (r.target_id && !targetSeen.has(r.target_id)) {
+        targetSeen.add(r.target_id);
+        targets.push({ id: r.target_id, name: r.target_name || r.target_id });
+      }
+    });
     const targetBox = document.getElementById('targetTiles');
     targetBox.innerHTML = '';
-    targetNames.forEach(name => {
+    targets.forEach(tg => {
       const t = document.createElement('div');
       t.className = 'tile tile-target';
-      t.dataset.targetId = TARGET_NAME_TO_ID[name];
-      t.innerHTML = '<svg class="pict" viewBox="0 0 24 24">' + (TARGET_ICONS[name] || DEFAULT_ISSUE_ICON) + '</svg><span class="tile-label">' + name + '</span>';
+      t.dataset.targetId = tg.id;
+      t.innerHTML = '<svg class="pict" viewBox="0 0 24 24">' + (TARGET_ICONS[tg.id] || DEFAULT_ISSUE_ICON) + '</svg><span class="tile-label">' + tg.name + '</span>';
       t.addEventListener('click', () => {
         targetBox.querySelectorAll('.tile').forEach(x => x.classList.remove('active'));
         t.classList.add('active');
-        selectedTargetId = TARGET_NAME_TO_ID[name];
+        selectedTargetId = tg.id;
         checkStep0Ready();
       });
       targetBox.appendChild(t);
