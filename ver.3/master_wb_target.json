@@ -1,0 +1,4522 @@
+[
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 0
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0616",
+    "index_name": "賃貸住宅に関わるサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 0
+  },
+  {
+    "index_code": "I0616",
+    "index_name": "賃貸住宅に関わるサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0616",
+    "index_name": "賃貸住宅に関わるサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0616",
+    "index_name": "賃貸住宅に関わるサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0487",
+    "index_name": "ディスカウントストアの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0487",
+    "index_name": "ディスカウントストアの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0487",
+    "index_name": "ディスカウントストアの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0487",
+    "index_name": "ディスカウントストアの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0407",
+    "index_name": "コンビニの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0407",
+    "index_name": "コンビニの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0407",
+    "index_name": "コンビニの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0407",
+    "index_name": "コンビニの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0446",
+    "index_name": "子どもを連れて行きやすいお店の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 0
+  },
+  {
+    "index_code": "I0446",
+    "index_name": "子どもを連れて行きやすいお店の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0446",
+    "index_name": "子どもを連れて行きやすいお店の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 0
+  },
+  {
+    "index_code": "I0446",
+    "index_name": "子どもを連れて行きやすいお店の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0452",
+    "index_name": "スーパーの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0452",
+    "index_name": "スーパーの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0452",
+    "index_name": "スーパーの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0452",
+    "index_name": "スーパーの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0453",
+    "index_name": "デパートの多さ",
+    "wbindex": "楽しさ",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0453",
+    "index_name": "デパートの多さ",
+    "wbindex": "楽しさ",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0453",
+    "index_name": "デパートの多さ",
+    "wbindex": "楽しさ",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0453",
+    "index_name": "デパートの多さ",
+    "wbindex": "楽しさ",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0617",
+    "index_name": "住宅の維持管理に関わるサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 0
+  },
+  {
+    "index_code": "I0617",
+    "index_name": "住宅の維持管理に関わるサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0617",
+    "index_name": "住宅の維持管理に関わるサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0617",
+    "index_name": "住宅の維持管理に関わるサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0417",
+    "index_name": "緑の多さ",
+    "wbindex": "美しい周辺環境",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0417",
+    "index_name": "緑の多さ",
+    "wbindex": "美しい周辺環境",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0417",
+    "index_name": "緑の多さ",
+    "wbindex": "美しい周辺環境",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0417",
+    "index_name": "緑の多さ",
+    "wbindex": "美しい周辺環境",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0435",
+    "index_name": "公園の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0435",
+    "index_name": "公園の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0435",
+    "index_name": "公園の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0435",
+    "index_name": "公園の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0618",
+    "index_name": "PM2.5年平均濃度",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0618",
+    "index_name": "PM2.5年平均濃度",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0618",
+    "index_name": "PM2.5年平均濃度",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0618",
+    "index_name": "PM2.5年平均濃度",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0609",
+    "index_name": "保険適用外医療機関の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0609",
+    "index_name": "保険適用外医療機関の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0609",
+    "index_name": "保険適用外医療機関の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0609",
+    "index_name": "保険適用外医療機関の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0619",
+    "index_name": "健康寿命に資するサービスの多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0619",
+    "index_name": "健康寿命に資するサービスの多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0619",
+    "index_name": "健康寿命に資するサービスの多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0619",
+    "index_name": "健康寿命に資するサービスの多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0620",
+    "index_name": "特定健診受診率",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 0
+  },
+  {
+    "index_code": "I0620",
+    "index_name": "特定健診受診率",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0620",
+    "index_name": "特定健診受診率",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0620",
+    "index_name": "特定健診受診率",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0459",
+    "index_name": "政治経済団体の多さ",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0459",
+    "index_name": "政治経済団体の多さ",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0459",
+    "index_name": "政治経済団体の多さ",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0459",
+    "index_name": "政治経済団体の多さ",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0621",
+    "index_name": "ボランティア活動に関する場所の多さ",
+    "wbindex": "コミュニティとの繋がり",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0621",
+    "index_name": "ボランティア活動に関する場所の多さ",
+    "wbindex": "コミュニティとの繋がり",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0621",
+    "index_name": "ボランティア活動に関する場所の多さ",
+    "wbindex": "コミュニティとの繋がり",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0621",
+    "index_name": "ボランティア活動に関する場所の多さ",
+    "wbindex": "コミュニティとの繋がり",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0463",
+    "index_name": "集会施設の多さ",
+    "wbindex": "コミュニティとの繋がり",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0463",
+    "index_name": "集会施設の多さ",
+    "wbindex": "コミュニティとの繋がり",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0463",
+    "index_name": "集会施設の多さ",
+    "wbindex": "コミュニティとの繋がり",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0463",
+    "index_name": "集会施設の多さ",
+    "wbindex": "コミュニティとの繋がり",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0622",
+    "index_name": "政治・自治に関わるサービスの多さ",
+    "wbindex": "自律性",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0622",
+    "index_name": "政治・自治に関わるサービスの多さ",
+    "wbindex": "自律性",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0622",
+    "index_name": "政治・自治に関わるサービスの多さ",
+    "wbindex": "自律性",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0622",
+    "index_name": "政治・自治に関わるサービスの多さ",
+    "wbindex": "自律性",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0424",
+    "index_name": "図書館・書店の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0424",
+    "index_name": "図書館・書店の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0424",
+    "index_name": "図書館・書店の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0424",
+    "index_name": "図書館・書店の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0512",
+    "index_name": "書店の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0512",
+    "index_name": "書店の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0512",
+    "index_name": "書店の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0512",
+    "index_name": "書店の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "wbindex": "文化の創造",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "wbindex": "文化の創造",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "wbindex": "文化の創造",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "wbindex": "文化の創造",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0608",
+    "index_name": "研究機関の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0608",
+    "index_name": "研究機関の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0608",
+    "index_name": "研究機関の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0608",
+    "index_name": "研究機関の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "wbindex": "自己顕示欲を満たすことができる",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "wbindex": "自己顕示欲を満たすことができる",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "wbindex": "自己顕示欲を満たすことができる",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "wbindex": "自己顕示欲を満たすことができる",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0612",
+    "index_name": "倉庫の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0612",
+    "index_name": "倉庫の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0612",
+    "index_name": "倉庫の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0612",
+    "index_name": "倉庫の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0623",
+    "index_name": "自動車に関するサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0623",
+    "index_name": "自動車に関するサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0623",
+    "index_name": "自動車に関するサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0623",
+    "index_name": "自動車に関するサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0468",
+    "index_name": "警察拠点の多さ",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0468",
+    "index_name": "警察拠点の多さ",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0468",
+    "index_name": "警察拠点の多さ",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0468",
+    "index_name": "警察拠点の多さ",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0624",
+    "index_name": "情報公開請求開示率",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 0
+  },
+  {
+    "index_code": "I0624",
+    "index_name": "情報公開請求開示率",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0624",
+    "index_name": "情報公開請求開示率",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0624",
+    "index_name": "情報公開請求開示率",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0625",
+    "index_name": "デジタルインフラに関わるサービスの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0625",
+    "index_name": "デジタルインフラに関わるサービスの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0625",
+    "index_name": "デジタルインフラに関わるサービスの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0625",
+    "index_name": "デジタルインフラに関わるサービスの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0626",
+    "index_name": "SNS投稿数（都市ハッシュタグ）",
+    "wbindex": "知名度",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0626",
+    "index_name": "SNS投稿数（都市ハッシュタグ）",
+    "wbindex": "知名度",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0626",
+    "index_name": "SNS投稿数（都市ハッシュタグ）",
+    "wbindex": "知名度",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0626",
+    "index_name": "SNS投稿数（都市ハッシュタグ）",
+    "wbindex": "知名度",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0405",
+    "index_name": "夜間営業している店の多さ",
+    "wbindex": "柔軟性",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0405",
+    "index_name": "夜間営業している店の多さ",
+    "wbindex": "柔軟性",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0405",
+    "index_name": "夜間営業している店の多さ",
+    "wbindex": "柔軟性",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0405",
+    "index_name": "夜間営業している店の多さ",
+    "wbindex": "柔軟性",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0536",
+    "index_name": "居酒屋の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0536",
+    "index_name": "居酒屋の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0536",
+    "index_name": "居酒屋の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0536",
+    "index_name": "居酒屋の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0570",
+    "index_name": "深夜営業のお店の多さ",
+    "wbindex": "柔軟性",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0570",
+    "index_name": "深夜営業のお店の多さ",
+    "wbindex": "柔軟性",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0570",
+    "index_name": "深夜営業のお店の多さ",
+    "wbindex": "柔軟性",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0570",
+    "index_name": "深夜営業のお店の多さ",
+    "wbindex": "柔軟性",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "wbindex": "自己顕示欲を満たすことができる",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "wbindex": "自己顕示欲を満たすことができる",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "wbindex": "自己顕示欲を満たすことができる",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "wbindex": "自己顕示欲を満たすことができる",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0527",
+    "index_name": "ブティックの多さ",
+    "wbindex": "個性を表現すること",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0527",
+    "index_name": "ブティックの多さ",
+    "wbindex": "個性を表現すること",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0527",
+    "index_name": "ブティックの多さ",
+    "wbindex": "個性を表現すること",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0527",
+    "index_name": "ブティックの多さ",
+    "wbindex": "個性を表現すること",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0601",
+    "index_name": "高価格帯飲食店の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0601",
+    "index_name": "高価格帯飲食店の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0601",
+    "index_name": "高価格帯飲食店の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0601",
+    "index_name": "高価格帯飲食店の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "wbindex": "知名度",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "wbindex": "知名度",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "wbindex": "知名度",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "wbindex": "知名度",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0443",
+    "index_name": "宿泊施設の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0443",
+    "index_name": "宿泊施設の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0443",
+    "index_name": "宿泊施設の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0443",
+    "index_name": "宿泊施設の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0600",
+    "index_name": "宿泊施設の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0600",
+    "index_name": "宿泊施設の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0600",
+    "index_name": "宿泊施設の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0600",
+    "index_name": "宿泊施設の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0628",
+    "index_name": "不快指数（夏季平均）",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0628",
+    "index_name": "不快指数（夏季平均）",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0628",
+    "index_name": "不快指数（夏季平均）",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0628",
+    "index_name": "不快指数（夏季平均）",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0629",
+    "index_name": "年平均気温",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0629",
+    "index_name": "年平均気温",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0629",
+    "index_name": "年平均気温",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0629",
+    "index_name": "年平均気温",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0630",
+    "index_name": "年間日照時間",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0630",
+    "index_name": "年間日照時間",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0630",
+    "index_name": "年間日照時間",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0630",
+    "index_name": "年間日照時間",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0631",
+    "index_name": "猛暑日＋真冬日日数",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0631",
+    "index_name": "猛暑日＋真冬日日数",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0631",
+    "index_name": "猛暑日＋真冬日日数",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0631",
+    "index_name": "猛暑日＋真冬日日数",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0632",
+    "index_name": "自然災害リスク指数",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0632",
+    "index_name": "自然災害リスク指数",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0632",
+    "index_name": "自然災害リスク指数",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0632",
+    "index_name": "自然災害リスク指数",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0447",
+    "index_name": "水域の面積",
+    "wbindex": "美しい周辺環境",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0447",
+    "index_name": "水域の面積",
+    "wbindex": "美しい周辺環境",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0447",
+    "index_name": "水域の面積",
+    "wbindex": "美しい周辺環境",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0447",
+    "index_name": "水域の面積",
+    "wbindex": "美しい周辺環境",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0633",
+    "index_name": "ごみリサイクル率",
+    "wbindex": "美しい周辺環境",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0633",
+    "index_name": "ごみリサイクル率",
+    "wbindex": "美しい周辺環境",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0633",
+    "index_name": "ごみリサイクル率",
+    "wbindex": "美しい周辺環境",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0633",
+    "index_name": "ごみリサイクル率",
+    "wbindex": "美しい周辺環境",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0634",
+    "index_name": "景観に資するサービスの多さ",
+    "wbindex": "美しい周辺環境",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0634",
+    "index_name": "景観に資するサービスの多さ",
+    "wbindex": "美しい周辺環境",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0634",
+    "index_name": "景観に資するサービスの多さ",
+    "wbindex": "美しい周辺環境",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0634",
+    "index_name": "景観に資するサービスの多さ",
+    "wbindex": "美しい周辺環境",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0427",
+    "index_name": "劇場・ホールの多さ",
+    "wbindex": "文化の創造",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0427",
+    "index_name": "劇場・ホールの多さ",
+    "wbindex": "文化の創造",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0427",
+    "index_name": "劇場・ホールの多さ",
+    "wbindex": "文化の創造",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0427",
+    "index_name": "劇場・ホールの多さ",
+    "wbindex": "文化の創造",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0425",
+    "index_name": "博物館の多さ",
+    "wbindex": "文化の創造",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0425",
+    "index_name": "博物館の多さ",
+    "wbindex": "文化の創造",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0425",
+    "index_name": "博物館の多さ",
+    "wbindex": "文化の創造",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0425",
+    "index_name": "博物館の多さ",
+    "wbindex": "文化の創造",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0426",
+    "index_name": "美術館の多さ",
+    "wbindex": "文化の創造",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0426",
+    "index_name": "美術館の多さ",
+    "wbindex": "文化の創造",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0426",
+    "index_name": "美術館の多さ",
+    "wbindex": "文化の創造",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0426",
+    "index_name": "美術館の多さ",
+    "wbindex": "文化の創造",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0518",
+    "index_name": "展示場・ショールームの多さ",
+    "wbindex": "文化の創造",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0518",
+    "index_name": "展示場・ショールームの多さ",
+    "wbindex": "文化の創造",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0518",
+    "index_name": "展示場・ショールームの多さ",
+    "wbindex": "文化の創造",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0518",
+    "index_name": "展示場・ショールームの多さ",
+    "wbindex": "文化の創造",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0635",
+    "index_name": "国指定文化財件数",
+    "wbindex": "文化の創造",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0635",
+    "index_name": "国指定文化財件数",
+    "wbindex": "文化の創造",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0635",
+    "index_name": "国指定文化財件数",
+    "wbindex": "文化の創造",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0635",
+    "index_name": "国指定文化財件数",
+    "wbindex": "文化の創造",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0636",
+    "index_name": "文化的活動に資するサービスの多さ",
+    "wbindex": "文化の創造",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0636",
+    "index_name": "文化的活動に資するサービスの多さ",
+    "wbindex": "文化の創造",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0636",
+    "index_name": "文化的活動に資するサービスの多さ",
+    "wbindex": "文化の創造",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0636",
+    "index_name": "文化的活動に資するサービスの多さ",
+    "wbindex": "文化の創造",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0637",
+    "index_name": "単身者の生活に関するサービスの多さ",
+    "wbindex": "自律性",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0637",
+    "index_name": "単身者の生活に関するサービスの多さ",
+    "wbindex": "自律性",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0637",
+    "index_name": "単身者の生活に関するサービスの多さ",
+    "wbindex": "自律性",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0637",
+    "index_name": "単身者の生活に関するサービスの多さ",
+    "wbindex": "自律性",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 0
+  },
+  {
+    "index_code": "I0638",
+    "index_name": "結婚に関するサービスの多さ",
+    "wbindex": "人間関係",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0638",
+    "index_name": "結婚に関するサービスの多さ",
+    "wbindex": "人間関係",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0638",
+    "index_name": "結婚に関するサービスの多さ",
+    "wbindex": "人間関係",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0638",
+    "index_name": "結婚に関するサービスの多さ",
+    "wbindex": "人間関係",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0639",
+    "index_name": "社会教育関係サービスの多さ",
+    "wbindex": "自身の成長",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0639",
+    "index_name": "社会教育関係サービスの多さ",
+    "wbindex": "自身の成長",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0639",
+    "index_name": "社会教育関係サービスの多さ",
+    "wbindex": "自身の成長",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0639",
+    "index_name": "社会教育関係サービスの多さ",
+    "wbindex": "自身の成長",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0640",
+    "index_name": "転入超過率",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 0
+  },
+  {
+    "index_code": "I0640",
+    "index_name": "転入超過率",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0640",
+    "index_name": "転入超過率",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0640",
+    "index_name": "転入超過率",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0604",
+    "index_name": "駐輪場の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0604",
+    "index_name": "駐輪場の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0604",
+    "index_name": "駐輪場の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0604",
+    "index_name": "駐輪場の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0412",
+    "index_name": "チャージスポット+フリーWi-Fiスポットの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0412",
+    "index_name": "チャージスポット+フリーWi-Fiスポットの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0412",
+    "index_name": "チャージスポット+フリーWi-Fiスポットの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0412",
+    "index_name": "チャージスポット+フリーWi-Fiスポットの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0610",
+    "index_name": "新技術サービスの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0610",
+    "index_name": "新技術サービスの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0610",
+    "index_name": "新技術サービスの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0610",
+    "index_name": "新技術サービスの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0641",
+    "index_name": "行政手続きオンライン利用率",
+    "wbindex": "先進的な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 0
+  },
+  {
+    "index_code": "I0641",
+    "index_name": "行政手続きオンライン利用率",
+    "wbindex": "先進的な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0641",
+    "index_name": "行政手続きオンライン利用率",
+    "wbindex": "先進的な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0641",
+    "index_name": "行政手続きオンライン利用率",
+    "wbindex": "先進的な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0445",
+    "index_name": "授乳室おむつ替えスペースの多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 0
+  },
+  {
+    "index_code": "I0445",
+    "index_name": "授乳室おむつ替えスペースの多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0445",
+    "index_name": "授乳室おむつ替えスペースの多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 0
+  },
+  {
+    "index_code": "I0445",
+    "index_name": "授乳室おむつ替えスペースの多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0642",
+    "index_name": "合計特殊出生率",
+    "wbindex": "家族への配慮",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 0
+  },
+  {
+    "index_code": "I0642",
+    "index_name": "合計特殊出生率",
+    "wbindex": "家族への配慮",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0642",
+    "index_name": "合計特殊出生率",
+    "wbindex": "家族への配慮",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0642",
+    "index_name": "合計特殊出生率",
+    "wbindex": "家族への配慮",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0643",
+    "index_name": "子ども医療費助成対象年齢",
+    "wbindex": "家族への配慮",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 0
+  },
+  {
+    "index_code": "I0643",
+    "index_name": "子ども医療費助成対象年齢",
+    "wbindex": "家族への配慮",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0643",
+    "index_name": "子ども医療費助成対象年齢",
+    "wbindex": "家族への配慮",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0643",
+    "index_name": "子ども医療費助成対象年齢",
+    "wbindex": "家族への配慮",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0440",
+    "index_name": "児童福祉施設の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 0
+  },
+  {
+    "index_code": "I0440",
+    "index_name": "児童福祉施設の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0440",
+    "index_name": "児童福祉施設の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 0
+  },
+  {
+    "index_code": "I0440",
+    "index_name": "児童福祉施設の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0511",
+    "index_name": "小学校の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 0
+  },
+  {
+    "index_code": "I0511",
+    "index_name": "小学校の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0511",
+    "index_name": "小学校の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 0
+  },
+  {
+    "index_code": "I0511",
+    "index_name": "小学校の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0420",
+    "index_name": "公共交通機関の利用のしやすさ(鉄道駅数)",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0420",
+    "index_name": "公共交通機関の利用のしやすさ(鉄道駅数)",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0420",
+    "index_name": "公共交通機関の利用のしやすさ(鉄道駅数)",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0420",
+    "index_name": "公共交通機関の利用のしやすさ(鉄道駅数)",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0421",
+    "index_name": "公共交通機関の利用のしやすさ(バス停数)",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0421",
+    "index_name": "公共交通機関の利用のしやすさ(バス停数)",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0421",
+    "index_name": "公共交通機関の利用のしやすさ(バス停数)",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0421",
+    "index_name": "公共交通機関の利用のしやすさ(バス停数)",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0644",
+    "index_name": "就職に資するサービスの多さ",
+    "wbindex": "自身の成長",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0644",
+    "index_name": "就職に資するサービスの多さ",
+    "wbindex": "自身の成長",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0644",
+    "index_name": "就職に資するサービスの多さ",
+    "wbindex": "自身の成長",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0644",
+    "index_name": "就職に資するサービスの多さ",
+    "wbindex": "自身の成長",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0645",
+    "index_name": "アーティスト活動に資する施設の多さ",
+    "wbindex": "個性を表現すること",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0645",
+    "index_name": "アーティスト活動に資する施設の多さ",
+    "wbindex": "個性を表現すること",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0645",
+    "index_name": "アーティスト活動に資する施設の多さ",
+    "wbindex": "個性を表現すること",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0645",
+    "index_name": "アーティスト活動に資する施設の多さ",
+    "wbindex": "個性を表現すること",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0646",
+    "index_name": "パートナーシップ宣誓制度の有無",
+    "wbindex": "多様性",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0646",
+    "index_name": "パートナーシップ宣誓制度の有無",
+    "wbindex": "多様性",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0646",
+    "index_name": "パートナーシップ宣誓制度の有無",
+    "wbindex": "多様性",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0646",
+    "index_name": "パートナーシップ宣誓制度の有無",
+    "wbindex": "多様性",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0550",
+    "index_name": "スタジオの多さ",
+    "wbindex": "個性を表現すること",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0550",
+    "index_name": "スタジオの多さ",
+    "wbindex": "個性を表現すること",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0550",
+    "index_name": "スタジオの多さ",
+    "wbindex": "個性を表現すること",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0550",
+    "index_name": "スタジオの多さ",
+    "wbindex": "個性を表現すること",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0647",
+    "index_name": "外国人向けサービスの多さ",
+    "wbindex": "多様性",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0647",
+    "index_name": "外国人向けサービスの多さ",
+    "wbindex": "多様性",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0647",
+    "index_name": "外国人向けサービスの多さ",
+    "wbindex": "多様性",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0647",
+    "index_name": "外国人向けサービスの多さ",
+    "wbindex": "多様性",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0461",
+    "index_name": "社寺仏閣の多さ",
+    "wbindex": "自らを振り返る時間",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0461",
+    "index_name": "社寺仏閣の多さ",
+    "wbindex": "自らを振り返る時間",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0461",
+    "index_name": "社寺仏閣の多さ",
+    "wbindex": "自らを振り返る時間",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0461",
+    "index_name": "社寺仏閣の多さ",
+    "wbindex": "自らを振り返る時間",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0565",
+    "index_name": "仏教寺社以外の宗教の集会施設の多さ",
+    "wbindex": "多様性",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0565",
+    "index_name": "仏教寺社以外の宗教の集会施設の多さ",
+    "wbindex": "多様性",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0565",
+    "index_name": "仏教寺社以外の宗教の集会施設の多さ",
+    "wbindex": "多様性",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0565",
+    "index_name": "仏教寺社以外の宗教の集会施設の多さ",
+    "wbindex": "多様性",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0648",
+    "index_name": "平均通勤時間",
+    "wbindex": "柔軟性",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 0
+  },
+  {
+    "index_code": "I0648",
+    "index_name": "平均通勤時間",
+    "wbindex": "柔軟性",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0648",
+    "index_name": "平均通勤時間",
+    "wbindex": "柔軟性",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0648",
+    "index_name": "平均通勤時間",
+    "wbindex": "柔軟性",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0649",
+    "index_name": "年間総実労働時間",
+    "wbindex": "柔軟性",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 0
+  },
+  {
+    "index_code": "I0649",
+    "index_name": "年間総実労働時間",
+    "wbindex": "柔軟性",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0649",
+    "index_name": "年間総実労働時間",
+    "wbindex": "柔軟性",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0649",
+    "index_name": "年間総実労働時間",
+    "wbindex": "柔軟性",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0551",
+    "index_name": "サウナの多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0551",
+    "index_name": "サウナの多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0551",
+    "index_name": "サウナの多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0551",
+    "index_name": "サウナの多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0650",
+    "index_name": "自治体SNSフォロワー数",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0650",
+    "index_name": "自治体SNSフォロワー数",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0650",
+    "index_name": "自治体SNSフォロワー数",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0650",
+    "index_name": "自治体SNSフォロワー数",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0651",
+    "index_name": "スポーツ観戦に関する施設の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0651",
+    "index_name": "スポーツ観戦に関する施設の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0651",
+    "index_name": "スポーツ観戦に関する施設の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0651",
+    "index_name": "スポーツ観戦に関する施設の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0652",
+    "index_name": "映画館の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0652",
+    "index_name": "映画館の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0652",
+    "index_name": "映画館の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0652",
+    "index_name": "映画館の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0557",
+    "index_name": "興行施設・テーマ―パークの多さ",
+    "wbindex": "楽しさ",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0557",
+    "index_name": "興行施設・テーマ―パークの多さ",
+    "wbindex": "楽しさ",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0557",
+    "index_name": "興行施設・テーマ―パークの多さ",
+    "wbindex": "楽しさ",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0557",
+    "index_name": "興行施設・テーマ―パークの多さ",
+    "wbindex": "楽しさ",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0404",
+    "index_name": "カフェの多さ",
+    "wbindex": "自らを振り返る時間",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0404",
+    "index_name": "カフェの多さ",
+    "wbindex": "自らを振り返る時間",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0404",
+    "index_name": "カフェの多さ",
+    "wbindex": "自らを振り返る時間",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0404",
+    "index_name": "カフェの多さ",
+    "wbindex": "自らを振り返る時間",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "wbindex": "多様性",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "wbindex": "多様性",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "wbindex": "多様性",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "wbindex": "多様性",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0409",
+    "index_name": "地元食材を使った飲食店の多さ",
+    "wbindex": "コミュニティとの繋がり",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0409",
+    "index_name": "地元食材を使った飲食店の多さ",
+    "wbindex": "コミュニティとの繋がり",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0409",
+    "index_name": "地元食材を使った飲食店の多さ",
+    "wbindex": "コミュニティとの繋がり",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0409",
+    "index_name": "地元食材を使った飲食店の多さ",
+    "wbindex": "コミュニティとの繋がり",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0653",
+    "index_name": "バリアフリーに資するサービスの多さ",
+    "wbindex": "多様性",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0653",
+    "index_name": "バリアフリーに資するサービスの多さ",
+    "wbindex": "多様性",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0653",
+    "index_name": "バリアフリーに資するサービスの多さ",
+    "wbindex": "多様性",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0653",
+    "index_name": "バリアフリーに資するサービスの多さ",
+    "wbindex": "多様性",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0563",
+    "index_name": "日本語学校（タウンページ）の多さ",
+    "wbindex": "多様性",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0563",
+    "index_name": "日本語学校（タウンページ）の多さ",
+    "wbindex": "多様性",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0563",
+    "index_name": "日本語学校（タウンページ）の多さ",
+    "wbindex": "多様性",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0563",
+    "index_name": "日本語学校（タウンページ）の多さ",
+    "wbindex": "多様性",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0654",
+    "index_name": "産業多様性指数",
+    "wbindex": "多様性",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0654",
+    "index_name": "産業多様性指数",
+    "wbindex": "多様性",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0654",
+    "index_name": "産業多様性指数",
+    "wbindex": "多様性",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0654",
+    "index_name": "産業多様性指数",
+    "wbindex": "多様性",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0434",
+    "index_name": "コワーキングスペースの多さ",
+    "wbindex": "柔軟性",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0434",
+    "index_name": "コワーキングスペースの多さ",
+    "wbindex": "柔軟性",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0434",
+    "index_name": "コワーキングスペースの多さ",
+    "wbindex": "柔軟性",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0434",
+    "index_name": "コワーキングスペースの多さ",
+    "wbindex": "柔軟性",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0603",
+    "index_name": "駐車場の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0603",
+    "index_name": "駐車場の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0603",
+    "index_name": "駐車場の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0603",
+    "index_name": "駐車場の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0655",
+    "index_name": "行政手続きのオンライン完結率",
+    "wbindex": "先進的な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 0
+  },
+  {
+    "index_code": "I0655",
+    "index_name": "行政手続きのオンライン完結率",
+    "wbindex": "先進的な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0655",
+    "index_name": "行政手続きのオンライン完結率",
+    "wbindex": "先進的な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0655",
+    "index_name": "行政手続きのオンライン完結率",
+    "wbindex": "先進的な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0656",
+    "index_name": "賃貸住宅空室率",
+    "wbindex": "快適な生活",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 0
+  },
+  {
+    "index_code": "I0656",
+    "index_name": "賃貸住宅空室率",
+    "wbindex": "快適な生活",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 0
+  },
+  {
+    "index_code": "I0656",
+    "index_name": "賃貸住宅空室率",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0656",
+    "index_name": "賃貸住宅空室率",
+    "wbindex": "快適な生活",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "wbindex": "自身の成長",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "wbindex": "自身の成長",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "wbindex": "自身の成長",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "wbindex": "自身の成長",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 0
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 0
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "スキルアップ施設の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "スキルアップ施設の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "スキルアップ施設の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "スキルアップ施設の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0605",
+    "index_name": "塾・進学教室・予備校の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 0
+  },
+  {
+    "index_code": "I0605",
+    "index_name": "塾・進学教室・予備校の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0605",
+    "index_name": "塾・進学教室・予備校の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 0
+  },
+  {
+    "index_code": "I0605",
+    "index_name": "塾・進学教室・予備校の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0657",
+    "index_name": "キャンプ場・アウトドア施設の多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0657",
+    "index_name": "キャンプ場・アウトドア施設の多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0657",
+    "index_name": "キャンプ場・アウトドア施設の多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0657",
+    "index_name": "キャンプ場・アウトドア施設の多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "wbindex": "人間関係",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "wbindex": "人間関係",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "wbindex": "人間関係",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "wbindex": "人間関係",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0606",
+    "index_name": "ペット関係サービスの多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0606",
+    "index_name": "ペット関係サービスの多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0606",
+    "index_name": "ペット関係サービスの多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0606",
+    "index_name": "ペット関係サービスの多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0535",
+    "index_name": "古本屋の多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0535",
+    "index_name": "古本屋の多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0535",
+    "index_name": "古本屋の多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0535",
+    "index_name": "古本屋の多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "WORKER",
+    "target_name": "オフィスワーカー",
+    "weight": 1
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "VISITOR",
+    "target_name": "来街者・観光客",
+    "weight": 1
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_single",
+    "target_name": "住民（単身）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "RESIDENT_family",
+    "target_name": "住民（子育て）",
+    "weight": 1
+  },
+  {
+    "index_code": "I0404",
+    "index_name": "カフェの多さ",
+    "wbindex": "自らを振り返る時間",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0405",
+    "index_name": "夜間営業している店の多さ",
+    "wbindex": "柔軟性",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0407",
+    "index_name": "コンビニの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "wbindex": "多様性",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0409",
+    "index_name": "地元食材を使った飲食店の多さ",
+    "wbindex": "コミュニティとの繋がり",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0412",
+    "index_name": "チャージスポット+フリーWi-Fiスポットの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0417",
+    "index_name": "緑の多さ",
+    "wbindex": "美しい周辺環境",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0420",
+    "index_name": "公共交通機関の利用のしやすさ(鉄道駅数)",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0421",
+    "index_name": "公共交通機関の利用のしやすさ(バス停数)",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0424",
+    "index_name": "図書館・書店の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0425",
+    "index_name": "博物館の多さ",
+    "wbindex": "文化の創造",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0426",
+    "index_name": "美術館の多さ",
+    "wbindex": "文化の創造",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0427",
+    "index_name": "劇場・ホールの多さ",
+    "wbindex": "文化の創造",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "wbindex": "文化の創造",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0434",
+    "index_name": "コワーキングスペースの多さ",
+    "wbindex": "柔軟性",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0435",
+    "index_name": "公園の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0440",
+    "index_name": "児童福祉施設の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0443",
+    "index_name": "宿泊施設の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0445",
+    "index_name": "授乳室おむつ替えスペースの多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0446",
+    "index_name": "子どもを連れて行きやすいお店の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0447",
+    "index_name": "水域の面積",
+    "wbindex": "美しい周辺環境",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0452",
+    "index_name": "スーパーの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0453",
+    "index_name": "デパートの多さ",
+    "wbindex": "楽しさ",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0459",
+    "index_name": "政治経済団体の多さ",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0461",
+    "index_name": "社寺仏閣の多さ",
+    "wbindex": "自らを振り返る時間",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0463",
+    "index_name": "集会施設の多さ",
+    "wbindex": "コミュニティとの繋がり",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0468",
+    "index_name": "警察拠点の多さ",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0487",
+    "index_name": "ディスカウントストアの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "wbindex": "自己顕示欲を満たすことができる",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0511",
+    "index_name": "小学校の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0512",
+    "index_name": "書店の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "wbindex": "自身の成長",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0518",
+    "index_name": "展示場・ショールームの多さ",
+    "wbindex": "文化の創造",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0527",
+    "index_name": "ブティックの多さ",
+    "wbindex": "個性を表現すること",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0535",
+    "index_name": "古本屋の多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0536",
+    "index_name": "居酒屋の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "wbindex": "人間関係",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0550",
+    "index_name": "スタジオの多さ",
+    "wbindex": "個性を表現すること",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0551",
+    "index_name": "サウナの多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0557",
+    "index_name": "興行施設・テーマ―パークの多さ",
+    "wbindex": "楽しさ",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "wbindex": "家族への配慮",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0563",
+    "index_name": "日本語学校（タウンページ）の多さ",
+    "wbindex": "多様性",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0565",
+    "index_name": "仏教寺社以外の宗教の集会施設の多さ",
+    "wbindex": "多様性",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0570",
+    "index_name": "深夜営業のお店の多さ",
+    "wbindex": "柔軟性",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "スキルアップ施設の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0600",
+    "index_name": "宿泊施設の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0601",
+    "index_name": "高価格帯飲食店の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0603",
+    "index_name": "駐車場の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0604",
+    "index_name": "駐輪場の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0605",
+    "index_name": "塾・進学教室・予備校の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0606",
+    "index_name": "ペット関係サービスの多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0608",
+    "index_name": "研究機関の多さ",
+    "wbindex": "自身の成長",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0609",
+    "index_name": "保険適用外医療機関の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0610",
+    "index_name": "新技術サービスの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "wbindex": "自己顕示欲を満たすことができる",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0612",
+    "index_name": "倉庫の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0616",
+    "index_name": "賃貸住宅に関わるサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0617",
+    "index_name": "住宅の維持管理に関わるサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0618",
+    "index_name": "PM2.5年平均濃度",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0619",
+    "index_name": "健康寿命に資するサービスの多さ",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0620",
+    "index_name": "特定健診受診率",
+    "wbindex": "身体的・精神的健康",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0621",
+    "index_name": "ボランティア活動に関する場所の多さ",
+    "wbindex": "コミュニティとの繋がり",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0622",
+    "index_name": "政治・自治に関わるサービスの多さ",
+    "wbindex": "自律性",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0623",
+    "index_name": "自動車に関するサービスの多さ",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0624",
+    "index_name": "情報公開請求開示率",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0625",
+    "index_name": "デジタルインフラに関わるサービスの多さ",
+    "wbindex": "先進的な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0626",
+    "index_name": "SNS投稿数（都市ハッシュタグ）",
+    "wbindex": "知名度",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "wbindex": "知名度",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0628",
+    "index_name": "不快指数（夏季平均）",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0629",
+    "index_name": "年平均気温",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0630",
+    "index_name": "年間日照時間",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0631",
+    "index_name": "猛暑日＋真冬日日数",
+    "wbindex": "過ごしやすい気候",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0632",
+    "index_name": "自然災害リスク指数",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0633",
+    "index_name": "ごみリサイクル率",
+    "wbindex": "美しい周辺環境",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0634",
+    "index_name": "景観に資するサービスの多さ",
+    "wbindex": "美しい周辺環境",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0635",
+    "index_name": "国指定文化財件数",
+    "wbindex": "文化の創造",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0636",
+    "index_name": "文化的活動に資するサービスの多さ",
+    "wbindex": "文化の創造",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0637",
+    "index_name": "単身者の生活に関するサービスの多さ",
+    "wbindex": "自律性",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0638",
+    "index_name": "結婚に関するサービスの多さ",
+    "wbindex": "人間関係",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0639",
+    "index_name": "社会教育関係サービスの多さ",
+    "wbindex": "自身の成長",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0640",
+    "index_name": "転入超過率",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0641",
+    "index_name": "行政手続きオンライン利用率",
+    "wbindex": "先進的な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0642",
+    "index_name": "合計特殊出生率",
+    "wbindex": "家族への配慮",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0643",
+    "index_name": "子ども医療費助成対象年齢",
+    "wbindex": "家族への配慮",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0644",
+    "index_name": "就職に資するサービスの多さ",
+    "wbindex": "自身の成長",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0645",
+    "index_name": "アーティスト活動に資する施設の多さ",
+    "wbindex": "個性を表現すること",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0646",
+    "index_name": "パートナーシップ宣誓制度の有無",
+    "wbindex": "多様性",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0647",
+    "index_name": "外国人向けサービスの多さ",
+    "wbindex": "多様性",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0648",
+    "index_name": "平均通勤時間",
+    "wbindex": "柔軟性",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0649",
+    "index_name": "年間総実労働時間",
+    "wbindex": "柔軟性",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0650",
+    "index_name": "自治体SNSフォロワー数",
+    "wbindex": "信頼とコミュニケーション",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0651",
+    "index_name": "スポーツ観戦に関する施設の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0652",
+    "index_name": "映画館の多さ",
+    "wbindex": "楽しさ",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0653",
+    "index_name": "バリアフリーに資するサービスの多さ",
+    "wbindex": "多様性",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0654",
+    "index_name": "産業多様性指数",
+    "wbindex": "多様性",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0655",
+    "index_name": "行政手続きのオンライン完結率",
+    "wbindex": "先進的な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0656",
+    "index_name": "賃貸住宅空室率",
+    "wbindex": "快適な生活",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  },
+  {
+    "index_code": "I0657",
+    "index_name": "キャンプ場・アウトドア施設の多さ",
+    "wbindex": "趣味・嗜好",
+    "target_id": "NOFILTER",
+    "target_name": "フィルタなし",
+    "weight": 1
+  }
+]
