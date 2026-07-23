@@ -427,6 +427,8 @@
         targets.push({ id: r.target_id, name: r.target_name || r.target_id });
       }
     });
+    // 「フィルタなし」(NOFILTER) を先頭に並べ替え
+    targets.sort((a, b) => (a.id === 'NOFILTER' ? -1 : b.id === 'NOFILTER' ? 1 : 0));
     const targetBox = document.getElementById('targetTiles');
     targetBox.innerHTML = '';
     targets.forEach(tg => {
