@@ -436,7 +436,16 @@
       for (const r of ISSUE_ICON_RULES) { if (r.re.test(name)) return r.svg; }
       return DEFAULT_ISSUE_ICON;
     }
-    const issues = [...new Map(issueData.map(r => [r.issue_id, r.issue_name])).entries()].map(([id, name]) => ({ id, name }));
+    const issues = [...new Map(
+      issueData.map(r => [r.issue_id, r.issue_name])
+    ).entries()]
+    .map(([id, name]) => ({ id, name }));
+
+    // NOFILTER を先頭固定
+    issues.sort((a, b) =>
+      (a.id === 'NOFILTER' ? -1 :
+       b.id === 'NOFILTER' ? 1 : 0)
+    );
     const issueBox = document.getElementById('issueTiles');
     issueBox.innerHTML = '';
     issues.forEach(iss => {
