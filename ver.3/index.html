@@ -431,6 +431,7 @@
       { re: /コミュニティ|交流|つながり|ブランディング/,           svg: '<circle cx="9" cy="8" r="3"/><path d="M3 20c0-3 3-5 6-5s6 2 6 5"/><circle cx="17" cy="9" r="2"/><path d="M15 20c0-2 2-3 4-3s2 1 2 3"/>' },
       { re: /IT|DX|デジタル|データ|スマート/,               svg: '<rect x="3" y="4" width="18" height="12" rx="1.5"/><line x1="8" y1="20" x2="16" y2="20"/><line x1="12" y1="16" x2="12" y2="20"/>' },
       { re: /働き方|労働|オフィス|不動産/,                 svg: '<rect x="3" y="7" width="18" height="13" rx="1.5"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>' }
+      { re: /フィルタなし|NOFILTER/,3                svg: '<path d="M4 5h16l-6 7v5l-4 2v-7z"/><line x1="4" y1="20" x2="20" y2="4"/>' }
     ];
     function pickIssueIcon(name) {
       for (const r of ISSUE_ICON_RULES) { if (r.re.test(name)) return r.svg; }
