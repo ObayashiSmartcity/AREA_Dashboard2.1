@@ -342,7 +342,7 @@
 </div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-<!-- ダッシュボード設定（企業ロゴ / STEP 0 のデフォルト選択）-->
+<!-- ダッシュボード設定（企業ロゴ / STEP 0・STEP 1 のデフォルト選択）-->
 <script src="config.js"></script>
 <script>
 (() => {
@@ -358,6 +358,8 @@
   // config.js（同一リポジトリ）で定義された設定を読み込む。未定義でも安全に動作させる。
   const CONFIG = (typeof window !== 'undefined' && window.DASHBOARD_CONFIG) ? window.DASHBOARD_CONFIG : {};
   const STEP0_DEFAULTS = CONFIG.step0 || {};
+  const STEP1_DEFAULTS = CONFIG.step1 || {};
+  let step1DefaultsApplied = false; // STEP 1 デフォルトは初回のみ適用（戻る操作で毎回リセットしない）
   const COLORS = ['#1e40af','#2563eb','#3b82f6','#60a5fa','#93c5fd','#cbd5e1','#0f172a','#334155','#475569','#64748b','#94a3b8','#cbd5e1'];
   const AGE_KEYS = ['人口_10歳未満','人口_10代','人口_20代','人口_30代','人口_40代','人口_50代','人口_60代','人口_70歳以上'];
   let IND_KEYS = [];
@@ -529,7 +531,6 @@
     });
     // --- STEP 0 デフォルト選択 ---
     // config.js の step0 設定を、Issue と Target に「同じロジック」で適用する。
-    // （該当タイルが存在すればクリック相当の選択状態にし、未指定/不一致なら何もしない）
     applyStep0Default(issueBox, 'data-issue-id', STEP0_DEFAULTS.defaultIssueId);
     applyStep0Default(targetBox, 'data-target-id', STEP0_DEFAULTS.defaultTargetId);
   }
@@ -547,6 +548,17 @@
     const issueCodes = new Set(issueData.filter(r => r.issue_id === selectedIssue.id).map(r => r.index_code));
     martData = rawMartData.filter(r => issueCodes.has(r.index_code) && r.target_id === selectedTargetId);
     recomputeWB();
+  }
+  // --- STEP 1 デフォルト（config.js の step1 設定を適用）---
+  // フィルタは一切かけず、config で指定した area_id を「対象エリア」として選択済みの状態にする。
+  // 初回表示時のみ適用し、ユーザーが選び直した内容は「戻る」操作で上書きしない。
+  function applyStep1DefaultTarget() {
+    if (step1DefaultsApplied) return;  // 初回のみ
+    step1DefaultsApplied = true;
+    const aid = STEP1_DEFAULTS.defaultAreaId;
+    if (!aid || targetId) return;      // 未指定、または既にユーザーが選択済みなら何もしない
+    if (!areaInfo[aid]) return;        // 存在しない area_id はスキップ（従来動作＝未選択を維持）
+    selectTarget(aid);                 // 既存ロジックを再利用（KPI・チップ・マップ・「次へ」活性化まで反映）
   }
   function recomputeWB() {
     wbAvg = {}; wbCodes = {}; wbList = [];
@@ -633,6 +645,7 @@
       applyStep0Filter();
       applyFilters();
       if (!map1) initMap(1);
+      applyStep1DefaultTarget(); // config.js の step1 設定に基づき、特定エリアを対象として初期選択（初回のみ）
     }
     if (n === 2) buildS2();
     if (n === 3) buildS3();
