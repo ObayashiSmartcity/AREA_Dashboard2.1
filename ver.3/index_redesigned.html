@@ -60,6 +60,8 @@
     .tchip .rm:hover { opacity:1; }
     .main { flex:1; display:flex; flex-direction:column; overflow:hidden; }
     .th { background:rgba(255,255,255,0.72); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px); border-bottom:1px solid var(--border); padding:22px 40px; display:flex; align-items:center; gap:18px; flex-shrink:0; }
+    .brand-logo { height:32px; width:auto; object-fit:contain; display:block; flex-shrink:0; }
+    .brand-divider { width:1px; height:30px; background:var(--border-strong); flex-shrink:0; }
     .th h1 { font-family:var(--font-display); font-size:1.4rem; font-weight:300; letter-spacing:.2em; color:var(--text); text-transform:uppercase; }
     .th .sub { font-size:.78rem; color:var(--muted); font-weight:400; letter-spacing:.02em; }
     .badge { padding:6px 13px; border-radius:999px; font-size:.68rem; font-weight:600; letter-spacing:.04em; }
@@ -193,6 +195,8 @@
   </aside>
   <div class="main">
     <header class="th">
+      <img id="brandLogo" class="brand-logo" src="04_obayashi_c.png" alt="OBAYASHI" />
+      <span class="brand-divider"></span>
       <h1>AREA DASHBOARD</h1><span class="sub">── WB指標によるエリア比較分析</span>
       <div style="flex:1"></div>
       <span class="badge bst" id="bStp">STEP 0</span>
@@ -338,6 +342,8 @@
 </div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<!-- ダッシュボード設定（企業ロゴ / STEP 0 のデフォルト選択）-->
+<script src="config.js"></script>
 <script>
 (() => {
   let popData = [], rawMartData = [], martData = [], issueData = [];
@@ -349,11 +355,27 @@
   let wbChart = null, detailChart = null, currentWB = null;
   let s2Rows = [];
   let selectedIssue = null, selectedTargetId = null;
+  // config.js（同一リポジトリ）で定義された設定を読み込む。未定義でも安全に動作させる。
+  const CONFIG = (typeof window !== 'undefined' && window.DASHBOARD_CONFIG) ? window.DASHBOARD_CONFIG : {};
+  const STEP0_DEFAULTS = CONFIG.step0 || {};
   const COLORS = ['#1e40af','#2563eb','#3b82f6','#60a5fa','#93c5fd','#cbd5e1','#0f172a','#334155','#475569','#64748b','#94a3b8','#cbd5e1'];
   const AGE_KEYS = ['人口_10歳未満','人口_10代','人口_20代','人口_30代','人口_40代','人口_50代','人口_60代','人口_70歳以上'];
   let IND_KEYS = [];
   let wbAvg = {}, wbCodes = {}, wbList = [];
+  // config で企業ロゴのパスが指定されていれば反映（未指定時は HTML の既定パスを使用）
+  function applyBrandLogo() {
+    const logoEl = document.getElementById('brandLogo');
+    if (!logoEl) return;
+    if (CONFIG.logo) logoEl.src = CONFIG.logo;
+    // 画像が見つからない場合はロゴ枠を非表示にしてレイアウト崩れを防ぐ
+    logoEl.addEventListener('error', () => {
+      logoEl.style.display = 'none';
+      const dv = document.querySelector('.brand-divider');
+      if (dv) dv.style.display = 'none';
+    });
+  }
   async function init() {
+    applyBrandLogo();
     try {
       const [pR, mR, iR, wR] = await Promise.all([
         fetch('master_population.json'),
@@ -505,6 +527,17 @@
       });
       targetBox.appendChild(t);
     });
+    // --- STEP 0 デフォルト選択 ---
+    // config.js の step0 設定を、Issue と Target に「同じロジック」で適用する。
+    // （該当タイルが存在すればクリック相当の選択状態にし、未指定/不一致なら何もしない）
+    applyStep0Default(issueBox, 'data-issue-id', STEP0_DEFAULTS.defaultIssueId);
+    applyStep0Default(targetBox, 'data-target-id', STEP0_DEFAULTS.defaultTargetId);
+  }
+  // Issue / Target 共通のデフォルト選択フィルタ。config で指定した id のタイルを選択状態にする。
+  function applyStep0Default(container, attr, value) {
+    if (!container || !value) return;
+    const tile = container.querySelector('[' + attr + '="' + value + '"]');
+    if (tile) tile.click(); // 既存のクリックハンドラを再利用して選択状態・active表示を反映
   }
   function checkStep0Ready() {
     document.getElementById('btn0Next').disabled = !(selectedIssue && selectedTargetId);
