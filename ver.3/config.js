@@ -22,5 +22,11 @@ window.DASHBOARD_CONFIG = {
   step0: {
     defaultIssueId:  "NOFILTER",  // Issue「顧客課題」の初期選択
     defaultTargetId: "NOFILTER"   // Target「対象者」の初期選択（Issue と同じロジックで適用）
+  },
+  // STEP 1 の初期選択（デフォルト）
+  // フィルタはかけず、指定した area_id を「対象エリア」として選択済みの状態で開く
+  step1: {
+    defaultAreaId: A0045   // 例: "AREA_001"  対象エリアとして初期選択する area_id
   }
 };
+
