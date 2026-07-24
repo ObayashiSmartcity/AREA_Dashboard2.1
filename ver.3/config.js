@@ -26,7 +26,7 @@ window.DASHBOARD_CONFIG = {
   // STEP 1 の初期選択（デフォルト）
   // フィルタはかけず、指定した area_id を「対象エリア」として選択済みの状態で開く
   step1: {
-    defaultAreaId: A0045   // 例: "AREA_001"  対象エリアとして初期選択する area_id
+    defaultAreaId: "A0045"   // 例: "AREA_001"  対象エリアとして初期選択する area_id
   }
 };
 
