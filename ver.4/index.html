@@ -99,9 +99,8 @@
     .search-input:focus { outline:none; border-color:var(--accent); background:#fff; box-shadow:0 0 0 4px rgba(37,99,235,.16); }
     .search-input:disabled { background:#f1f2f8; color:var(--muted2); cursor:not-allowed; box-shadow:none; }
     /* STEP 1 検索モード切替（キーワード検索 / フィルタ検索：併用不可）*/
-    .s1-mode-row { display:flex; gap:10px; margin-bottom:12px; align-items:center; flex-wrap:wrap; }
-    .s1-mode-row .lbl { font-size:.82rem; color:var(--text2); font-weight:600; margin-right:2px; }
-    .s1-mode-btn { padding:9px 20px; border:1px solid var(--border-strong); border-radius:999px; background:var(--surface); cursor:pointer; font-size:.82rem; font-weight:500; color:var(--text2); transition:all .2s; font-family:inherit; }
+    .s1-mode { display:flex; gap:6px; margin-bottom:18px; }
+    .s1-mode-btn { flex:1; padding:10px 6px; border:1px solid var(--border-strong); border-radius:10px; background:var(--surface); cursor:pointer; font-size:.76rem; font-weight:500; color:var(--text2); transition:all .2s; font-family:inherit; white-space:nowrap; }
     .s1-mode-btn:hover { border-color:var(--accent); color:var(--accent); }
     .s1-mode-btn.active { border-color:transparent; background:var(--grad-brand); color:#fff; box-shadow:0 9px 18px -9px rgba(37,99,235,.65); }
     .fs:disabled { background:#f1f2f8; color:var(--muted2); cursor:not-allowed; opacity:.75; }
@@ -198,9 +197,16 @@
     </button>
   </nav>
   <aside class="fsb" id="fSide">
-    <h2>フィルター詳細</h2>
-    <div class="fnote">※ フィルタは選択時に自動反映されます</div>
+    <h2>検索条件</h2>
+    <div class="fnote">※ 検索方法を選択してください（キーワード検索とフィルタ検索は併用できません）</div>
     <div class="spill"><span id="stxt">読み込み中...</span></div>
+    <div class="s1-mode">
+      <button class="s1-mode-btn active" data-s1mode="keyword">🔍 キーワード検索</button>
+      <button class="s1-mode-btn" data-s1mode="filter">🎛 フィルタ検索</button>
+    </div>
+    <div class="fg" id="fgKeyword"><div class="fl">キーワード</div>
+      <input type="text" id="s1Search" class="search-input" placeholder="エリア名で検索">
+    </div>
     <div class="fg"><div class="fl">地域（Region）</div><select class="fs" id="fR"><option value="">すべて</option></select></div>
     <div class="fg"><div class="fl">エリアタイプ</div><select class="fs" id="fT"><option value="">すべて</option></select></div>
     <div class="fg"><div class="fl">都道府県</div><select class="fs" id="fP"><option value="">すべて</option></select></div>
@@ -249,14 +255,6 @@
               <div class="kc"><div class="kn" style="color:var(--accent);" id="k1a">-</div><div class="kl">全エリア数</div></div>
               <div class="kc"><div class="kn" style="color:var(--accent);" id="k1b">-</div><div class="kl">フィルタ後</div></div>
               <div class="kc"><div class="kn" style="color:var(--accent);" id="k1c">未選択</div><div class="kl">対象エリア</div></div>
-            </div>
-            <div class="s1-mode-row">
-              <span class="lbl">検索方法：</span>
-              <button class="s1-mode-btn active" data-s1mode="keyword">🔍 キーワード検索</button>
-              <button class="s1-mode-btn" data-s1mode="filter">🎛 フィルタ検索</button>
-            </div>
-            <div class="search-box">
-              <input type="text" id="s1Search" class="search-input" placeholder="エリア名で検索">
             </div>
             <div class="tw">
               <div class="tsc">
@@ -676,17 +674,20 @@
     if (mode === 'keyword') {
       // キーワード検索を有効化。フィルタは選択解除して無効化
       s1s.disabled = false;
-      s1s.placeholder = 'エリア名で検索';
       filterIds.forEach(id => { const el = document.getElementById(id); el.value = ''; el.disabled = true; });
     } else {
       // フィルタ検索を有効化。キーワードはクリアして無効化
       s1s.value = '';
       s1s.disabled = true;
-      s1s.placeholder = 'フィルタ検索モード中（キーワード検索は無効）';
       filterIds.forEach(id => { document.getElementById(id).disabled = false; });
     }
-    // サイドバーのフィルタ項目を視覚的にも有効／無効表示に切り替え
-    document.querySelectorAll('#fSide .fg').forEach(fg => fg.classList.toggle('fdisabled', mode !== 'filter'));
+    // 検索条件フレーム内の各項目を視覚的にも有効／無効表示に切り替え
+    const kwFg = document.getElementById('fgKeyword');
+    if (kwFg) kwFg.classList.toggle('fdisabled', mode !== 'keyword');
+    filterIds.forEach(id => {
+      const fg = document.getElementById(id).closest('.fg');
+      if (fg) fg.classList.toggle('fdisabled', mode !== 'filter');
+    });
     applyFilters();
   }
   function goStep(n) {
