@@ -164,7 +164,7 @@
     .cnote { font-size:.76rem; color:var(--muted); margin-bottom:16px; flex-shrink:0; }
     .cscroll { flex:1; overflow-y:auto; overflow-x:hidden; min-height:0; display:block; position:relative; width:100%; }
     .cscroll canvas { display:block; width:100% !important; }
-    .drilldown-section { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:24px; box-shadow:var(--shadow); height:100%; min-height:0; display:flex; flex-direction:column; }
+    .drilldown-section { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:24px; box-shadow:var(--shadow); height:100%; min-height:0; display:flex; flex-direction:column; overflow:hidden; }
     .drill-bar { display:flex; align-items:center; gap:12px; margin-bottom:14px; padding:12px 18px; background:var(--grad-brand-soft); border:1px solid #c7dbfb; border-radius:12px; font-size:.85rem; flex-shrink:0; }
     .drill-bar .wbn { font-weight:700; color:var(--accent); }
     /* STEP 3 右側：Index ブレイクダウン（tips_indexbreakdown_concat.json の内容確認）*/
@@ -172,7 +172,7 @@
     .bd-toggle:hover { border-color:var(--accent); color:var(--accent); }
     .bd-toggle.active { background:var(--grad-brand); color:#fff; border-color:transparent; }
     .bd-panel { flex:1; overflow-y:auto; min-height:0; display:flex; flex-direction:column; gap:10px; padding-right:4px; }
-    .bd-item { border:1px solid var(--border); border-radius:12px; padding:12px 14px; background:#fbfbfe; }
+    .bd-item { border:1px solid var(--border); border-radius:12px; padding:12px 14px; background:#fbfbfe; flex-shrink:0; }
     .bd-item-head { font-size:.86rem; font-weight:600; color:var(--text); margin-bottom:2px; display:flex; align-items:center; gap:8px; }
     .bd-item-code { font-size:.68rem; font-weight:600; color:var(--muted); background:#eef0f6; border-radius:6px; padding:2px 7px; letter-spacing:.03em; }
     .bd-item-count { font-size:.68rem; color:var(--muted); font-weight:500; margin-left:auto; }
@@ -224,7 +224,7 @@
     <header class="th">
       <img id="brandLogo" class="brand-logo" src="04_obayashi_c.png" alt="OBAYASHI" />
       <span class="brand-divider"></span>
-      <h1>AREA DASHBOARD</h1><span class="sub">── 環境指標（自然文化・空間・機能・活動）によるエリア比較分析</span>
+      <h1>AREA DASHBOARD</h1><span class="sub">── 環境指標（自然文化・空間・機能）によるエリア比較分析</span>
       <div style="flex:1"></div>
       <span class="badge bst" id="bStp">STEP 1</span>
       <span class="badge bo" id="bTot">-</span>
@@ -269,7 +269,7 @@
       <section class="page" id="step2">
         <div class="sh">
           <h2>STEP 2 ─ 比較エリア選定</h2>
-          <span class="desc">自然文化・空間・機能・活動のスコアプロファイルが対象エリアと類似する順に表示（任意選択も可能）</span>
+          <span class="desc">自然文化・空間・機能のスコアプロファイルが対象エリアと類似する順に表示（任意選択も可能）</span>
           <div style="flex:1"></div>
           <button class="btn bsc" data-back-to="1">← 戻る</button>
           <button class="btn bp" id="btn3" disabled>比較ダッシュボードへ →</button>
@@ -297,7 +297,6 @@
                       <th data-sort-s2="nature">自然文化 <span class="aw" id="s2_nature">⇅</span></th>
                       <th data-sort-s2="space">空間 <span class="aw" id="s2_space">⇅</span></th>
                       <th data-sort-s2="func">機能 <span class="aw" id="s2_func">⇅</span></th>
-                      <th data-sort-s2="act">活動 <span class="aw" id="s2_act">⇅</span></th>
                       <th data-sort-s2="sim">類似度 <span class="aw" id="s2_sim">▼</span></th>
                     </tr>
                   </thead>
@@ -315,7 +314,7 @@
       <section class="page" id="step3">
         <div class="sh">
           <h2>STEP 3 ─ 比較ダッシュボード</h2>
-          <span class="desc">環境指標（自然文化・空間・機能・活動）の強み・弱みを比較（正規化スコア）</span>
+          <span class="desc">環境指標（自然文化・空間・機能）の強み・弱みを比較（正規化スコア）</span>
           <div style="flex:1"></div>
           <button class="btn bsc" data-back-to="2">← 戻る</button>
         </div>
@@ -323,7 +322,7 @@
           <div class="step3-left">
             <div class="card" id="wbCard">
               <div class="ctit" id="wbTit"><span class="dot" style="background:var(--accent);"></span>環境カテゴリ別スコア比較</div>
-              <div class="cnote" id="wbNote">中央のカテゴリ名ボタン（自然文化・空間・機能・活動）をクリックすると、右側に明細ブレイクダウンが表示されます</div>
+              <div class="cnote" id="wbNote">中央のカテゴリ名ボタン（自然文化・空間・機能）をクリックすると、右側に明細ブレイクダウンが表示されます</div>
               <div class="cscroll" id="wbScr"><canvas id="wbChart"></canvas></div>
             </div>
           </div>
@@ -374,8 +373,8 @@
 
   const COLORS = ['#1e40af','#2563eb','#3b82f6','#60a5fa','#93c5fd','#cbd5e1','#0f172a','#334155','#475569','#64748b','#94a3b8','#cbd5e1'];
 
-  // 環境カテゴリ（表示順：自然文化・空間・機能・活動）
-  const ENV_CATS = ['自然文化','空間','機能','活動'];
+  // 環境カテゴリ（表示順：自然文化・空間・機能）※活動は除外
+  const ENV_CATS = ['自然文化','空間','機能'];
 
   // config で企業ロゴのパスが指定されていれば反映
   function applyBrandLogo() {
@@ -604,13 +603,13 @@
   }
 
   // ========================= STEP 2 =========================
-  // 対象エリアとの類似度：自然文化・空間・機能・活動の4次元プロファイルのユークリッド距離を
+  // 対象エリアとの類似度：自然文化・空間・機能の3次元プロファイルのユークリッド距離を
   // 類似度(0〜100%)に変換。プロファイルが近いほど高い値になる。
   function calcSimilarity(t, r) {
     let sum = 0;
     ENV_CATS.forEach(c => { const d = (Number(t[c])||0) - (Number(r[c])||0); sum += d*d; });
     const dist = Math.sqrt(sum);
-    const maxDist = Math.sqrt(ENV_CATS.length) * 100; // 4次元・各0〜100の最大距離 = 200
+    const maxDist = Math.sqrt(ENV_CATS.length) * 100; // 3次元・各0〜100の最大距離
     return Math.max(0, (1 - dist / maxDist)) * 100;
   }
 
@@ -673,7 +672,6 @@
         '<td class="bc">' + envBar(r.nature) + '</td>' +
         '<td class="bc">' + envBar(r.space) + '</td>' +
         '<td class="bc">' + envBar(r.func) + '</td>' +
-        '<td class="bc">' + envBar(r.act) + '</td>' +
         '<td class="bc"><div class="bbg"><div class="bf" style="width:' + Math.min(100,r.sim).toFixed(1) + '%;background:' + getSimColor(r.sim) + ';"></div></div><div class="bv">' + r.sim.toFixed(1) + '%</div></td>';
       tr.addEventListener('click', () => toggleS2Selection(r.id));
       const cb = tr.querySelector('input[type="checkbox"]');
