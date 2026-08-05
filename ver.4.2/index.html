@@ -353,11 +353,12 @@
 <script>
 (() => {
   // データ保持
-  let pivotData = [], normData = [];
+  let pivotData = [], normData = [], tipsData = [];
   let areaMap = {}, areaInfo = {}, pivotMap = {};
   let envIndexList = {};   // 環境カテゴリ -> [{code, name}]（明細指標一覧）
   let scoreMap = {};       // area_id -> { index_code: normalized_score }
   let indexMap = {};       // index_code -> index_name
+  let tipsMap = {};        // index_code -> [category_name, ...]（tips_indexbreakdown.json 由来）
   let targetId = null, compIds = new Set();
   let s1C = 'name', s1A = true, s2C = 'sim', s2A = false; // Step2 既定：類似度の降順
   let s1SearchMode = 'keyword'; // STEP 1 検索モード：'keyword' / 'filter'（併用不可）
@@ -391,15 +392,18 @@
   async function init() {
     applyBrandLogo();
     try {
-      // 必要なデータは2ファイルのみ：
+      // 必要なデータファイル：
       //  - mart_index_normalized.json：エリア×明細指標（environment / normalized_score を保持）
       //  - mart_index_area_environment_pivot.json：エリア×環境カテゴリ（自然文化・空間・機能・活動）集計値
-      const [nR, pR] = await Promise.all([
+      //  - tips_indexbreakdown.json：明細指標ごとの構成POI業種カテゴリ（tips）
+      const [nR, pR, tR] = await Promise.all([
         fetch('mart_index_normalized.json'),
-        fetch('mart_index_area_environment_pivot.json')
+        fetch('mart_index_area_environment_pivot.json'),
+        fetch('tips_indexbreakdown.json')
       ]);
       normData = await nR.json();
       pivotData = await pR.json();
+      tipsData = await tR.json();
       buildData();
       populateSelect('fR', [...new Set(Object.values(areaInfo).map(a=>a.region).filter(Boolean))].sort());
       populateSelect('fP', [...new Set(Object.values(areaInfo).map(a=>a.pref).filter(Boolean))].sort());
@@ -416,7 +420,15 @@
   }
 
   function buildData() {
-    areaMap = {}; areaInfo = {}; pivotMap = {}; envIndexList = {}; scoreMap = {}; indexMap = {};
+    areaMap = {}; areaInfo = {}; pivotMap = {}; envIndexList = {}; scoreMap = {}; indexMap = {}; tipsMap = {};
+    // tips_indexbreakdown.json：index_code -> 構成POI業種カテゴリ（重複除去）
+    (tipsData || []).forEach(t => {
+      if (!t || !t.index_code) return;
+      if (!tipsMap[t.index_code]) tipsMap[t.index_code] = [];
+      if (t.category_name && !tipsMap[t.index_code].includes(t.category_name)) {
+        tipsMap[t.index_code].push(t.category_name);
+      }
+    });
     const seenIdx = {}; // env -> Set(code)
     normData.forEach(r => {
       areaMap[r.area_id] = r.area_name;
@@ -865,7 +877,14 @@
     indices.forEach(x => {
       const item = document.createElement('div');
       item.className = 'bd-item';
-      item.innerHTML = '<div class="bd-item-head"><span class="bd-item-code">' + x.code + '</span><span>' + x.name + '</span></div>';
+      // tips_indexbreakdown.json から、この明細指標を構成するPOI業種カテゴリ（tips）を参照
+      const cats = tipsMap[x.code] || [];
+      const countHtml = cats.length ? '<span class="bd-item-count">' + cats.length + ' 業種</span>' : '';
+      let html = '<div class="bd-item-head"><span class="bd-item-code">' + x.code + '</span><span>' + x.name + '</span>' + countHtml + '</div>';
+      if (cats.length) {
+        html += '<div class="bd-cats">' + cats.map(c => '<span class="bd-cat">' + c + '</span>').join('') + '</div>';
+      }
+      item.innerHTML = html;
       panel.appendChild(item);
     });
   }

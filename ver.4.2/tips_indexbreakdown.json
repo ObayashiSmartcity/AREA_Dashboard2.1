@@ -1,0 +1,6872 @@
+[
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "アウトレットモール"
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "category_name": "アウトレットモール"
+  },
+  {
+    "index_code": "I0487",
+    "index_name": "ディスカウントストアの多さ",
+    "category_name": "アウトレットモール"
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "category_name": "アウトレットモール"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "スポーツクラブ"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "スポーツクラブ"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "スポーツクラブ"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "スポーツクラブ"
+  },
+  {
+    "index_code": "I0619",
+    "index_name": "健康寿命に資するサービスの多さ",
+    "category_name": "スポーツクラブ"
+  },
+  {
+    "index_code": "I0651",
+    "index_name": "スポーツ観戦に関する施設の多さ",
+    "category_name": "スポーツクラブ"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "アダルトショップ"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "アニメショップ"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "アニメ製作"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "アニメ製作"
+  },
+  {
+    "index_code": "I0616",
+    "index_name": "賃貸住宅に関わるサービスの多さ",
+    "category_name": "アパート・マンション"
+  },
+  {
+    "index_code": "I0637",
+    "index_name": "単身者の生活に関するサービスの多さ",
+    "category_name": "アパート・マンション"
+  },
+  {
+    "index_code": "I0616",
+    "index_name": "賃貸住宅に関わるサービスの多さ",
+    "category_name": "学生アパート・マンション"
+  },
+  {
+    "index_code": "I0637",
+    "index_name": "単身者の生活に関するサービスの多さ",
+    "category_name": "学生アパート・マンション"
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "category_name": "アロマテラピー"
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "category_name": "あん摩マッサージ"
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "category_name": "あん摩・鍼灸"
+  },
+  {
+    "index_code": "I0612",
+    "index_name": "倉庫の多さ",
+    "category_name": "荷物預かり"
+  },
+  {
+    "index_code": "I0404",
+    "index_name": "カフェの多さ",
+    "category_name": "甘味処"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "甘味処"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "アメリカ料理店"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "アメリカ料理店"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "雑貨店"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "イベントプロダクション"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "イベントプロダクション"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "イラストレーター"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "イラストレーター"
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "category_name": "プロバイダー"
+  },
+  {
+    "index_code": "I0625",
+    "index_name": "デジタルインフラに関わるサービスの多さ",
+    "category_name": "プロバイダー"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "インターネット広告"
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "category_name": "インターネット広告"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "インターネット広告"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "インテリアコーディネータ"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "ボディーアート"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "衣料品店（制服・作業服）"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "衣料品店"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "囲碁・将棋用品"
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "category_name": "介護用品・福祉用具"
+  },
+  {
+    "index_code": "I0653",
+    "index_name": "バリアフリーに資するサービスの多さ",
+    "category_name": "介護用品・福祉用具"
+  },
+  {
+    "index_code": "I0653",
+    "index_name": "バリアフリーに資するサービスの多さ",
+    "category_name": "医療用品"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "特殊印刷"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "飲食店"
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "category_name": "インターネット関連業"
+  },
+  {
+    "index_code": "I0625",
+    "index_name": "デジタルインフラに関わるサービスの多さ",
+    "category_name": "インターネット関連業"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "インドネシア料理店"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "インドネシア料理店"
+  },
+  {
+    "index_code": "I0616",
+    "index_name": "賃貸住宅に関わるサービスの多さ",
+    "category_name": "ウィークリーマンション"
+  },
+  {
+    "index_code": "I0637",
+    "index_name": "単身者の生活に関するサービスの多さ",
+    "category_name": "ウィークリーマンション"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "持帰りうなぎ料理"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "植木栽培・販売"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "植木職"
+  },
+  {
+    "index_code": "I0623",
+    "index_name": "自動車に関するサービスの多さ",
+    "category_name": "運送"
+  },
+  {
+    "index_code": "I0623",
+    "index_name": "自動車に関するサービスの多さ",
+    "category_name": "引越運送"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "エクステリア材"
+  },
+  {
+    "index_code": "I0653",
+    "index_name": "バリアフリーに資するサービスの多さ",
+    "category_name": "エレベータ・エスカレータ"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "絵具・絵画材料"
+  },
+  {
+    "index_code": "I0427",
+    "index_name": "劇場・ホールの多さ",
+    "category_name": "映画館"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "映画館"
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "category_name": "映画館"
+  },
+  {
+    "index_code": "I0557",
+    "index_name": "興行施設・テーマ―パークの多さ",
+    "category_name": "映画館"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "映画館"
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "category_name": "映画館"
+  },
+  {
+    "index_code": "I0636",
+    "index_name": "文化的活動に資するサービスの多さ",
+    "category_name": "映画館"
+  },
+  {
+    "index_code": "I0652",
+    "index_name": "映画館の多さ",
+    "category_name": "映画館"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "映画製作・配給"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "園芸店"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "園芸店"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "園芸用機器"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "園芸用機器"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "演劇道具"
+  },
+  {
+    "index_code": "I0625",
+    "index_name": "デジタルインフラに関わるサービスの多さ",
+    "category_name": "ＯＡ機器販売・修理"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "オートクチュール"
+  },
+  {
+    "index_code": "I0527",
+    "index_name": "ブティックの多さ",
+    "category_name": "オートクチュール"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "オートテニス"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "お好み焼店"
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "category_name": "お好み焼店"
+  },
+  {
+    "index_code": "I0405",
+    "index_name": "夜間営業している店の多さ",
+    "category_name": "お茶屋"
+  },
+  {
+    "index_code": "I0570",
+    "index_name": "深夜営業のお店の多さ",
+    "category_name": "お茶屋"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "折詰弁当"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "織ネーム・マーク"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "織物"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "音楽家"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "音楽家"
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "category_name": "温泉浴場"
+  },
+  {
+    "index_code": "I0610",
+    "index_name": "環境、新規技術に関する事業の多さ",
+    "category_name": "カーボン"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "カードショップ"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "カードショップ"
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "category_name": "介護・福祉タクシー"
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "category_name": "介護予防生活支援サービス"
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "category_name": "介護Ｓ（グループホーム）"
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "category_name": "介護サービス（在宅）"
+  },
+  {
+    "index_code": "I0653",
+    "index_name": "バリアフリーに資するサービスの多さ",
+    "category_name": "介護サービス（在宅）"
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "category_name": "介護サービス（施設）"
+  },
+  {
+    "index_code": "I0653",
+    "index_name": "バリアフリーに資するサービスの多さ",
+    "category_name": "介護サービス（施設）"
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "category_name": "介護Ｓ（訪問理美容）"
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "category_name": "介護用品福祉用具レンタル"
+  },
+  {
+    "index_code": "I0405",
+    "index_name": "夜間営業している店の多さ",
+    "category_name": "カラオケ喫茶"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "カラオケ喫茶"
+  },
+  {
+    "index_code": "I0570",
+    "index_name": "深夜営業のお店の多さ",
+    "category_name": "カラオケ喫茶"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "カラオケ装置・ジュークＢ"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "カルチャーセンター"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "カルチャーセンター"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "カルチャーセンター"
+  },
+  {
+    "index_code": "I0639",
+    "index_name": "社会教育関係サービスの多さ",
+    "category_name": "カルチャーセンター"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "囲碁・将棋教室"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "囲碁・将棋教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "囲碁・将棋教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "囲碁・将棋教室"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "カラオケボックス・ルーム"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "カラオケボックス・ルーム"
+  },
+  {
+    "index_code": "I0623",
+    "index_name": "自動車に関するサービスの多さ",
+    "category_name": "ガソリンスタンド"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "ガレージ製造販売"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "カラーコーディネーター"
+  },
+  {
+    "index_code": "I0527",
+    "index_name": "ブティックの多さ",
+    "category_name": "かばん・ハンドバッグ店"
+  },
+  {
+    "index_code": "I0404",
+    "index_name": "カフェの多さ",
+    "category_name": "カフェ"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "カフェ"
+  },
+  {
+    "index_code": "I0404",
+    "index_name": "カフェの多さ",
+    "category_name": "オフィスコーヒー"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "楽団"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "家具（家具店）"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "電器店"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "華道家"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "華道具"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "画家"
+  },
+  {
+    "index_code": "I0426",
+    "index_name": "美術館の多さ",
+    "category_name": "画廊・ギャラリー"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "画廊・ギャラリー"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "画廊・ギャラリー"
+  },
+  {
+    "index_code": "I0645",
+    "index_name": "アーティスト活動に資する施設の多さ",
+    "category_name": "画廊・ギャラリー"
+  },
+  {
+    "index_code": "I0463",
+    "index_name": "集会施設の多さ",
+    "category_name": "公民館・集会所"
+  },
+  {
+    "index_code": "I0621",
+    "index_name": "ボランティア活動に関する場所の多さ",
+    "category_name": "公民館・集会所"
+  },
+  {
+    "index_code": "I0622",
+    "index_name": "政治・自治に関わるサービスの多さ",
+    "category_name": "公民館・集会所"
+  },
+  {
+    "index_code": "I0636",
+    "index_name": "文化的活動に資するサービスの多さ",
+    "category_name": "公民館・集会所"
+  },
+  {
+    "index_code": "I0639",
+    "index_name": "社会教育関係サービスの多さ",
+    "category_name": "公民館・集会所"
+  },
+  {
+    "index_code": "I0427",
+    "index_name": "劇場・ホールの多さ",
+    "category_name": "会館"
+  },
+  {
+    "index_code": "I0463",
+    "index_name": "集会施設の多さ",
+    "category_name": "会館"
+  },
+  {
+    "index_code": "I0621",
+    "index_name": "ボランティア活動に関する場所の多さ",
+    "category_name": "会館"
+  },
+  {
+    "index_code": "I0622",
+    "index_name": "政治・自治に関わるサービスの多さ",
+    "category_name": "会館"
+  },
+  {
+    "index_code": "I0636",
+    "index_name": "文化的活動に資するサービスの多さ",
+    "category_name": "会館"
+  },
+  {
+    "index_code": "I0639",
+    "index_name": "社会教育関係サービスの多さ",
+    "category_name": "会館"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "経理・簿記学校"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "経理・簿記学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "趣味の教室・スクール"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "趣味の教室・スクール"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "趣味の教室・スクール"
+  },
+  {
+    "index_code": "I0639",
+    "index_name": "社会教育関係サービスの多さ",
+    "category_name": "趣味の教室・スクール"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "各種学校（農業）"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "各種学校（医療）"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "各種学校（衛生）"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "各種学校（教育社会福祉）"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "各種学校（商業実務）"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "各種学校（服飾・家政）"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "各種学校（文化・教養）"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "各種学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "療術教室・スクール"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "療術教室・スクール"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "合気道場"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "合気道場"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "合気道場"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "合気道場"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "編物学校"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "編物学校"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "編物学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "囲碁・将棋"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "囲碁・将棋"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "医療学校"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "医療学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "華道教室"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "華道教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "華道教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "華道教室"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "ダンス教室"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "ダンス教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "ダンス教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "ダンス教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ダンス教室"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "ダンス教室（社交ダンス）"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "ダンス教室（社交ダンス）"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "ダンス教室（社交ダンス）"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "ダンス教室（社交ダンス）"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ダンス教室（社交ダンス）"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "ダンス教室（フラメンコ）"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "ダンス教室（フラメンコ）"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "ダンス教室（フラメンコ）"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "ダンス教室（フラメンコ）"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ダンス教室（フラメンコ）"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "英語スクール"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "英語スクール"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "英語スクール"
+  },
+  {
+    "index_code": "I0605",
+    "index_name": "塾・進学教室・予備校の多さ",
+    "category_name": "英語スクール"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "音楽教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "音楽教室"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "音楽教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "音楽教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "音楽教室"
+  },
+  {
+    "index_code": "I0636",
+    "index_name": "文化的活動に資するサービスの多さ",
+    "category_name": "音楽教室"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "家庭教師"
+  },
+  {
+    "index_code": "I0605",
+    "index_name": "塾・進学教室・予備校の多さ",
+    "category_name": "家庭教師"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "歌謡教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "歌謡教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "歌謡教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "絵画教室"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "絵画教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "絵画教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "絵画教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "外国語スクール"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "外国語スクール"
+  },
+  {
+    "index_code": "I0647",
+    "index_name": "外国人向けサービスの多さ",
+    "category_name": "外国語スクール"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "塾・進学教室"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "塾・進学教室"
+  },
+  {
+    "index_code": "I0605",
+    "index_name": "塾・進学教室・予備校の多さ",
+    "category_name": "塾・進学教室"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "空手道場"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "空手道場"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "空手道場"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "空手道場"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "空手道場"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "ギター教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "ギター教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ギター教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "着付教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "着付教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "着付教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "芸能俳優学校"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "芸能俳優学校"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "芸能俳優学校"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "剣道場"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "剣道場"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "剣道場"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "剣道場"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "拳法"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "拳法"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "拳法"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "工業教室・スクール"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "工業教室・スクール"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "コンピューター学校"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "コンピューター学校"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "ゴルフ教室"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "ゴルフ教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "ゴルフ教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "ゴルフ教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ゴルフ教室"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "スポーツ教室"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "スポーツ教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "スポーツ教室"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "スポーツ教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "スポーツ教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "スポーツ教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "香道教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "香道教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "香道教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "茶道教室"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "茶道教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "茶道教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "茶道教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "自動車教習所"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "自動車教習所"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "手芸教室"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "手芸教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "手芸教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "手芸教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "そろばん教室"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "そろばん教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "そろばん教室"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "柔道場"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "柔道場"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "柔道場"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "柔道場"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "柔道場"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "書道教室"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "書道教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "書道教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "書道教室"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "スイミング教室"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "スイミング教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "スイミング教室"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "スイミング教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "スイミング教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "スイミング教室"
+  },
+  {
+    "index_code": "I0619",
+    "index_name": "健康寿命に資するサービスの多さ",
+    "category_name": "スイミング教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "各種教室・スクール"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "各種教室・スクール"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "各種教室・スクール"
+  },
+  {
+    "index_code": "I0639",
+    "index_name": "社会教育関係サービスの多さ",
+    "category_name": "各種教室・スクール"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "道場"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "道場"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "道場"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "道場"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "道場（レスリング）"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "道場（レスリング）"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "道場（レスリング）"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "太極拳"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "太極拳"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "太極拳"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "テコンドー道場"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "テコンドー道場"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "テコンドー道場"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "テコンドー道場"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "テニス教室"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "テニス教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "テニス教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "テニス教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "テニス教室"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "デザイン教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "デザイン教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "デザイン教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "デザイン教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "陶芸教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "陶芸教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "陶芸教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "日本語スクール"
+  },
+  {
+    "index_code": "I0563",
+    "index_name": "日本語学校（タウンページ）の多さ",
+    "category_name": "日本語スクール"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "日本語スクール"
+  },
+  {
+    "index_code": "I0647",
+    "index_name": "外国人向けサービスの多さ",
+    "category_name": "日本語スクール"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "バイオリン教室"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "バイオリン教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "バイオリン教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "バイオリン教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "バレエ教室"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "バレエ教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "バレエ教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "バレエ教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "話し方教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "話し方教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "話し方教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "ビジネス教室・スクール"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "ビジネス教室・スクール"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ビジネス教室・スクール"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "ピアノ教室"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "ピアノ教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "ピアノ教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ピアノ教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "美術学校"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "美術学校"
+  },
+  {
+    "index_code": "I0636",
+    "index_name": "文化的活動に資するサービスの多さ",
+    "category_name": "美術学校"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "フラワーデザイン教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "フラワーデザイン教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "フラワーデザイン教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "フラワーデザイン教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "舞踊教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "舞踊教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "舞踊教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "ペット美容教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "ペット美容教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ペット美容教室"
+  },
+  {
+    "index_code": "I0606",
+    "index_name": "ペット関係サービスの多さ",
+    "category_name": "ペット美容教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "邦楽教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "邦楽教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "邦楽教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "法律教室・スクール"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "法律教室・スクール"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "ヨガ"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "ヨガ"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "ヨガ"
+  },
+  {
+    "index_code": "I0619",
+    "index_name": "健康寿命に資するサービスの多さ",
+    "category_name": "ヨガ"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "予備校"
+  },
+  {
+    "index_code": "I0605",
+    "index_name": "塾・進学教室・予備校の多さ",
+    "category_name": "予備校"
+  },
+  {
+    "index_code": "I0446",
+    "index_name": "子どもを連れて行きやすいお店の多さ",
+    "category_name": "幼児教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "幼児教室"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "幼児教室"
+  },
+  {
+    "index_code": "I0605",
+    "index_name": "塾・進学教室・予備校の多さ",
+    "category_name": "幼児教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "洋裁・和裁学校"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "洋裁・和裁学校"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "洋裁・和裁学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "理容・美容学校"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "理容・美容学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "料理学校"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "料理学校"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "料理学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "パソコン・ワープロ教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "パソコン・ワープロ教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "パソコン・ワープロ教室"
+  },
+  {
+    "index_code": "I0644",
+    "index_name": "就職に資するサービスの多さ",
+    "category_name": "各種コンサルタント"
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "category_name": "各種療法"
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "category_name": "各種療法（心理・精神）"
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "category_name": "各種療法（カイロ）"
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "category_name": "各種療法（気功）"
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "category_name": "各種療法（整体）"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "電気・電子療法"
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "category_name": "リフレクソロジー療法"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "高等学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "中等教育学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "高等専門学校"
+  },
+  {
+    "index_code": "I0511",
+    "index_name": "小学校の多さ",
+    "category_name": "小学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "小学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "中学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "盲学校"
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "category_name": "盲学校"
+  },
+  {
+    "index_code": "I0440",
+    "index_name": "児童福祉施設の多さ",
+    "category_name": "学童保育所・放課後教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "学童保育所・放課後教室"
+  },
+  {
+    "index_code": "I0546",
+    "index_name": "習い事（児童系）施設の多さ",
+    "category_name": "学童保育所・放課後教室"
+  },
+  {
+    "index_code": "I0440",
+    "index_name": "児童福祉施設の多さ",
+    "category_name": "幼稚園"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "養護学校"
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "category_name": "養護学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "ろう学校"
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "category_name": "ろう学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "学校教材"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "楽器修理"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "楽器商"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "楽器製造"
+  },
+  {
+    "index_code": "I0638",
+    "index_name": "結婚に関するサービスの多さ",
+    "category_name": "貸衣裳"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "貸植木"
+  },
+  {
+    "index_code": "I0445",
+    "index_name": "授乳室おむつ替えスペースの多さ",
+    "category_name": "貸おむつ"
+  },
+  {
+    "index_code": "I0426",
+    "index_name": "美術館の多さ",
+    "category_name": "貸ギャラリー"
+  },
+  {
+    "index_code": "I0427",
+    "index_name": "劇場・ホールの多さ",
+    "category_name": "貸ギャラリー"
+  },
+  {
+    "index_code": "I0463",
+    "index_name": "集会施設の多さ",
+    "category_name": "貸ギャラリー"
+  },
+  {
+    "index_code": "I0638",
+    "index_name": "結婚に関するサービスの多さ",
+    "category_name": "貸ギャラリー"
+  },
+  {
+    "index_code": "I0645",
+    "index_name": "アーティスト活動に資する施設の多さ",
+    "category_name": "貸ギャラリー"
+  },
+  {
+    "index_code": "I0427",
+    "index_name": "劇場・ホールの多さ",
+    "category_name": "レンタルスペース"
+  },
+  {
+    "index_code": "I0434",
+    "index_name": "コワーキングスペースの多さ",
+    "category_name": "レンタルスペース"
+  },
+  {
+    "index_code": "I0463",
+    "index_name": "集会施設の多さ",
+    "category_name": "レンタルスペース"
+  },
+  {
+    "index_code": "I0427",
+    "index_name": "劇場・ホールの多さ",
+    "category_name": "レンタルスペース（自習）"
+  },
+  {
+    "index_code": "I0434",
+    "index_name": "コワーキングスペースの多さ",
+    "category_name": "レンタルスペース（自習）"
+  },
+  {
+    "index_code": "I0463",
+    "index_name": "集会施設の多さ",
+    "category_name": "レンタルスペース（自習）"
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "category_name": "貸金業"
+  },
+  {
+    "index_code": "I0427",
+    "index_name": "劇場・ホールの多さ",
+    "category_name": "貸スタジオ"
+  },
+  {
+    "index_code": "I0434",
+    "index_name": "コワーキングスペースの多さ",
+    "category_name": "貸スタジオ"
+  },
+  {
+    "index_code": "I0463",
+    "index_name": "集会施設の多さ",
+    "category_name": "貸スタジオ"
+  },
+  {
+    "index_code": "I0550",
+    "index_name": "スタジオの多さ",
+    "category_name": "貸スタジオ"
+  },
+  {
+    "index_code": "I0645",
+    "index_name": "アーティスト活動に資する施設の多さ",
+    "category_name": "貸スタジオ"
+  },
+  {
+    "index_code": "I0616",
+    "index_name": "賃貸住宅に関わるサービスの多さ",
+    "category_name": "貸家"
+  },
+  {
+    "index_code": "I0637",
+    "index_name": "単身者の生活に関するサービスの多さ",
+    "category_name": "貸家"
+  },
+  {
+    "index_code": "I0427",
+    "index_name": "劇場・ホールの多さ",
+    "category_name": "貸展示場"
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "category_name": "貸展示場"
+  },
+  {
+    "index_code": "I0518",
+    "index_name": "展示場・ショールームの多さ",
+    "category_name": "貸展示場"
+  },
+  {
+    "index_code": "I0645",
+    "index_name": "アーティスト活動に資する施設の多さ",
+    "category_name": "貸展示場"
+  },
+  {
+    "index_code": "I0445",
+    "index_name": "授乳室おむつ替えスペースの多さ",
+    "category_name": "貸ベビー用品"
+  },
+  {
+    "index_code": "I0446",
+    "index_name": "子どもを連れて行きやすいお店の多さ",
+    "category_name": "貸ベビー用品"
+  },
+  {
+    "index_code": "I0518",
+    "index_name": "展示場・ショールームの多さ",
+    "category_name": "貸間"
+  },
+  {
+    "index_code": "I0616",
+    "index_name": "賃貸住宅に関わるサービスの多さ",
+    "category_name": "貸間"
+  },
+  {
+    "index_code": "I0637",
+    "index_name": "単身者の生活に関するサービスの多さ",
+    "category_name": "貸間"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "革コート店"
+  },
+  {
+    "index_code": "I0527",
+    "index_name": "ブティックの多さ",
+    "category_name": "革コート店"
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "category_name": "岩盤浴"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "岩盤浴"
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "category_name": "観光案内"
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "category_name": "観光案内"
+  },
+  {
+    "index_code": "I0405",
+    "index_name": "夜間営業している店の多さ",
+    "category_name": "キャバレー"
+  },
+  {
+    "index_code": "I0570",
+    "index_name": "深夜営業のお店の多さ",
+    "category_name": "キャバレー"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "キャンプ場"
+  },
+  {
+    "index_code": "I0657",
+    "index_name": "キャンプ場・アウトドア施設の多さ",
+    "category_name": "キャンプ場"
+  },
+  {
+    "index_code": "I0657",
+    "index_name": "キャンプ場・アウトドア施設の多さ",
+    "category_name": "キャンプ場"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "アウトドア用品"
+  },
+  {
+    "index_code": "I0657",
+    "index_name": "キャンプ場・アウトドア施設の多さ",
+    "category_name": "アウトドア用品"
+  },
+  {
+    "index_code": "I0657",
+    "index_name": "キャンプ場・アウトドア施設の多さ",
+    "category_name": "キャンピングカー"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "餃子・しゅうまい店"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "餃子・しゅうまい店"
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "category_name": "気象情報提供サービス"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "貴金属地金商"
+  },
+  {
+    "index_code": "I0610",
+    "index_name": "環境、新規技術に関する事業の多さ",
+    "category_name": "技術コンサルタント"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "切手・コイン売買"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "着付"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "着付"
+  },
+  {
+    "index_code": "I0404",
+    "index_name": "カフェの多さ",
+    "category_name": "喫茶店"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "喫茶店"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "牛たん"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "牛丼"
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "category_name": "牛丼"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "京染"
+  },
+  {
+    "index_code": "I0565",
+    "index_name": "仏教寺社以外の宗教の集会施設の多さ",
+    "category_name": "キリスト教教会"
+  },
+  {
+    "index_code": "I0461",
+    "index_name": "社寺仏閣の多さ",
+    "category_name": "諸教教会"
+  },
+  {
+    "index_code": "I0565",
+    "index_name": "仏教寺社以外の宗教の集会施設の多さ",
+    "category_name": "諸教教会"
+  },
+  {
+    "index_code": "I0461",
+    "index_name": "社寺仏閣の多さ",
+    "category_name": "神道教会"
+  },
+  {
+    "index_code": "I0461",
+    "index_name": "社寺仏閣の多さ",
+    "category_name": "仏教教会"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "郷土料理店"
+  },
+  {
+    "index_code": "I0409",
+    "index_name": "地元食材を使った飲食店の多さ",
+    "category_name": "郷土料理店"
+  },
+  {
+    "index_code": "I0622",
+    "index_name": "政治・自治に関わるサービスの多さ",
+    "category_name": "行政書士"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "桐工芸"
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "category_name": "金融先物取引"
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "category_name": "銀行"
+  },
+  {
+    "index_code": "I0637",
+    "index_name": "単身者の生活に関するサービスの多さ",
+    "category_name": "コインランドリー"
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "category_name": "クレジット"
+  },
+  {
+    "index_code": "I0527",
+    "index_name": "ブティックの多さ",
+    "category_name": "靴店"
+  },
+  {
+    "index_code": "I0621",
+    "index_name": "ボランティア活動に関する場所の多さ",
+    "category_name": "組合・団体"
+  },
+  {
+    "index_code": "I0459",
+    "index_name": "政治経済団体の多さ",
+    "category_name": "学術・文化団体"
+  },
+  {
+    "index_code": "I0636",
+    "index_name": "文化的活動に資するサービスの多さ",
+    "category_name": "学術・文化団体"
+  },
+  {
+    "index_code": "I0639",
+    "index_name": "社会教育関係サービスの多さ",
+    "category_name": "学術・文化団体"
+  },
+  {
+    "index_code": "I0621",
+    "index_name": "ボランティア活動に関する場所の多さ",
+    "category_name": "社会保険団体"
+  },
+  {
+    "index_code": "I0621",
+    "index_name": "ボランティア活動に関する場所の多さ",
+    "category_name": "環境保護団体"
+  },
+  {
+    "index_code": "I0621",
+    "index_name": "ボランティア活動に関する場所の多さ",
+    "category_name": "教育団体"
+  },
+  {
+    "index_code": "I0639",
+    "index_name": "社会教育関係サービスの多さ",
+    "category_name": "教育団体"
+  },
+  {
+    "index_code": "I0621",
+    "index_name": "ボランティア活動に関する場所の多さ",
+    "category_name": "社会生活団体"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "趣味・スポーツ団体"
+  },
+  {
+    "index_code": "I0621",
+    "index_name": "ボランティア活動に関する場所の多さ",
+    "category_name": "趣味・スポーツ団体"
+  },
+  {
+    "index_code": "I0639",
+    "index_name": "社会教育関係サービスの多さ",
+    "category_name": "趣味・スポーツ団体"
+  },
+  {
+    "index_code": "I0459",
+    "index_name": "政治経済団体の多さ",
+    "category_name": "経済団体"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "歯科医師会"
+  },
+  {
+    "index_code": "I0459",
+    "index_name": "政治経済団体の多さ",
+    "category_name": "政治団体"
+  },
+  {
+    "index_code": "I0622",
+    "index_name": "政治・自治に関わるサービスの多さ",
+    "category_name": "政治団体"
+  },
+  {
+    "index_code": "I0621",
+    "index_name": "ボランティア活動に関する場所の多さ",
+    "category_name": "動物愛護団体"
+  },
+  {
+    "index_code": "I0653",
+    "index_name": "バリアフリーに資するサービスの多さ",
+    "category_name": "車いす"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "プロダクション"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "化粧品販売"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "経営コンサルタント"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "競輪"
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "category_name": "競輪"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "競輪"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "競馬"
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "category_name": "競馬"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "競馬"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "競艇"
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "category_name": "競艇"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "競艇"
+  },
+  {
+    "index_code": "I0601",
+    "index_name": "高価格帯飲食店の多さ",
+    "category_name": "芸妓置屋"
+  },
+  {
+    "index_code": "I0427",
+    "index_name": "劇場・ホールの多さ",
+    "category_name": "劇場"
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "category_name": "劇場"
+  },
+  {
+    "index_code": "I0557",
+    "index_name": "興行施設・テーマ―パークの多さ",
+    "category_name": "劇場"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "劇場"
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "category_name": "劇場"
+  },
+  {
+    "index_code": "I0636",
+    "index_name": "文化的活動に資するサービスの多さ",
+    "category_name": "劇場"
+  },
+  {
+    "index_code": "I0427",
+    "index_name": "劇場・ホールの多さ",
+    "category_name": "劇団"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "劇団"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "劇団"
+  },
+  {
+    "index_code": "I0645",
+    "index_name": "アーティスト活動に資する施設の多さ",
+    "category_name": "劇団"
+  },
+  {
+    "index_code": "I0638",
+    "index_name": "結婚に関するサービスの多さ",
+    "category_name": "結婚式場"
+  },
+  {
+    "index_code": "I0638",
+    "index_name": "結婚に関するサービスの多さ",
+    "category_name": "結婚相談"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "ブライダルプロデュース"
+  },
+  {
+    "index_code": "I0638",
+    "index_name": "結婚に関するサービスの多さ",
+    "category_name": "ブライダルプロデュース"
+  },
+  {
+    "index_code": "I0608",
+    "index_name": "研究機関の多さ",
+    "category_name": "自然科学研究所"
+  },
+  {
+    "index_code": "I0608",
+    "index_name": "研究機関の多さ",
+    "category_name": "人文科学研究所"
+  },
+  {
+    "index_code": "I0619",
+    "index_name": "健康寿命に資するサービスの多さ",
+    "category_name": "健康食品"
+  },
+  {
+    "index_code": "I0619",
+    "index_name": "健康寿命に資するサービスの多さ",
+    "category_name": "自然食品"
+  },
+  {
+    "index_code": "I0404",
+    "index_name": "カフェの多さ",
+    "category_name": "コーヒー専門店"
+  },
+  {
+    "index_code": "I0404",
+    "index_name": "カフェの多さ",
+    "category_name": "紅茶専門店"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "マンガ喫茶"
+  },
+  {
+    "index_code": "I0405",
+    "index_name": "夜間営業している店の多さ",
+    "category_name": "インターネットカフェ"
+  },
+  {
+    "index_code": "I0412",
+    "index_name": "チャージスポット+フリーWi-Fiスポットの多さ",
+    "category_name": "インターネットカフェ"
+  },
+  {
+    "index_code": "I0570",
+    "index_name": "深夜営業のお店の多さ",
+    "category_name": "インターネットカフェ"
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "category_name": "インターネットカフェ"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "コピーライター"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "コピーライター"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "コマーシャル制作"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "コンサートプロモーター"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "コンサートプロモーター"
+  },
+  {
+    "index_code": "I0610",
+    "index_name": "環境、新規技術に関する事業の多さ",
+    "category_name": "環境コンサルタント"
+  },
+  {
+    "index_code": "I0405",
+    "index_name": "夜間営業している店の多さ",
+    "category_name": "コンビニエンス店"
+  },
+  {
+    "index_code": "I0407",
+    "index_name": "コンビニの多さ",
+    "category_name": "コンビニエンス店"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "コンビニエンス店"
+  },
+  {
+    "index_code": "I0570",
+    "index_name": "深夜営業のお店の多さ",
+    "category_name": "コンビニエンス店"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ゴルフショップ"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "ゴルフ場"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "ゴルフ場"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "ゴルフ場"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "ゴルフ場"
+  },
+  {
+    "index_code": "I0651",
+    "index_name": "スポーツ観戦に関する施設の多さ",
+    "category_name": "ゴルフ場"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "ゴルフ練習場"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "ゴルフ練習場"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "ゴルフ練習場"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "ゴルフ練習場"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "ゴルフ練習場"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "こけし人形"
+  },
+  {
+    "index_code": "I0446",
+    "index_name": "子どもを連れて行きやすいお店の多さ",
+    "category_name": "子供服店"
+  },
+  {
+    "index_code": "I0424",
+    "index_name": "図書館・書店の多さ",
+    "category_name": "古本"
+  },
+  {
+    "index_code": "I0512",
+    "index_name": "書店の多さ",
+    "category_name": "古本"
+  },
+  {
+    "index_code": "I0535",
+    "index_name": "古本屋の多さ",
+    "category_name": "古本"
+  },
+  {
+    "index_code": "I0487",
+    "index_name": "ディスカウントストアの多さ",
+    "category_name": "古物商"
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "category_name": "ファッションマッサージ"
+  },
+  {
+    "index_code": "I0527",
+    "index_name": "ブティックの多さ",
+    "category_name": "呉服店"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "ゲームセンター"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ゲームセンター"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ゲームソフト販売"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "娯楽遊戯機器用品"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "工芸作家"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "工芸品"
+  },
+  {
+    "index_code": "I0435",
+    "index_name": "公園の多さ",
+    "category_name": "公園"
+  },
+  {
+    "index_code": "I0634",
+    "index_name": "景観に資するサービスの多さ",
+    "category_name": "公園"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "広告制作業"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "広告制作業"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "広告宣伝用品"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "広告代理業"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "広告代理業"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "広告代理業（屋外）"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "広告代理業（屋外）"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "広告代理業（折込）"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "広告代理業（折込）"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "広告代理業（求人）"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "広告代理業（求人）"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "広告代理業（ＴＶラジオ）"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "広告代理業（ＴＶラジオ）"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "広告代理業（交通）"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "広告代理業（交通）"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "広告代理業（雑誌）"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "広告代理業（雑誌）"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "広告代理業（新聞）"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "広告代理業（新聞）"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "広告代理業（電話帳）"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "広告代理業（電話帳）"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "ポップ広告"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "ポップ広告"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "香料"
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "category_name": "興行"
+  },
+  {
+    "index_code": "I0557",
+    "index_name": "興行施設・テーマ―パークの多さ",
+    "category_name": "興行"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "興行"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "サーフショップ"
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "category_name": "サウナ設備"
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "category_name": "サウナぶろ"
+  },
+  {
+    "index_code": "I0551",
+    "index_name": "サウナの多さ",
+    "category_name": "サウナぶろ"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "茶道具"
+  },
+  {
+    "index_code": "I0405",
+    "index_name": "夜間営業している店の多さ",
+    "category_name": "居酒屋"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "居酒屋"
+  },
+  {
+    "index_code": "I0536",
+    "index_name": "居酒屋の多さ",
+    "category_name": "居酒屋"
+  },
+  {
+    "index_code": "I0570",
+    "index_name": "深夜営業のお店の多さ",
+    "category_name": "居酒屋"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "シンクタンク"
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "category_name": "システムインテグレーター"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "市場調査"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "視力センター"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "歯科機器・歯科材"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "歯科技工"
+  },
+  {
+    "index_code": "I0440",
+    "index_name": "児童福祉施設の多さ",
+    "category_name": "児童館"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "自動車車体改造"
+  },
+  {
+    "index_code": "I0623",
+    "index_name": "自動車に関するサービスの多さ",
+    "category_name": "自動車整備"
+  },
+  {
+    "index_code": "I0623",
+    "index_name": "自動車に関するサービスの多さ",
+    "category_name": "大型車販売"
+  },
+  {
+    "index_code": "I0623",
+    "index_name": "自動車に関するサービスの多さ",
+    "category_name": "外車販売"
+  },
+  {
+    "index_code": "I0623",
+    "index_name": "自動車に関するサービスの多さ",
+    "category_name": "自動車販売"
+  },
+  {
+    "index_code": "I0623",
+    "index_name": "自動車に関するサービスの多さ",
+    "category_name": "自動車鈑金・塗装"
+  },
+  {
+    "index_code": "I0461",
+    "index_name": "社寺仏閣の多さ",
+    "category_name": "寺院"
+  },
+  {
+    "index_code": "I0634",
+    "index_name": "景観に資するサービスの多さ",
+    "category_name": "寺院"
+  },
+  {
+    "index_code": "I0440",
+    "index_name": "児童福祉施設の多さ",
+    "category_name": "児童福祉施設"
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "category_name": "児童福祉施設"
+  },
+  {
+    "index_code": "I0653",
+    "index_name": "バリアフリーに資するサービスの多さ",
+    "category_name": "児童福祉施設"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "質流れ品"
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "category_name": "質屋"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "漆器店"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "写真家"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "写真館"
+  },
+  {
+    "index_code": "I0638",
+    "index_name": "結婚に関するサービスの多さ",
+    "category_name": "写真館"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "画像加工・写真プリント"
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "category_name": "画像加工・写真プリント"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "画像加工・写真プリント"
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "category_name": "福祉施設"
+  },
+  {
+    "index_code": "I0653",
+    "index_name": "バリアフリーに資するサービスの多さ",
+    "category_name": "福祉施設"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "リフォーム"
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "category_name": "住宅展示場"
+  },
+  {
+    "index_code": "I0518",
+    "index_name": "展示場・ショールームの多さ",
+    "category_name": "住宅展示場"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "住宅展示場"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "住宅販売"
+  },
+  {
+    "index_code": "I0616",
+    "index_name": "賃貸住宅に関わるサービスの多さ",
+    "category_name": "住宅販売"
+  },
+  {
+    "index_code": "I0443",
+    "index_name": "宿泊施設の多さ",
+    "category_name": "宿坊"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "情報誌出版社"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "出版社"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "専門図書出版社"
+  },
+  {
+    "index_code": "I0512",
+    "index_name": "書店の多さ",
+    "category_name": "専門図書出版社"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "地図出版"
+  },
+  {
+    "index_code": "I0512",
+    "index_name": "書店の多さ",
+    "category_name": "地図出版"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "書画・骨とう品商"
+  },
+  {
+    "index_code": "I0424",
+    "index_name": "図書館・書店の多さ",
+    "category_name": "書店"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "書店"
+  },
+  {
+    "index_code": "I0512",
+    "index_name": "書店の多さ",
+    "category_name": "書店"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "書道家"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "助産師・助産所"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "商業写真"
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "category_name": "証券業"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "乗馬教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "乗馬教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "乗馬教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "乗馬教室"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "乗馬クラブ"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "乗馬クラブ"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "乗馬クラブ"
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "category_name": "情報処理サービス"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "情報処理サービス"
+  },
+  {
+    "index_code": "I0625",
+    "index_name": "デジタルインフラに関わるサービスの多さ",
+    "category_name": "情報処理サービス"
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "category_name": "情報セキュリティサービス"
+  },
+  {
+    "index_code": "I0625",
+    "index_name": "デジタルインフラに関わるサービスの多さ",
+    "category_name": "情報セキュリティサービス"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "情報提供サービス"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "場外車馬券売場"
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "category_name": "場外車馬券売場"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "場外車馬券売場"
+  },
+  {
+    "index_code": "I0644",
+    "index_name": "就職に資するサービスの多さ",
+    "category_name": "職業安定所"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "職業訓練校"
+  },
+  {
+    "index_code": "I0644",
+    "index_name": "就職に資するサービスの多さ",
+    "category_name": "職業訓練校"
+  },
+  {
+    "index_code": "I0644",
+    "index_name": "就職に資するサービスの多さ",
+    "category_name": "職業紹介所"
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "category_name": "信用金庫"
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "category_name": "信用組合"
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "category_name": "信用保証業・身元保証業"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "真珠"
+  },
+  {
+    "index_code": "I0527",
+    "index_name": "ブティックの多さ",
+    "category_name": "真珠"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "紳士洋品店"
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "category_name": "信託サービス"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "新聞社"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "新聞社"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "新聞社（業界紙）"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "新聞社（業界紙）"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "芸能スポーツ新聞"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "芸能スポーツ新聞"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "新聞店"
+  },
+  {
+    "index_code": "I0644",
+    "index_name": "就職に資するサービスの多さ",
+    "category_name": "人材紹介所"
+  },
+  {
+    "index_code": "I0644",
+    "index_name": "就職に資するサービスの多さ",
+    "category_name": "労働者派遣業"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "腎臓バンク"
+  },
+  {
+    "index_code": "I0461",
+    "index_name": "社寺仏閣の多さ",
+    "category_name": "神社"
+  },
+  {
+    "index_code": "I0634",
+    "index_name": "景観に資するサービスの多さ",
+    "category_name": "神社"
+  },
+  {
+    "index_code": "I0452",
+    "index_name": "スーパーの多さ",
+    "category_name": "スーパーストア"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "スーパーストア"
+  },
+  {
+    "index_code": "I0487",
+    "index_name": "ディスカウントストアの多さ",
+    "category_name": "スーパーストア"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "スキー・スノボ教室"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "スキー・スノボ教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "スキー・スノボ教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "スキー・スノボ教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "スキー・スノボ教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "スキー・スノボショップ"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "スキー・スノボ場"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "スキー・スノボ場"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "スキー・スノボ場"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "スキー・スノボ場"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "スキー・スノボ場"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "ダイビングショップ・教室"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "ダイビングショップ・教室"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "ダイビングショップ・教室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ダイビングショップ・教室"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "スケート場"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "スケート場"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "スケート場"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "スケート場"
+  },
+  {
+    "index_code": "I0651",
+    "index_name": "スポーツ観戦に関する施設の多さ",
+    "category_name": "スケート場"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "スタイリスト"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "すっぽん料理店"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "すっぽん料理店"
+  },
+  {
+    "index_code": "I0601",
+    "index_name": "高価格帯飲食店の多さ",
+    "category_name": "すっぽん料理店"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "ステンドグラス"
+  },
+  {
+    "index_code": "I0405",
+    "index_name": "夜間営業している店の多さ",
+    "category_name": "スナック"
+  },
+  {
+    "index_code": "I0570",
+    "index_name": "深夜営業のお店の多さ",
+    "category_name": "スナック"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "スポーツ施設"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "スポーツ施設"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "スポーツ施設"
+  },
+  {
+    "index_code": "I0651",
+    "index_name": "スポーツ観戦に関する施設の多さ",
+    "category_name": "スポーツ施設"
+  },
+  {
+    "index_code": "I0651",
+    "index_name": "スポーツ観戦に関する施設の多さ",
+    "category_name": "スポーツマネジメント"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "すし店（回転寿司）"
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "category_name": "すし店（回転寿司）"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "持ち帰りすし"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "相撲"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "相撲"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "相撲"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "相撲"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "接骨（整骨）・柔道整復"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "接骨（整骨）・柔道整復"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "造園設計"
+  },
+  {
+    "index_code": "I0634",
+    "index_name": "景観に資するサービスの多さ",
+    "category_name": "造園設計"
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "category_name": "電子回路設計"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "染色工業"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "染色整理"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "工業専修学校"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "工業専修学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "農業専修学校"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "農業専修学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "医療専修学校"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "医療専修学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "衛生専修学校"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "衛生専修学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "教育・社会福祉専修学校"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "教育・社会福祉専修学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "商業実務専修学校"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "商業実務専修学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "服飾家政専修学校"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "服飾家政専修学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "文化・教養専修学校"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "文化・教養専修学校"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "専修学校"
+  },
+  {
+    "index_code": "I0610",
+    "index_name": "環境、新規技術に関する事業の多さ",
+    "category_name": "繊維強化プラスチック"
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "category_name": "エステティック"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "エステティック"
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "category_name": "銭湯（スーパー銭湯）"
+  },
+  {
+    "index_code": "I0551",
+    "index_name": "サウナの多さ",
+    "category_name": "銭湯（スーパー銭湯）"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "ソーラー・太陽光発電"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "ソフトウェア業"
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "category_name": "ソフトウェア業"
+  },
+  {
+    "index_code": "I0625",
+    "index_name": "デジタルインフラに関わるサービスの多さ",
+    "category_name": "ソフトウェア業"
+  },
+  {
+    "index_code": "I0612",
+    "index_name": "倉庫の多さ",
+    "category_name": "倉庫"
+  },
+  {
+    "index_code": "I0612",
+    "index_name": "倉庫の多さ",
+    "category_name": "冷蔵倉庫"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "装飾業"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "アクセサリー"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "アクセサリー"
+  },
+  {
+    "index_code": "I0527",
+    "index_name": "ブティックの多さ",
+    "category_name": "アクセサリー"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "装丁"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "造園業"
+  },
+  {
+    "index_code": "I0634",
+    "index_name": "景観に資するサービスの多さ",
+    "category_name": "造園業"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "造花・装飾・花環"
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "category_name": "送金"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "贈答品店"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "染物・洗い張り"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "ダーツ"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ダーツ"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "宝くじ・スポーツくじ販売"
+  },
+  {
+    "index_code": "I0623",
+    "index_name": "自動車に関するサービスの多さ",
+    "category_name": "タクシー"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "ＤＭサービス"
+  },
+  {
+    "index_code": "I0405",
+    "index_name": "夜間営業している店の多さ",
+    "category_name": "ダンスホール"
+  },
+  {
+    "index_code": "I0427",
+    "index_name": "劇場・ホールの多さ",
+    "category_name": "ダンスホール"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "ダンスホール"
+  },
+  {
+    "index_code": "I0570",
+    "index_name": "深夜営業のお店の多さ",
+    "category_name": "ダンスホール"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ダンス用品"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "たこ焼店"
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "category_name": "たこ焼店"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "卓球場"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "卓球場"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "卓球場"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "卓球場"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "卓球場"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "畳"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "建具"
+  },
+  {
+    "index_code": "I0512",
+    "index_name": "書店の多さ",
+    "category_name": "地図・海図販売"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "ちゃんぽん店"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "中国茶専門店"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "中国茶専門店"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "中古ＣＤ・ＤＶＤ・ビデオ"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "家具（注文家具店）"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "家具（注文家具店）"
+  },
+  {
+    "index_code": "I0603",
+    "index_name": "駐車場の多さ",
+    "category_name": "駐車場"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "駐車場"
+  },
+  {
+    "index_code": "I0623",
+    "index_name": "自動車に関するサービスの多さ",
+    "category_name": "駐車場"
+  },
+  {
+    "index_code": "I0603",
+    "index_name": "駐車場の多さ",
+    "category_name": "月極駐車場"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "月極駐車場"
+  },
+  {
+    "index_code": "I0623",
+    "index_name": "自動車に関するサービスの多さ",
+    "category_name": "月極駐車場"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "駐車場工事"
+  },
+  {
+    "index_code": "I0604",
+    "index_name": "駐輪場の多さ",
+    "category_name": "駐輪場"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "著述業"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "鳥獣商"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "彫刻家"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "釣具・釣餌店"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "釣具製造・卸"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "釣堀・管理釣場"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "釣堀・管理釣場"
+  },
+  {
+    "index_code": "I0657",
+    "index_name": "キャンプ場・アウトドア施設の多さ",
+    "category_name": "釣堀・管理釣場"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "通信社"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "通信販売"
+  },
+  {
+    "index_code": "I0647",
+    "index_name": "外国人向けサービスの多さ",
+    "category_name": "通訳"
+  },
+  {
+    "index_code": "I0647",
+    "index_name": "外国人向けサービスの多さ",
+    "category_name": "通訳案内業"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "テニスコート"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "テニスコート"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "テニスコート"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "テニスコート"
+  },
+  {
+    "index_code": "I0651",
+    "index_name": "スポーツ観戦に関する施設の多さ",
+    "category_name": "テニスコート"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "テレビ番組企画・制作"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "学校・教育情報提供"
+  },
+  {
+    "index_code": "I0644",
+    "index_name": "就職に資するサービスの多さ",
+    "category_name": "求人求職情報提供"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "市況情報提供"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "趣味情報提供"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "住宅情報提供"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "ニュース情報提供"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "催物情報提供"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "テレマーケティング"
+  },
+  {
+    "index_code": "I0452",
+    "index_name": "スーパーの多さ",
+    "category_name": "ディスカウント店"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "ディスカウント店"
+  },
+  {
+    "index_code": "I0487",
+    "index_name": "ディスカウントストアの多さ",
+    "category_name": "ディスカウント店"
+  },
+  {
+    "index_code": "I0405",
+    "index_name": "夜間営業している店の多さ",
+    "category_name": "ディスコ"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "ディスコ"
+  },
+  {
+    "index_code": "I0570",
+    "index_name": "深夜営業のお店の多さ",
+    "category_name": "ディスコ"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "ディスプレイ業"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "インテリアデザイン"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "織物デザイン"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "工業デザイン"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "工芸デザイン"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "グラフィックデザイン"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "グラフィックデザイン"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "デザイン"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "デザイン"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "パッケージデザイン"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "パッケージデザイン"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "服飾デザイン"
+  },
+  {
+    "index_code": "I0453",
+    "index_name": "デパートの多さ",
+    "category_name": "デパート"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "デパート"
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "category_name": "デパート"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "デパート"
+  },
+  {
+    "index_code": "I0527",
+    "index_name": "ブティックの多さ",
+    "category_name": "デパート"
+  },
+  {
+    "index_code": "I0420",
+    "index_name": "公共交通機関の利用のしやすさ(鉄道駅数)",
+    "category_name": "鉄道業"
+  },
+  {
+    "index_code": "I0420",
+    "index_name": "公共交通機関の利用のしやすさ(鉄道駅数)",
+    "category_name": "鉄道工業"
+  },
+  {
+    "index_code": "I0625",
+    "index_name": "デジタルインフラに関わるサービスの多さ",
+    "category_name": "携帯電話サービス"
+  },
+  {
+    "index_code": "I0625",
+    "index_name": "デジタルインフラに関わるサービスの多さ",
+    "category_name": "電気通信業"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "ボクシングジム"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "ボクシングジム"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "ボクシングジム"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "ボクシングジム"
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "category_name": "電子応用装置"
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "category_name": "電子機器・部品"
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "category_name": "コンピューター"
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "category_name": "コンピューター周辺装置"
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "category_name": "電波障害修理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "ドイツ料理店"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "ドイツ料理店"
+  },
+  {
+    "index_code": "I0612",
+    "index_name": "倉庫の多さ",
+    "category_name": "トランクルーム（倉庫）"
+  },
+  {
+    "index_code": "I0612",
+    "index_name": "倉庫の多さ",
+    "category_name": "トランクルーム（貸収納）"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "ドライブイン"
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "category_name": "ドライブイン"
+  },
+  {
+    "index_code": "I0424",
+    "index_name": "図書館・書店の多さ",
+    "category_name": "図書館"
+  },
+  {
+    "index_code": "I0636",
+    "index_name": "文化的活動に資するサービスの多さ",
+    "category_name": "図書館"
+  },
+  {
+    "index_code": "I0639",
+    "index_name": "社会教育関係サービスの多さ",
+    "category_name": "図書館"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "時計店"
+  },
+  {
+    "index_code": "I0527",
+    "index_name": "ブティックの多さ",
+    "category_name": "時計店"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "刀剣研磨業"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "刀剣鍛造"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "陶芸家"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "陶芸材"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "陶磁器上絵付"
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "category_name": "投資業"
+  },
+  {
+    "index_code": "I0425",
+    "index_name": "博物館の多さ",
+    "category_name": "動物園"
+  },
+  {
+    "index_code": "I0425",
+    "index_name": "博物館の多さ",
+    "category_name": "植物園"
+  },
+  {
+    "index_code": "I0634",
+    "index_name": "景観に資するサービスの多さ",
+    "category_name": "植物園"
+  },
+  {
+    "index_code": "I0425",
+    "index_name": "博物館の多さ",
+    "category_name": "水族館"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "動物病院・獣医師"
+  },
+  {
+    "index_code": "I0606",
+    "index_name": "ペット関係サービスの多さ",
+    "category_name": "動物病院・獣医師"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "動物病院・獣医師"
+  },
+  {
+    "index_code": "I0623",
+    "index_name": "自動車に関するサービスの多さ",
+    "category_name": "道路料金所"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "南部鉄器"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "日本人形"
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "category_name": "日本舞踊"
+  },
+  {
+    "index_code": "I0557",
+    "index_name": "興行施設・テーマ―パークの多さ",
+    "category_name": "日本舞踊"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "日本舞踊"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "人形店"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "人間ドック"
+  },
+  {
+    "index_code": "I0619",
+    "index_name": "健康寿命に資するサービスの多さ",
+    "category_name": "人間ドック"
+  },
+  {
+    "index_code": "I0440",
+    "index_name": "児童福祉施設の多さ",
+    "category_name": "認定こども園"
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "category_name": "ネットワークビジネス"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "スカイスポーツ"
+  },
+  {
+    "index_code": "I0405",
+    "index_name": "夜間営業している店の多さ",
+    "category_name": "バー・クラブ"
+  },
+  {
+    "index_code": "I0570",
+    "index_name": "深夜営業のお店の多さ",
+    "category_name": "バー・クラブ"
+  },
+  {
+    "index_code": "I0421",
+    "index_name": "公共交通機関の利用のしやすさ(バス停数)",
+    "category_name": "観光バス"
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "category_name": "観光バス"
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "category_name": "観光バス"
+  },
+  {
+    "index_code": "I0421",
+    "index_name": "公共交通機関の利用のしやすさ(バス停数)",
+    "category_name": "路線バス"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "バッティングセンター"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "バッティングセンター"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "バッティングセンター"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "バッティングセンター"
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "category_name": "パソコン通信サービス"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "パーティ請負イベント企画"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "パチンコ・スロット店"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "パチンコ・スロット店"
+  },
+  {
+    "index_code": "I0405",
+    "index_name": "夜間営業している店の多さ",
+    "category_name": "パブ・ビストロ"
+  },
+  {
+    "index_code": "I0570",
+    "index_name": "深夜営業のお店の多さ",
+    "category_name": "パブ・ビストロ"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "パン店"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "はく押し"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "はく製加工"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "博多人形"
+  },
+  {
+    "index_code": "I0425",
+    "index_name": "博物館の多さ",
+    "category_name": "博物館・科学館"
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "category_name": "博物館・科学館"
+  },
+  {
+    "index_code": "I0634",
+    "index_name": "景観に資するサービスの多さ",
+    "category_name": "博物館・科学館"
+  },
+  {
+    "index_code": "I0636",
+    "index_name": "文化的活動に資するサービスの多さ",
+    "category_name": "博物館・科学館"
+  },
+  {
+    "index_code": "I0607",
+    "index_name": "IT関連サービスの多さ",
+    "category_name": "半導体素子"
+  },
+  {
+    "index_code": "I0657",
+    "index_name": "キャンプ場・アウトドア施設の多さ",
+    "category_name": "ビーチ"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "映像ソフト制作"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "映像ソフト制作"
+  },
+  {
+    "index_code": "I0405",
+    "index_name": "夜間営業している店の多さ",
+    "category_name": "ビアホール"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "ビアホール"
+  },
+  {
+    "index_code": "I0570",
+    "index_name": "深夜営業のお店の多さ",
+    "category_name": "ビアホール"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "ビリヤード"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ビリヤード"
+  },
+  {
+    "index_code": "I0426",
+    "index_name": "美術館の多さ",
+    "category_name": "美術館"
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "category_name": "美術館"
+  },
+  {
+    "index_code": "I0634",
+    "index_name": "景観に資するサービスの多さ",
+    "category_name": "美術館"
+  },
+  {
+    "index_code": "I0636",
+    "index_name": "文化的活動に資するサービスの多さ",
+    "category_name": "美術館"
+  },
+  {
+    "index_code": "I0645",
+    "index_name": "アーティスト活動に資する施設の多さ",
+    "category_name": "美術館"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "１００円等均一ショップ"
+  },
+  {
+    "index_code": "I0487",
+    "index_name": "ディスカウントストアの多さ",
+    "category_name": "１００円等均一ショップ"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "医院・診療所"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "医院・診療所"
+  },
+  {
+    "index_code": "I0619",
+    "index_name": "健康寿命に資するサービスの多さ",
+    "category_name": "医院・診療所"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "アレルギー科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "胃腸消化器内科・同外科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "胃腸消化器内科・同外科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "眼科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "眼科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "気管食道外科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "気管食道外科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "矯正歯科"
+  },
+  {
+    "index_code": "I0609",
+    "index_name": "保険適用外医療機関の多さ",
+    "category_name": "矯正歯科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "矯正歯科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "外科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "外科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "形成外科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "形成外科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "呼吸器内科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "呼吸器内科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "呼吸器外科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "呼吸器外科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "肛門内科・同外科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "肛門内科・同外科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "産婦人科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "産婦人科"
+  },
+  {
+    "index_code": "I0619",
+    "index_name": "健康寿命に資するサービスの多さ",
+    "category_name": "産婦人科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "歯科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "歯科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "歯科口腔外科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "歯科口腔外科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "耳鼻咽喉科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "循環器内科・同外科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "循環器内科・同外科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "小児科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "小児科"
+  },
+  {
+    "index_code": "I0619",
+    "index_name": "健康寿命に資するサービスの多さ",
+    "category_name": "小児科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "小児外科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "小児外科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "小児歯科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "小児歯科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "心臓血管外科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "心臓血管外科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "精神科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "精神科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "神経内科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "神経内科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "心療内科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "心療内科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "性感染症内科・同外科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "性感染症内科・同外科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "整形外科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "整形外科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "総合病院"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "総合病院"
+  },
+  {
+    "index_code": "I0619",
+    "index_name": "健康寿命に資するサービスの多さ",
+    "category_name": "総合病院"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "内科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "内科"
+  },
+  {
+    "index_code": "I0619",
+    "index_name": "健康寿命に資するサービスの多さ",
+    "category_name": "内科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "乳腺外科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "乳腺外科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "脳神経外科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "脳神経外科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "皮膚科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "皮膚科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "泌尿器科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "美容外科"
+  },
+  {
+    "index_code": "I0609",
+    "index_name": "保険適用外医療機関の多さ",
+    "category_name": "美容外科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "美容外科"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "病院・療養所"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "病院・療養所"
+  },
+  {
+    "index_code": "I0619",
+    "index_name": "健康寿命に資するサービスの多さ",
+    "category_name": "病院・療養所"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "婦人科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "放射線科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "麻酔科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "リウマチ科"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "リハビリ科"
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "category_name": "ファイナンス投資サービス"
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "category_name": "ファクタリング業"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ファンシー店"
+  },
+  {
+    "index_code": "I0610",
+    "index_name": "環境、新規技術に関する事業の多さ",
+    "category_name": "風力発電"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "フォトライブラリー"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "フラワーデザイン"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "ブティック"
+  },
+  {
+    "index_code": "I0527",
+    "index_name": "ブティックの多さ",
+    "category_name": "ブティック"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "フリースクール"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "プール"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "プール"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "プール"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "プール"
+  },
+  {
+    "index_code": "I0619",
+    "index_name": "健康寿命に資するサービスの多さ",
+    "category_name": "プール"
+  },
+  {
+    "index_code": "I0651",
+    "index_name": "スポーツ観戦に関する施設の多さ",
+    "category_name": "プール"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "プラネタリウム"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "プレイガイド"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "プレハブ建築"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "物置"
+  },
+  {
+    "index_code": "I0616",
+    "index_name": "賃貸住宅に関わるサービスの多さ",
+    "category_name": "不動産鑑定"
+  },
+  {
+    "index_code": "I0616",
+    "index_name": "賃貸住宅に関わるサービスの多さ",
+    "category_name": "不動産取引"
+  },
+  {
+    "index_code": "I0446",
+    "index_name": "子どもを連れて行きやすいお店の多さ",
+    "category_name": "婦人子供服製造卸"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "婦人洋品店"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "舞台製作・設備"
+  },
+  {
+    "index_code": "I0487",
+    "index_name": "ディスカウントストアの多さ",
+    "category_name": "古着商"
+  },
+  {
+    "index_code": "I0527",
+    "index_name": "ブティックの多さ",
+    "category_name": "古着商"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "分譲住宅"
+  },
+  {
+    "index_code": "I0616",
+    "index_name": "賃貸住宅に関わるサービスの多さ",
+    "category_name": "分譲住宅"
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "category_name": "健康ランド"
+  },
+  {
+    "index_code": "I0551",
+    "index_name": "サウナの多さ",
+    "category_name": "健康ランド"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "ベトナム料理店"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "ベトナム料理店"
+  },
+  {
+    "index_code": "I0445",
+    "index_name": "授乳室おむつ替えスペースの多さ",
+    "category_name": "ベビーシッター"
+  },
+  {
+    "index_code": "I0446",
+    "index_name": "子どもを連れて行きやすいお店の多さ",
+    "category_name": "ベビーシッター"
+  },
+  {
+    "index_code": "I0445",
+    "index_name": "授乳室おむつ替えスペースの多さ",
+    "category_name": "ベビーホテル"
+  },
+  {
+    "index_code": "I0446",
+    "index_name": "子どもを連れて行きやすいお店の多さ",
+    "category_name": "ベビーホテル"
+  },
+  {
+    "index_code": "I0445",
+    "index_name": "授乳室おむつ替えスペースの多さ",
+    "category_name": "ベビー・マタニティー用品"
+  },
+  {
+    "index_code": "I0446",
+    "index_name": "子どもを連れて行きやすいお店の多さ",
+    "category_name": "ベビー・マタニティー用品"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ペット関連サービス"
+  },
+  {
+    "index_code": "I0606",
+    "index_name": "ペット関係サービスの多さ",
+    "category_name": "ペット関連サービス"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ペットシッター"
+  },
+  {
+    "index_code": "I0606",
+    "index_name": "ペット関係サービスの多さ",
+    "category_name": "ペットシッター"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ペットショップ（犬・猫）"
+  },
+  {
+    "index_code": "I0606",
+    "index_name": "ペット関係サービスの多さ",
+    "category_name": "ペットショップ（犬・猫）"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ペットショップ（小鳥）"
+  },
+  {
+    "index_code": "I0606",
+    "index_name": "ペット関係サービスの多さ",
+    "category_name": "ペットショップ（小鳥）"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ペットショップ（魚）"
+  },
+  {
+    "index_code": "I0606",
+    "index_name": "ペット関係サービスの多さ",
+    "category_name": "ペットショップ（魚）"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ペットショップ"
+  },
+  {
+    "index_code": "I0606",
+    "index_name": "ペット関係サービスの多さ",
+    "category_name": "ペットショップ"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ペット美容室"
+  },
+  {
+    "index_code": "I0606",
+    "index_name": "ペット関係サービスの多さ",
+    "category_name": "ペット美容室"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ペットホテル"
+  },
+  {
+    "index_code": "I0606",
+    "index_name": "ペット関係サービスの多さ",
+    "category_name": "ペットホテル"
+  },
+  {
+    "index_code": "I0606",
+    "index_name": "ペット関係サービスの多さ",
+    "category_name": "ペットフード・用品製造卸"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "エクステリア工事"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "外壁工事"
+  },
+  {
+    "index_code": "I0634",
+    "index_name": "景観に資するサービスの多さ",
+    "category_name": "外壁工事"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "べっ甲"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "編集プロダクション"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "編集プロダクション"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "持ち帰り弁当"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "弁当・仕出し"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "ホームセンター"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "ボウリング場"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "ボウリング場"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "ボウリング場"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "ボウリング場"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "ボウリング場"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "ボート場"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "ボート場"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "ボート・ヨット"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ボート・ヨット"
+  },
+  {
+    "index_code": "I0440",
+    "index_name": "児童福祉施設の多さ",
+    "category_name": "保育園"
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "category_name": "保険・共済"
+  },
+  {
+    "index_code": "I0443",
+    "index_name": "宿泊施設の多さ",
+    "category_name": "保養所"
+  },
+  {
+    "index_code": "I0653",
+    "index_name": "バリアフリーに資するサービスの多さ",
+    "category_name": "補聴器"
+  },
+  {
+    "index_code": "I0612",
+    "index_name": "倉庫の多さ",
+    "category_name": "包装・梱包資材"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "放送業・放送局"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "放送業・放送局"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "人造宝石"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "宝石・貴金属店"
+  },
+  {
+    "index_code": "I0527",
+    "index_name": "ブティックの多さ",
+    "category_name": "宝石・貴金属店"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "マージャンクラブ"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "マージャンクラブ"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "マージャン用品"
+  },
+  {
+    "index_code": "I0625",
+    "index_name": "デジタルインフラに関わるサービスの多さ",
+    "category_name": "パソコン販売・修理・支援"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "マネキン人形"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "曲物"
+  },
+  {
+    "index_code": "I0405",
+    "index_name": "夜間営業している店の多さ",
+    "category_name": "茶屋"
+  },
+  {
+    "index_code": "I0570",
+    "index_name": "深夜営業のお店の多さ",
+    "category_name": "茶屋"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "万年筆"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "漫画家"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "道の駅"
+  },
+  {
+    "index_code": "I0420",
+    "index_name": "公共交通機関の利用のしやすさ(鉄道駅数)",
+    "category_name": "道の駅"
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "category_name": "道の駅"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "民芸品"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "模型（ホビーショップ）"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "模型"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "もつ鍋店"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "もんじゃ焼店"
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "category_name": "もんじゃ焼店"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "紋章上絵業"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "焼肉・ホルモン"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "陶・やきもの工芸"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "野球場"
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "category_name": "野球場"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "野球場"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "野球場"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "野球場"
+  },
+  {
+    "index_code": "I0651",
+    "index_name": "スポーツ観戦に関する施設の多さ",
+    "category_name": "野球場"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "屋根工事"
+  },
+  {
+    "index_code": "I0634",
+    "index_name": "景観に資するサービスの多さ",
+    "category_name": "屋根工事"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "屋根材"
+  },
+  {
+    "index_code": "I0441",
+    "index_name": "医療機関の多さ",
+    "category_name": "薬局"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "薬局"
+  },
+  {
+    "index_code": "I0657",
+    "index_name": "キャンプ場・アウトドア施設の多さ",
+    "category_name": "山小屋"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "輸入雑貨店"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "友禅染"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "ケーブルテレビ"
+  },
+  {
+    "index_code": "I0611",
+    "index_name": "PR・マーケティングサービスの多さ",
+    "category_name": "ケーブルテレビ"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "有線放送"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "遊園地・テーマパーク"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "遊園地・テーマパーク"
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "category_name": "遊園地・テーマパーク"
+  },
+  {
+    "index_code": "I0557",
+    "index_name": "興行施設・テーマ―パークの多さ",
+    "category_name": "遊園地・テーマパーク"
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "category_name": "遊園地・テーマパーク"
+  },
+  {
+    "index_code": "I0657",
+    "index_name": "キャンプ場・アウトドア施設の多さ",
+    "category_name": "マリーナ"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "マリンスポーツ"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "マリンスポーツ"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "マリンスポーツ"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "マリンスポーツ"
+  },
+  {
+    "index_code": "I0427",
+    "index_name": "劇場・ホールの多さ",
+    "category_name": "寄席"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "寄席"
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "category_name": "寄席"
+  },
+  {
+    "index_code": "I0557",
+    "index_name": "興行施設・テーマ―パークの多さ",
+    "category_name": "寄席"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "寄席"
+  },
+  {
+    "index_code": "I0446",
+    "index_name": "子どもを連れて行きやすいお店の多さ",
+    "category_name": "幼児教材"
+  },
+  {
+    "index_code": "I0446",
+    "index_name": "子どもを連れて行きやすいお店の多さ",
+    "category_name": "幼児用乗物"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "西洋人形"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "洋品店"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "洋服店（注文服）"
+  },
+  {
+    "index_code": "I0527",
+    "index_name": "ブティックの多さ",
+    "category_name": "洋服店（注文服）"
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "category_name": "銭湯"
+  },
+  {
+    "index_code": "I0551",
+    "index_name": "サウナの多さ",
+    "category_name": "銭湯"
+  },
+  {
+    "index_code": "I0427",
+    "index_name": "劇場・ホールの多さ",
+    "category_name": "ライブハウス"
+  },
+  {
+    "index_code": "I0458",
+    "index_name": "娯楽施設の多さ",
+    "category_name": "ライブハウス"
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "category_name": "ライブハウス"
+  },
+  {
+    "index_code": "I0557",
+    "index_name": "興行施設・テーマ―パークの多さ",
+    "category_name": "ライブハウス"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ライブハウス"
+  },
+  {
+    "index_code": "I0645",
+    "index_name": "アーティスト活動に資する施設の多さ",
+    "category_name": "ライブハウス"
+  },
+  {
+    "index_code": "I0454",
+    "index_name": "小売店の多さ",
+    "category_name": "ラッピングショップ"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ラジコン"
+  },
+  {
+    "index_code": "I0487",
+    "index_name": "ディスカウントストアの多さ",
+    "category_name": "リサイクルショップ"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "リハビリ"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "リバースポーツ"
+  },
+  {
+    "index_code": "I0657",
+    "index_name": "キャンプ場・アウトドア施設の多さ",
+    "category_name": "リバースポーツ"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "リフォーム（外装）"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "リフォーム（内装）"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "リフォーム（水まわり）"
+  },
+  {
+    "index_code": "I0605",
+    "index_name": "塾・進学教室・予備校の多さ",
+    "category_name": "留学サポート・斡旋業"
+  },
+  {
+    "index_code": "I0647",
+    "index_name": "外国人向けサービスの多さ",
+    "category_name": "留学サポート・斡旋業"
+  },
+  {
+    "index_code": "I0443",
+    "index_name": "宿泊施設の多さ",
+    "category_name": "温泉旅館"
+  },
+  {
+    "index_code": "I0444",
+    "index_name": "リラクゼーション施設の多さ",
+    "category_name": "温泉旅館"
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "category_name": "温泉旅館"
+  },
+  {
+    "index_code": "I0443",
+    "index_name": "宿泊施設の多さ",
+    "category_name": "カプセルホテル"
+  },
+  {
+    "index_code": "I0637",
+    "index_name": "単身者の生活に関するサービスの多さ",
+    "category_name": "カプセルホテル"
+  },
+  {
+    "index_code": "I0443",
+    "index_name": "宿泊施設の多さ",
+    "category_name": "割ぽう旅館"
+  },
+  {
+    "index_code": "I0443",
+    "index_name": "宿泊施設の多さ",
+    "category_name": "簡易旅館"
+  },
+  {
+    "index_code": "I0637",
+    "index_name": "単身者の生活に関するサービスの多さ",
+    "category_name": "簡易旅館"
+  },
+  {
+    "index_code": "I0443",
+    "index_name": "宿泊施設の多さ",
+    "category_name": "公共宿舎"
+  },
+  {
+    "index_code": "I0443",
+    "index_name": "宿泊施設の多さ",
+    "category_name": "ビジネスホテル"
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "category_name": "ビジネスホテル"
+  },
+  {
+    "index_code": "I0443",
+    "index_name": "宿泊施設の多さ",
+    "category_name": "ペンション"
+  },
+  {
+    "index_code": "I0443",
+    "index_name": "宿泊施設の多さ",
+    "category_name": "ホテル"
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "category_name": "ホテル"
+  },
+  {
+    "index_code": "I0443",
+    "index_name": "宿泊施設の多さ",
+    "category_name": "民宿"
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "category_name": "民宿"
+  },
+  {
+    "index_code": "I0443",
+    "index_name": "宿泊施設の多さ",
+    "category_name": "モーテル"
+  },
+  {
+    "index_code": "I0657",
+    "index_name": "キャンプ場・アウトドア施設の多さ",
+    "category_name": "海の家"
+  },
+  {
+    "index_code": "I0443",
+    "index_name": "宿泊施設の多さ",
+    "category_name": "ラブホテル"
+  },
+  {
+    "index_code": "I0443",
+    "index_name": "宿泊施設の多さ",
+    "category_name": "旅館"
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "category_name": "旅館"
+  },
+  {
+    "index_code": "I0627",
+    "index_name": "観光資源の多さ",
+    "category_name": "旅行業"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "料理・仕出し"
+  },
+  {
+    "index_code": "I0614",
+    "index_name": "医療機関の多さ",
+    "category_name": "臨床検査・治験サービス"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ＣＤレコード制作"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ＣＤ・ＤＶＤ・ビデオ卸"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ＣＤ・ＤＶＤ・ビデオ店"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "各国料理"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "各国料理"
+  },
+  {
+    "index_code": "I0647",
+    "index_name": "外国人向けサービスの多さ",
+    "category_name": "各国料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "イタリア料理"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "イタリア料理"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "イタリア料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "インド料理店"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "インド料理店"
+  },
+  {
+    "index_code": "I0647",
+    "index_name": "外国人向けサービスの多さ",
+    "category_name": "インド料理店"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "食堂"
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "category_name": "食堂"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "立食うどん・そば"
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "category_name": "立食うどん・そば"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "うどん・そば店"
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "category_name": "うどん・そば店"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "うなぎ料理"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "うなぎ料理"
+  },
+  {
+    "index_code": "I0601",
+    "index_name": "高価格帯飲食店の多さ",
+    "category_name": "うなぎ料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "お茶漬おにぎり"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "おでん屋"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "沖縄そば"
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "category_name": "沖縄そば"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "からあげ店"
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "category_name": "からあげ店"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "カレーハウス"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "カレーハウス"
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "category_name": "カレーハウス"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "かき料理"
+  },
+  {
+    "index_code": "I0601",
+    "index_name": "高価格帯飲食店の多さ",
+    "category_name": "かき料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "かに料理"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "かに料理"
+  },
+  {
+    "index_code": "I0601",
+    "index_name": "高価格帯飲食店の多さ",
+    "category_name": "かに料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "懐石料理"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "懐石料理"
+  },
+  {
+    "index_code": "I0601",
+    "index_name": "高価格帯飲食店の多さ",
+    "category_name": "懐石料理"
+  },
+  {
+    "index_code": "I0405",
+    "index_name": "夜間営業している店の多さ",
+    "category_name": "貸席"
+  },
+  {
+    "index_code": "I0570",
+    "index_name": "深夜営業のお店の多さ",
+    "category_name": "貸席"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "割ぽう・料亭"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "割ぽう・料亭"
+  },
+  {
+    "index_code": "I0601",
+    "index_name": "高価格帯飲食店の多さ",
+    "category_name": "割ぽう・料亭"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "広東料理"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "広東料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "韓国料理"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "韓国料理"
+  },
+  {
+    "index_code": "I0647",
+    "index_name": "外国人向けサービスの多さ",
+    "category_name": "韓国料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "京料理"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "京料理"
+  },
+  {
+    "index_code": "I0601",
+    "index_name": "高価格帯飲食店の多さ",
+    "category_name": "京料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "串揚げ・串かつ料理店"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "小料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "魚料理店"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "ジンギスカン料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "しゃぶしゃぶ料理"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "しゃぶしゃぶ料理"
+  },
+  {
+    "index_code": "I0601",
+    "index_name": "高価格帯飲食店の多さ",
+    "category_name": "しゃぶしゃぶ料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "四川料理"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "四川料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "上海料理"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "上海料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "ステーキハウス"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "ステーキハウス"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "ステーキハウス"
+  },
+  {
+    "index_code": "I0601",
+    "index_name": "高価格帯飲食店の多さ",
+    "category_name": "ステーキハウス"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "パスタ店"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "パスタ店"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "スペイン料理店"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "スペイン料理店"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "すきやき料理"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "すきやき料理"
+  },
+  {
+    "index_code": "I0601",
+    "index_name": "高価格帯飲食店の多さ",
+    "category_name": "すきやき料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "すし店"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "すし店"
+  },
+  {
+    "index_code": "I0601",
+    "index_name": "高価格帯飲食店の多さ",
+    "category_name": "すし店"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "タイ料理店"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "タイ料理店"
+  },
+  {
+    "index_code": "I0647",
+    "index_name": "外国人向けサービスの多さ",
+    "category_name": "タイ料理店"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "台湾料理"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "台湾料理"
+  },
+  {
+    "index_code": "I0647",
+    "index_name": "外国人向けサービスの多さ",
+    "category_name": "台湾料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "ちゃんこ料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "中華料理"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "中華料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "中国料理"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "中国料理"
+  },
+  {
+    "index_code": "I0647",
+    "index_name": "外国人向けサービスの多さ",
+    "category_name": "中国料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "朝鮮料理"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "朝鮮料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "てんぷら料理"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "てんぷら料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "とんかつ"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "鳥料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "日本料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "ピザハウス"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "ピザハウス"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "ファストフード"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "ファストフード"
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "category_name": "ファストフード"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "ファミリーレストラン"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "ファミリーレストラン"
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "category_name": "ファミリーレストラン"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "フランス料理"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "フランス料理"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "フランス料理"
+  },
+  {
+    "index_code": "I0601",
+    "index_name": "高価格帯飲食店の多さ",
+    "category_name": "フランス料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "ふぐ料理"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "ふぐ料理"
+  },
+  {
+    "index_code": "I0601",
+    "index_name": "高価格帯飲食店の多さ",
+    "category_name": "ふぐ料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "北京料理"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "北京料理"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "メキシコ料理店"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "メキシコ料理店"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "焼鳥"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "ラーメン店"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "ラーメン店"
+  },
+  {
+    "index_code": "I0602",
+    "index_name": "低価格帯飲食店の多さ",
+    "category_name": "ラーメン店"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "沖縄料理店"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "レストラン"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "レストラン"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "ロシア料理店"
+  },
+  {
+    "index_code": "I0408",
+    "index_name": "飲食店のバラエティ（多国籍料理）の多さ",
+    "category_name": "ロシア料理店"
+  },
+  {
+    "index_code": "I0406",
+    "index_name": "飲食店の多さ",
+    "category_name": "ろばた焼"
+  },
+  {
+    "index_code": "I0623",
+    "index_name": "自動車に関するサービスの多さ",
+    "category_name": "レンタカー"
+  },
+  {
+    "index_code": "I0612",
+    "index_name": "倉庫の多さ",
+    "category_name": "冷蔵業"
+  },
+  {
+    "index_code": "I0612",
+    "index_name": "倉庫の多さ",
+    "category_name": "冷凍業"
+  },
+  {
+    "index_code": "I0606",
+    "index_name": "ペット関係サービスの多さ",
+    "category_name": "ペット霊園・葬祭"
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "category_name": "老人福祉施設・特別養護Ｈ"
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "category_name": "老人福祉施設・有料老人Ｈ"
+  },
+  {
+    "index_code": "I0560",
+    "index_name": "福祉施設の多さ",
+    "category_name": "介護老人保健施設"
+  },
+  {
+    "index_code": "I0613",
+    "index_name": "金融機関の多さ",
+    "category_name": "労働金庫"
+  },
+  {
+    "index_code": "I0550",
+    "index_name": "スタジオの多さ",
+    "category_name": "録音スタジオ"
+  },
+  {
+    "index_code": "I0615",
+    "index_name": "住宅ハードに関わるサービスの多さ",
+    "category_name": "ログハウス"
+  },
+  {
+    "index_code": "I0427",
+    "index_name": "劇場・ホールの多さ",
+    "category_name": "音楽スタジオ"
+  },
+  {
+    "index_code": "I0433",
+    "index_name": "クリエイティブ産業を主とする企業の多さ",
+    "category_name": "音楽スタジオ"
+  },
+  {
+    "index_code": "I0517",
+    "index_name": "学習施設、カルチャースクールの多さ",
+    "category_name": "音楽スタジオ"
+  },
+  {
+    "index_code": "I0550",
+    "index_name": "スタジオの多さ",
+    "category_name": "音楽スタジオ"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "音楽スタジオ"
+  },
+  {
+    "index_code": "I0645",
+    "index_name": "アーティスト活動に資する施設の多さ",
+    "category_name": "音楽スタジオ"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "宝石・貴金属リフォーム"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ペットフード・用品販売"
+  },
+  {
+    "index_code": "I0606",
+    "index_name": "ペット関係サービスの多さ",
+    "category_name": "ペットフード・用品販売"
+  },
+  {
+    "index_code": "I0502",
+    "index_name": "高品質商店（宝飾店、時計、化粧品、スパ・リラク、ブティックなど）の多さ",
+    "category_name": "ワイシャツ注文仕立"
+  },
+  {
+    "index_code": "I0527",
+    "index_name": "ブティックの多さ",
+    "category_name": "ワイシャツ注文仕立"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "和楽器"
+  },
+  {
+    "index_code": "I0437",
+    "index_name": "運動施設の多さ",
+    "category_name": "サッカー場"
+  },
+  {
+    "index_code": "I0465",
+    "index_name": "集客施設の多さ",
+    "category_name": "サッカー場"
+  },
+  {
+    "index_code": "I0496",
+    "index_name": "フィットネス施設、トレーニング施設の多さ",
+    "category_name": "サッカー場"
+  },
+  {
+    "index_code": "I0537",
+    "index_name": "複数人で利用する運動施設の多さ",
+    "category_name": "サッカー場"
+  },
+  {
+    "index_code": "I0571",
+    "index_name": "自己啓発、スキルアップにつながるサービスの多さ",
+    "category_name": "サッカー場"
+  },
+  {
+    "index_code": "I0651",
+    "index_name": "スポーツ観戦に関する施設の多さ",
+    "category_name": "サッカー場"
+  },
+  {
+    "index_code": "I0572",
+    "index_name": "趣味性の高い施設の多さ",
+    "category_name": "ペットショップ（昆虫）"
+  },
+  {
+    "index_code": "I0606",
+    "index_name": "ペット関係サービスの多さ",
+    "category_name": "ペットショップ（昆虫）"
+  },
+  {
+    "index_code": "I0622",
+    "index_name": "政治・自治に関わるサービスの多さ",
+    "category_name": "裁判所"
+  },
+  {
+    "index_code": "I0622",
+    "index_name": "政治・自治に関わるサービスの多さ",
+    "category_name": "都道府県機関"
+  },
+  {
+    "index_code": "I0468",
+    "index_name": "警察拠点の多さ",
+    "category_name": "警察機関"
+  },
+  {
+    "index_code": "I0622",
+    "index_name": "政治・自治に関わるサービスの多さ",
+    "category_name": "市区町村機関"
+  },
+  {
+    "index_code": "I0622",
+    "index_name": "政治・自治に関わるサービスの多さ",
+    "category_name": "都道府県事務所"
+  },
+  {
+    "index_code": "I0647",
+    "index_name": "外国人向けサービスの多さ",
+    "category_name": "外国公館"
+  }
+]
