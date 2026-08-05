@@ -195,10 +195,7 @@
 <body>
 <div class="app">
   <nav class="icon-nav">
-    <button class="ib active" id="nav0" data-step="0" title="Step 0">
-      <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="6" height="6" rx="1"/><rect x="11" y="3" width="6" height="6" rx="1"/><rect x="3" y="11" width="6" height="6" rx="1"/><rect x="11" y="11" width="6" height="6" rx="1"/></svg><span class="sn">0</span>
-    </button>
-    <button class="ib" id="nav1" data-step="1">
+    <button class="ib active" id="nav1" data-step="1">
       <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 1C5.7 1 3 3.7 3 7c0 5 6 10 6 10s6-5 6-10c0-3.3-2.7-6-6-6z"/><circle cx="9" cy="7" r="2"/></svg><span class="sn">1</span>
     </button>
     <button class="ib" id="nav2" data-step="2">
@@ -220,7 +217,6 @@
       <input type="text" id="s1Search" class="search-input" placeholder="エリア名で検索">
     </div>
     <div class="fg"><div class="fl">地域（Region）</div><select class="fs" id="fR"><option value="">すべて</option></select></div>
-    <div class="fg"><div class="fl">エリアタイプ</div><select class="fs" id="fT"><option value="">すべて</option></select></div>
     <div class="fg"><div class="fl">都道府県</div><select class="fs" id="fP"><option value="">すべて</option></select></div>
     <div class="tbox" id="tbox" style="display:none;"><h3>対象エリア</h3><div id="tchip"></div></div>
   </aside>
@@ -228,37 +224,18 @@
     <header class="th">
       <img id="brandLogo" class="brand-logo" src="04_obayashi_c.png" alt="OBAYASHI" />
       <span class="brand-divider"></span>
-      <h1>AREA DASHBOARD</h1><span class="sub">── WB指標によるエリア比較分析</span>
+      <h1>AREA DASHBOARD</h1><span class="sub">── 環境指標（自然文化・空間・機能・活動）によるエリア比較分析</span>
       <div style="flex:1"></div>
-      <span class="badge bst" id="bStp">STEP 0</span>
+      <span class="badge bst" id="bStp">STEP 1</span>
       <span class="badge bo" id="bTot">-</span>
       <span class="badge bgr" id="bSel">0 選択中</span>
     </header>
     <div class="content">
-      <section class="page active" id="step0">
-        <div class="sh">
-          <h2>STEP 0 ─ 顧客課題 &amp; 対象者 選択</h2>
-          <span class="desc">分析の観点となるIssue"顧客課題" と Target"対象者" を選択してください</span>
-          <div style="flex:1"></div>
-          <button class="btn bp" id="btn0Next" disabled>次へ：対象エリア設定 →</button>
-        </div>
-        <div style="overflow-y:auto; padding:8px 4px;">
-          <div class="tile-section">
-            <h3>Issue "顧客課題"</h3>
-            <div class="tile-grid" id="issueTiles"></div>
-          </div>
-          <div class="tile-section">
-            <h3>Target "対象者"</h3>
-            <div class="tile-grid" id="targetTiles"></div>
-          </div>
-        </div>
-      </section>
-      <section class="page" id="step1">
+      <section class="page active" id="step1">
         <div class="sh">
           <h2>STEP 1 ─ 対象エリア設定</h2>
           <span class="desc">分析の対象となるエリアを1つ選択</span>
           <div style="flex:1"></div>
-          <button class="btn bsc" data-back-to="0">← 戻る</button>
           <button class="btn bp" id="btn2" disabled>次へ：比較エリア選定 →</button>
         </div>
         <div class="split-layout">
@@ -275,7 +252,6 @@
                     <tr>
                       <th data-sort-s1="name">エリア名 <span class="aw" id="s1_name">⇅</span></th>
                       <th data-sort-s1="region">地域 <span class="aw" id="s1_region">⇅</span></th>
-                      <th data-sort-s1="type">タイプ <span class="aw" id="s1_type">⇅</span></th>
                       <th data-sort-s1="pref">都道府県 <span class="aw" id="s1_pref">⇅</span></th>
                     </tr>
                   </thead>
@@ -293,16 +269,10 @@
       <section class="page" id="step2">
         <div class="sh">
           <h2>STEP 2 ─ 比較エリア選定</h2>
-          <span class="desc">人口規模・年齢構成・産業構成の類似度から比較エリアを選択（任意選択も可能）</span>
+          <span class="desc">自然文化・空間・機能・活動のスコアプロファイルが対象エリアと類似する順に表示（任意選択も可能）</span>
           <div style="flex:1"></div>
           <button class="btn bsc" data-back-to="1">← 戻る</button>
           <button class="btn bp" id="btn3" disabled>比較ダッシュボードへ →</button>
-        </div>
-        <div class="step2-tile-row">
-          <span class="lbl">📊 比較都市を：</span>
-          <button class="step2-tile active" data-s2sort="popDiff">人口規模で選ぶ</button>
-          <button class="step2-tile" data-s2sort="ageSim">年齢構成で選ぶ</button>
-          <button class="step2-tile" data-s2sort="indSim">産業構成で選ぶ</button>
         </div>
         <div class="ss">
           <span>★ 対象: <strong id="s2tn">-</strong></span>
@@ -324,9 +294,11 @@
                       <th class="cc"><input type="checkbox" id="s2ca"></th>
                       <th data-sort-s2="name">エリア名 <span class="aw" id="s2_name">⇅</span></th>
                       <th data-sort-s2="region">地域 <span class="aw" id="s2_region">⇅</span></th>
-                                            <th data-sort-s2="popDiff">人口差 <span class="aw" id="s2_popDiff">▲</span></th>
-                      <th data-sort-s2="ageSim">年齢構成 <span class="aw" id="s2_ageSim">⇅</span></th>
-                      <th data-sort-s2="indSim">産業構成 <span class="aw" id="s2_indSim">⇅</span></th>
+                      <th data-sort-s2="nature">自然文化 <span class="aw" id="s2_nature">⇅</span></th>
+                      <th data-sort-s2="space">空間 <span class="aw" id="s2_space">⇅</span></th>
+                      <th data-sort-s2="func">機能 <span class="aw" id="s2_func">⇅</span></th>
+                      <th data-sort-s2="act">活動 <span class="aw" id="s2_act">⇅</span></th>
+                      <th data-sort-s2="sim">類似度 <span class="aw" id="s2_sim">▼</span></th>
                     </tr>
                   </thead>
                   <tbody id="s2B"></tbody>
@@ -343,15 +315,15 @@
       <section class="page" id="step3">
         <div class="sh">
           <h2>STEP 3 ─ 比較ダッシュボード</h2>
-          <span class="desc">WB指標の強み・弱みを比較（左：重み付きスコア／右：正規化スコア）</span>
+          <span class="desc">環境指標（自然文化・空間・機能・活動）の強み・弱みを比較（正規化スコア）</span>
           <div style="flex:1"></div>
           <button class="btn bsc" data-back-to="2">← 戻る</button>
         </div>
         <div class="step3-layout">
           <div class="step3-left">
             <div class="card" id="wbCard">
-              <div class="ctit" id="wbTit"><span class="dot" style="background:var(--accent);"></span>WB指標別スコア比較</div>
-              <div class="cnote" id="wbNote">中央の指標名ボタンをクリックすると、右側に詳細ブレイクダウンが表示されます</div>
+              <div class="ctit" id="wbTit"><span class="dot" style="background:var(--accent);"></span>環境カテゴリ別スコア比較</div>
+              <div class="cnote" id="wbNote">中央のカテゴリ名ボタン（自然文化・空間・機能・活動）をクリックすると、右側に明細ブレイクダウンが表示されます</div>
               <div class="cscroll" id="wbScr"><canvas id="wbChart"></canvas></div>
             </div>
           </div>
@@ -363,8 +335,8 @@
             </div>
             <div class="drilldown-section" id="drilldownSection" style="display:none;">
               <div id="drillBar"></div>
-              <div class="ctit" id="detailTit"><span class="dot" style="background:var(--red);"></span>詳細指標比較</div>
-              <div class="cnote" id="detailNote">選択したインデックスに紐づく詳細指標の比較です（正規化スコア）</div>
+              <div class="ctit" id="detailTit"><span class="dot" style="background:var(--red);"></span>明細指標比較</div>
+              <div class="cnote" id="detailNote">選択した環境カテゴリに紐づく明細指標の比較です（正規化スコア）</div>
               <div class="cscroll" id="detailChartWrap" style="flex:1;"><canvas id="detailChart"></canvas></div>
               <div class="bd-panel" id="breakdownPanel" style="display:none;"></div>
             </div>
@@ -380,259 +352,92 @@
 <script src="config.js"></script>
 <script>
 (() => {
-  let popData = [], rawMartData = [], martData = [], issueData = [];
-  let areaMap = {}, areaInfo = {}, popMap = {}, indexMap = {}, indexBreakdownMap = {};
+  // データ保持
+  let pivotData = [], normData = [];
+  let areaMap = {}, areaInfo = {}, pivotMap = {};
+  let envIndexList = {};   // 環境カテゴリ -> [{code, name}]（明細指標一覧）
+  let scoreMap = {};       // area_id -> { index_code: normalized_score }
+  let indexMap = {};       // index_code -> index_name
   let targetId = null, compIds = new Set();
-  let s1C = 'name', s1A = true, s2C = 'popDiff', s2A = true;
-  let s1SearchMode = 'keyword'; // STEP 1 検索モード：'keyword'（キーワード検索）/ 'filter'（フィルタ検索）。両者は併用不可
+  let s1C = 'name', s1A = true, s2C = 'sim', s2A = false; // Step2 既定：類似度の降順
+  let s1SearchMode = 'keyword'; // STEP 1 検索モード：'keyword' / 'filter'（併用不可）
   let map1 = null, map2 = null, map3 = null;
   let m1M = [], m2M = [], m3M = [];
-  let wbChart = null, detailChart = null, currentWB = null;
+  let catChart = null, detailChart = null, currentCat = null;
   let s2Rows = [];
-  let selectedIssue = null, selectedTargetId = null;
-  // config.js（同一リポジトリ）で定義された設定を読み込む。未定義でも安全に動作させる。
+
+  // config.js（任意）を安全に読み込む
   const CONFIG = (typeof window !== 'undefined' && window.DASHBOARD_CONFIG) ? window.DASHBOARD_CONFIG : {};
-  const STEP0_DEFAULTS = CONFIG.step0 || {};
   const STEP1_DEFAULTS = CONFIG.step1 || {};
-  let step1DefaultsApplied = false; // STEP 1 デフォルトは初回のみ適用（戻る操作で毎回リセットしない）
+  let step1DefaultsApplied = false; // STEP 1 デフォルトは初回のみ適用
+
   const COLORS = ['#1e40af','#2563eb','#3b82f6','#60a5fa','#93c5fd','#cbd5e1','#0f172a','#334155','#475569','#64748b','#94a3b8','#cbd5e1'];
-  const AGE_KEYS = ['人口_10歳未満','人口_10代','人口_20代','人口_30代','人口_40代','人口_50代','人口_60代','人口_70歳以上'];
-  let IND_KEYS = [];
-  let wbAvg = {}, wbCodes = {}, wbList = [];
-  // config で企業ロゴのパスが指定されていれば反映（未指定時は HTML の既定パスを使用）
+
+  // 環境カテゴリ（表示順：自然文化・空間・機能・活動）
+  const ENV_CATS = ['自然文化','空間','機能','活動'];
+
+  // config で企業ロゴのパスが指定されていれば反映
   function applyBrandLogo() {
     const logoEl = document.getElementById('brandLogo');
     if (!logoEl) return;
     if (CONFIG.logo) logoEl.src = CONFIG.logo;
-    // 画像が見つからない場合はロゴ枠を非表示にしてレイアウト崩れを防ぐ
     logoEl.addEventListener('error', () => {
       logoEl.style.display = 'none';
       const dv = document.querySelector('.brand-divider');
       if (dv) dv.style.display = 'none';
     });
   }
+
   async function init() {
     applyBrandLogo();
     try {
-      const [pR, mR, iR, wR, bR] = await Promise.all([
-        fetch('master_population.json'),
+      // 必要なデータは2ファイルのみ：
+      //  - mart_index_normalized.json：エリア×明細指標（environment / normalized_score を保持）
+      //  - mart_index_area_environment_pivot.json：エリア×環境カテゴリ（自然文化・空間・機能・活動）集計値
+      const [nR, pR] = await Promise.all([
         fetch('mart_index_normalized.json'),
-        fetch('master_issue.json'),
-        fetch('master_wb_target.json'),
-        fetch('tips_indexbreakdown_concat.json')
+        fetch('mart_index_area_environment_pivot.json')
       ]);
-      popData = await pR.json();
-      const martNormalized = await mR.json();
-      issueData = await iR.json();
-      const wbTargetData = await wR.json();
-      // tips_indexbreakdown_concat.json：各 Index（index_code）を構成するカテゴリ一覧。
-      // STEP 3 右側の詳細指標ブレイクダウンで、指標の内訳（構成カテゴリ）を確認するために使用する。
-      try {
-        const breakdownData = await bR.json();
-        indexBreakdownMap = {};
-        breakdownData.forEach(b => {
-          indexBreakdownMap[b.index_code] = {
-            index_name: b.index_name,
-            categories: (b.category_name || '').split(',').map(s => s.trim()).filter(Boolean)
-          };
-        });
-      } catch (be) {
-        console.warn('tips_indexbreakdown_concat.json の読み込みに失敗しました。ブレイクダウン表示は無効になります。', be);
-        indexBreakdownMap = {};
-      }
-      // mart_index_normalized.json は「エリア×指標 → normalized_score」の正規化データで、
-      // 対象者・WB指標・重み（target_id / target_name / wb_index / weight）を持たない。
-      // これらは master_wb_target.json（指標×対象者 → wbindex / weight）側に分離されているため、
-      // index_code をキーに両者を結合し、画面ロジックが期待する非正規化行を復元する。
-      // ※ JSON は変更せず、この結合処理のみで従来と同一のデータ構造を再構築する。
-      const wbByCode = {};
-      wbTargetData.forEach(w => {
-        (wbByCode[w.index_code] = wbByCode[w.index_code] || []).push(w);
-      });
-      rawMartData = [];
-      martNormalized.forEach(r => {
-        const targets = wbByCode[r.index_code];
-        if (!targets) return;
-        targets.forEach(t => {
-          rawMartData.push({
-            area_id: r.area_id,
-            area_name: r.area_name,
-            latitude: r.latitude,
-            longitude: r.longitude,
-            prefecture: r.prefecture,
-            region: r.region,
-            area_type: r.area_type,
-            index_code: r.index_code,
-            index_name: r.index_name,
-            normalized_score: r.normalized_score,
-            target_id: t.target_id,
-            target_name: t.target_name,
-            wb_index: t.wbindex,   // master_wb_target 側のフィールド名 "wbindex" を画面が使う "wb_index" に対応付け
-            weight: t.weight
-          });
-        });
-      });
-      martData = rawMartData;
-      buildAreaInfo();
+      normData = await nR.json();
+      pivotData = await pR.json();
+      buildData();
       populateSelect('fR', [...new Set(Object.values(areaInfo).map(a=>a.region).filter(Boolean))].sort());
-      populateSelect('fT', [...new Set(Object.values(areaInfo).map(a=>a.type).filter(Boolean))].sort());
       populateSelect('fP', [...new Set(Object.values(areaInfo).map(a=>a.pref).filter(Boolean))].sort());
       const totalCount = Object.keys(areaInfo).length;
       document.getElementById('k1a').textContent = totalCount;
       document.getElementById('bTot').textContent = totalCount + ' エリア';
       document.getElementById('stxt').textContent = totalCount + ' エリア / 対象未選択';
-      buildStep0Tiles();
       bindEvents();
+      goStep(1); // STEP 1 から開始
     } catch (e) {
       console.error(e);
       alert('ファイルの読み込みに失敗しました。');
     }
   }
-  function buildAreaInfo() {
-    areaMap = {}; areaInfo = {}; popMap = {}; indexMap = {};
-    rawMartData.forEach(r => {
+
+  function buildData() {
+    areaMap = {}; areaInfo = {}; pivotMap = {}; envIndexList = {}; scoreMap = {}; indexMap = {};
+    const seenIdx = {}; // env -> Set(code)
+    normData.forEach(r => {
       areaMap[r.area_id] = r.area_name;
       if (!areaInfo[r.area_id]) {
         areaInfo[r.area_id] = { name: r.area_name, lat: r.latitude, lng: r.longitude, pref: r.prefecture||'', region: r.region||'', type: r.area_type||'' };
       }
       indexMap[r.index_code] = r.index_name;
-    });
-    popData.forEach(r => { popMap[r.area_id] = r; });
-    if (popData.length > 0) IND_KEYS = Object.keys(popData[0]).filter(k => k.startsWith('産業_')).sort();
-  }
-  function buildStep0Tiles() {
-    // 対象者アイコンは target_id で紐付け（名称は mart_index から動的取得するため）
-    const TARGET_ICONS = {
-      'WORKER':          '<rect x="3" y="7" width="18" height="13" rx="1.5"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><path d="M3 13h18"/>',
-      'VISITOR':         '<path d="M12 2a8 8 0 0 0-8 8c0 5.5 8 12 8 12s8-6.5 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/>',
-      'RESIDENT_single': '<path d="M3 11l9-8 9 8"/><path d="M5 9.5V21h14V9.5"/><path d="M10 21v-6h4v6"/>',
-      'RESIDENT_family': '<path d="M3 11l9-8 9 8"/><path d="M5 9.5V21h14V9.5"/><path d="M10 21v-6h4v6"/>',
-      'NOFILTER':        '<path d="M4 5h16l-6 7v5l-4 2v-7z"/><line x1="4" y1="20" x2="20" y2="4"/>'
-    };
-    const DEFAULT_ISSUE_ICON = '<circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-.9.7-1.5 1.2-1.5 2.5"/><circle cx="12" cy="17" r=".6" fill="currentColor"/>';
-    const ISSUE_ICON_RULES = [
-      { re: /賑わい|活性|集客|回遊|来街|イベント/, svg: '<polygon points="12 2 14.5 9 22 9.5 16.2 14.3 18 22 12 18 6 22 7.8 14.3 2 9.5 9.5 9"/>' },
-      { re: /安全|防災|防犯|セキュ|レジリ/,        svg: '<path d="M12 2l8 3.5v6c0 5-3.5 8.8-8 10.5-4.5-1.7-8-5.5-8-10.5v-6L12 2z"/><path d="M8.5 12l2.5 2.5 4.5-5"/>' },
-      { re: /環境|緑|サステ|脱炭素|CO2|エコ|カーボン/, svg: '<path d="M20 4c-9 0-15 5-15 14 0 1 .1 2 .3 2.7"/><path d="M20 4c-.5 8-5 13-15 15"/>' },
-      { re: /経済|ビジネス|産業|収益|売上|投資|金融/,   svg: '<line x1="4" y1="20" x2="20" y2="20"/><rect x="6" y="12" width="3" height="8"/><rect x="11" y="8" width="3" height="12"/><rect x="16" y="4" width="3" height="16"/>' },
-      { re: /交通|移動|モビリ|アクセス|渋滞|物流/,       svg: '<path d="M5 17h14"/><path d="M3 17v-4l2-5h14l2 5v4"/><circle cx="7.5" cy="17.5" r="1.8"/><circle cx="16.5" cy="17.5" r="1.8"/>' },
-      { re: /健康|ウェルネ|医療|ヘルス|福祉/,             svg: '<path d="M20.8 6.6a5 5 0 0 0-7.4-.6L12 7.4l-1.4-1.4a5 5 0 1 0-7 7l8.4 8.4 8.4-8.4a5 5 0 0 0 .4-6.4z"/>' },
-      { re: /文化|観光|エンタメ|芸術/,           svg: '<circle cx="12" cy="12" r="9"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><circle cx="9" cy="10" r=".8" fill="currentColor"/><circle cx="15" cy="10" r=".8" fill="currentColor"/>' },
-      { re: /居住|住まい|住宅|定住/,                        svg: '<path d="M3 11l9-8 9 8"/><path d="M5 9.5V21h14V9.5"/><path d="M10 21v-6h4v6"/>' },
-      { re: /教育|学び|学習|人材|育成/,                     svg: '<path d="M2 8l10-4 10 4-10 4L2 8z"/><path d="M6 10v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/>' },
-      { re: /コミュニティ|交流|つながり|ブランディング/,           svg: '<circle cx="9" cy="8" r="3"/><path d="M3 20c0-3 3-5 6-5s6 2 6 5"/><circle cx="17" cy="9" r="2"/><path d="M15 20c0-2 2-3 4-3s2 1 2 3"/>' },
-      { re: /IT|DX|デジタル|データ|スマート/,               svg: '<rect x="3" y="4" width="18" height="12" rx="1.5"/><line x1="8" y1="20" x2="16" y2="20"/><line x1="12" y1="16" x2="12" y2="20"/>' },
-      { re: /働き方|労働|オフィス|不動産/,                 svg: '<rect x="3" y="7" width="18" height="13" rx="1.5"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>' },
-      { re: /フィルタなし|NOFILTER/,                svg: '<path d="M4 5h16l-6 7v5l-4 2v-7z"/><line x1="4" y1="20" x2="20" y2="4"/>' }
-    ];
-    function pickIssueIcon(name) {
-      for (const r of ISSUE_ICON_RULES) { if (r.re.test(name)) return r.svg; }
-      return DEFAULT_ISSUE_ICON;
-    }
-    const issues = [...new Map(
-      issueData.map(r => [r.issue_id, r.issue_name])
-    ).entries()]
-    .map(([id, name]) => ({ id, name }));
-    // NOFILTER を先頭固定
-    issues.sort((a, b) =>
-      (a.id === 'NOFILTER' ? -1 :
-       b.id === 'NOFILTER' ? 1 : 0)
-    );
-    const issueBox = document.getElementById('issueTiles');
-    issueBox.innerHTML = '';
-    issues.forEach(iss => {
-      const t = document.createElement('div');
-      t.className = 'tile';
-      t.dataset.issueId = iss.id;
-      t.innerHTML = '<svg class="pict" viewBox="0 0 24 24">' + pickIssueIcon(iss.name) + '</svg><span class="tile-label">' + iss.name + '</span>';
-      t.addEventListener('click', () => {
-        issueBox.querySelectorAll('.tile').forEach(x => x.classList.remove('active'));
-        t.classList.add('active');
-        selectedIssue = { id: iss.id, name: iss.name };
-        checkStep0Ready();
-      });
-      issueBox.appendChild(t);
-    });
-    // 対象者は mart_index（rawMartData）から target_id / target_name を重複排除して抽出（初出順）
-    const targetSeen = new Set();
-    const targets = [];
-    rawMartData.forEach(r => {
-      if (r.target_id && !targetSeen.has(r.target_id)) {
-        targetSeen.add(r.target_id);
-        targets.push({ id: r.target_id, name: r.target_name || r.target_id });
+      const env = r.environment;
+      if (env) {
+        if (!envIndexList[env]) { envIndexList[env] = []; seenIdx[env] = new Set(); }
+        if (!seenIdx[env].has(r.index_code)) {
+          seenIdx[env].add(r.index_code);
+          envIndexList[env].push({ code: r.index_code, name: r.index_name });
+        }
       }
+      if (!scoreMap[r.area_id]) scoreMap[r.area_id] = {};
+      scoreMap[r.area_id][r.index_code] = r.normalized_score;
     });
-    // 「フィルタなし」(NOFILTER) を先頭に並べ替え
-    targets.sort((a, b) => (a.id === 'NOFILTER' ? -1 : b.id === 'NOFILTER' ? 1 : 0));
-    const targetBox = document.getElementById('targetTiles');
-    targetBox.innerHTML = '';
-    targets.forEach(tg => {
-      const t = document.createElement('div');
-      t.className = 'tile tile-target';
-      t.dataset.targetId = tg.id;
-      t.innerHTML = '<svg class="pict" viewBox="0 0 24 24">' + (TARGET_ICONS[tg.id] || DEFAULT_ISSUE_ICON) + '</svg><span class="tile-label">' + tg.name + '</span>';
-      t.addEventListener('click', () => {
-        targetBox.querySelectorAll('.tile').forEach(x => x.classList.remove('active'));
-        t.classList.add('active');
-        selectedTargetId = tg.id;
-        checkStep0Ready();
-      });
-      targetBox.appendChild(t);
-    });
-    // --- STEP 0 デフォルト選択 ---
-    // config.js の step0 設定を、Issue と Target に「同じロジック」で適用する。
-    applyStep0Default(issueBox, 'data-issue-id', STEP0_DEFAULTS.defaultIssueId);
-    applyStep0Default(targetBox, 'data-target-id', STEP0_DEFAULTS.defaultTargetId);
+    pivotData.forEach(r => { pivotMap[r.area_id] = r; });
   }
-  // Issue / Target 共通のデフォルト選択フィルタ。config で指定した id のタイルを選択状態にする。
-  function applyStep0Default(container, attr, value) {
-    if (!container || !value) return;
-    const tile = container.querySelector('[' + attr + '="' + value + '"]');
-    if (tile) tile.click(); // 既存のクリックハンドラを再利用して選択状態・active表示を反映
-  }
-  function checkStep0Ready() {
-    document.getElementById('btn0Next').disabled = !(selectedIssue && selectedTargetId);
-  }
-  function applyStep0Filter() {
-    if (!selectedIssue || !selectedTargetId) return;
-    const issueCodes = new Set(issueData.filter(r => r.issue_id === selectedIssue.id).map(r => r.index_code));
-    martData = rawMartData.filter(r => issueCodes.has(r.index_code) && r.target_id === selectedTargetId);
-    recomputeWB();
-  }
-  // --- STEP 1 デフォルト（config.js の step1 設定を適用）---
-  // フィルタは一切かけず、config で指定した area_id を「対象エリア」として選択済みの状態にする。
-  // 初回表示時のみ適用し、ユーザーが選び直した内容は「戻る」操作で上書きしない。
-  function applyStep1DefaultTarget() {
-    if (step1DefaultsApplied) return;  // 初回のみ
-    step1DefaultsApplied = true;
-    const aid = STEP1_DEFAULTS.defaultAreaId;
-    if (!aid || targetId) return;      // 未指定、または既にユーザーが選択済みなら何もしない
-    if (!areaInfo[aid]) return;        // 存在しない area_id はスキップ（従来動作＝未選択を維持）
-    selectTarget(aid);                 // 既存ロジックを再利用（KPI・チップ・マップ・「次へ」活性化まで反映）
-  }
-  function recomputeWB() {
-    wbAvg = {}; wbCodes = {}; wbList = [];
-    const wbT = {}, wbCT = {};
-    martData.forEach(r => {
-      const wb = r.wb_index; if (!wb) return;
-      if (r.weight == null) return;
-      const w = Number(r.weight) || 0;
-      const s = Number(r.normalized_score) || 0;
-      if (!wbT[wb]) wbT[wb] = {};
-      if (!wbT[wb][r.area_id]) wbT[wb][r.area_id] = [];
-      wbT[wb][r.area_id].push(s * w);
-      if (!wbCT[wb]) wbCT[wb] = new Set();
-      wbCT[wb].add(r.index_code);
-    });
-    wbList = Object.keys(wbT).sort();
-    wbList.forEach(wb => {
-      wbAvg[wb] = {};
-      Object.entries(wbT[wb]).forEach(([aid, arr]) => {
-        wbAvg[wb][aid] = arr.reduce((a,b)=>a+b,0) / arr.length;
-      });
-      wbCodes[wb] = [...wbCT[wb]].sort();
-    });
-  }
+
   function populateSelect(id, list) {
     const select = document.getElementById(id);
     list.forEach(val => {
@@ -641,24 +446,17 @@
       select.appendChild(opt);
     });
   }
+
   function bindEvents() {
     document.querySelectorAll('.icon-nav .ib').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const n = Number(btn.dataset.step);
-        if (n >= 1 && !(selectedIssue && selectedTargetId)) {
-          alert('先に STEP 0 で Issue と Target を選択してください');
-          return;
-        }
-        goStep(n);
-      });
+      btn.addEventListener('click', () => goStep(Number(btn.dataset.step)));
     });
-    document.getElementById('btn0Next').addEventListener('click', () => goStep(1));
     document.getElementById('btn2').addEventListener('click', () => goStep(2));
     document.getElementById('btn3').addEventListener('click', () => goStep(3));
     document.querySelectorAll('[data-back-to]').forEach(btn => {
       btn.addEventListener('click', () => goStep(Number(btn.dataset.backTo)));
     });
-    ['fR','fT','fP'].forEach(id => {
+    ['fR','fP'].forEach(id => {
       document.getElementById(id).addEventListener('change', applyFilters);
     });
     document.querySelectorAll('[data-sort-s1]').forEach(th => {
@@ -668,48 +466,30 @@
       th.addEventListener('click', () => sortS2(th.dataset.sortS2));
     });
     document.getElementById('s2ca').addEventListener('change', (e) => toggleAllS2(e.target));
-    document.querySelectorAll('.step2-tile[data-s2sort]').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.step2-tile[data-s2sort]').forEach(x => x.classList.remove('active'));
-        btn.classList.add('active');
-        const col = btn.dataset.s2sort;
-        s2C = col;
-        s2A = (col === 'popDiff');
-        document.querySelectorAll('[id^="s2_"]').forEach(e => e.textContent = '⇅');
-        const el = document.getElementById('s2_' + col); if (el) el.textContent = s2A ? '▲' : '▼';
-        // 並び替え後、上位4件を自動選択（ユーザーは後から変更可）
-        autoSelectTop4();
-        updateS2UI();
-        renderS2();
-      });
-    });
-    // 検索窓：STEP 1（対象エリア一覧）／STEP 2（比較エリア一覧）のエリア名フィルタ
+    // 検索窓
     document.getElementById('s1Search').addEventListener('input', applyFilters);
     document.getElementById('s2Search').addEventListener('input', renderS2);
-    // STEP 1 検索モード切替（キーワード検索 / フィルタ検索）。選択したモードのみ有効化し、併用を防ぐ
+    // STEP 1 検索モード切替
     document.querySelectorAll('.s1-mode-btn').forEach(btn => {
       btn.addEventListener('click', () => setStep1Mode(btn.dataset.s1mode));
     });
-    // 初期モードを適用（キーワード検索。フィルタ側は無効化・クリアされる）
     setStep1Mode(s1SearchMode);
   }
-  // STEP 1 の検索モードを切り替える。使用しない側の入力は「無効化＋クリア」して併用できないようにする
+
+  // STEP 1 の検索モード切替（キーワード検索 / フィルタ検索は併用不可）
   function setStep1Mode(mode) {
     s1SearchMode = mode;
     document.querySelectorAll('.s1-mode-btn').forEach(b => b.classList.toggle('active', b.dataset.s1mode === mode));
     const s1s = document.getElementById('s1Search');
-    const filterIds = ['fR', 'fT', 'fP'];
+    const filterIds = ['fR', 'fP'];
     if (mode === 'keyword') {
-      // キーワード検索を有効化。フィルタは選択解除して無効化
       s1s.disabled = false;
       filterIds.forEach(id => { const el = document.getElementById(id); el.value = ''; el.disabled = true; });
     } else {
-      // フィルタ検索を有効化。キーワードはクリアして無効化
       s1s.value = '';
       s1s.disabled = true;
       filterIds.forEach(id => { document.getElementById(id).disabled = false; });
     }
-    // 検索条件フレーム内の各項目を視覚的にも有効／無効表示に切り替え
     const kwFg = document.getElementById('fgKeyword');
     if (kwFg) kwFg.classList.toggle('fdisabled', mode !== 'keyword');
     filterIds.forEach(id => {
@@ -718,18 +498,18 @@
     });
     applyFilters();
   }
+
   function goStep(n) {
-    [0,1,2,3].forEach(i => {
+    [1,2,3].forEach(i => {
       const p = document.getElementById('step' + i); if (p) p.classList.toggle('active', i === n);
       const nv = document.getElementById('nav' + i); if (nv) nv.classList.toggle('active', i === n);
     });
     document.getElementById('fSide').classList.toggle('show', n === 1);
     document.getElementById('bStp').textContent = 'STEP ' + n;
     if (n === 1) {
-      applyStep0Filter();
       applyFilters();
       if (!map1) initMap(1);
-      applyStep1DefaultTarget(); // config.js の step1 設定に基づき、特定エリアを対象として初期選択（初回のみ）
+      applyStep1DefaultTarget();
     }
     if (n === 2) buildS2();
     if (n === 3) buildS3();
@@ -739,15 +519,23 @@
       if (n === 3 && map3) map3.invalidateSize();
     }, 200);
   }
+
+  // ========================= STEP 1 =========================
+  function applyStep1DefaultTarget() {
+    if (step1DefaultsApplied) return;
+    step1DefaultsApplied = true;
+    const aid = STEP1_DEFAULTS.defaultAreaId;
+    if (!aid || targetId) return;
+    if (!areaInfo[aid]) return;
+    selectTarget(aid);
+  }
+
   function applyFilters() {
-    // 検索モードに応じて、有効な条件のみ適用する（キーワード検索とフィルタ検索は併用不可）
     const keyword = (s1SearchMode === 'keyword') ? (document.getElementById('s1Search')?.value || '').toLowerCase().trim() : '';
     const r = (s1SearchMode === 'filter') ? document.getElementById('fR').value : '';
-    const t = (s1SearchMode === 'filter') ? document.getElementById('fT').value : '';
     const p = (s1SearchMode === 'filter') ? document.getElementById('fP').value : '';
     const filtered = Object.entries(areaInfo).filter(([_, a]) => {
       if (r && a.region !== r) return false;
-      if (t && a.type !== t) return false;
       if (p && a.pref !== p) return false;
       if (keyword && !a.name.toLowerCase().includes(keyword)) return false;
       return true;
@@ -755,6 +543,7 @@
     document.getElementById('k1b').textContent = filtered.length;
     renderS1(filtered);
   }
+
   function renderS1(data) {
     const rows = data.map(([id,a]) => ({ id, ...a }));
     rows.sort((a,b) => s1A ? String(a[s1C]).localeCompare(String(b[s1C])) : String(b[s1C]).localeCompare(String(a[s1C])));
@@ -765,17 +554,19 @@
       if (r.id === targetId) tr.className = 'sr';
       tr.innerHTML = '<td><strong>' + r.name + '</strong><br><span style="color:var(--muted2);font-size:.7rem;">' + r.id + '</span></td>' +
         '<td><span class="tag tgr">' + r.region + '</span></td>' +
-                '<td><span class="tag tgp">' + r.pref + '</span></td>';
+        '<td><span class="tag tgp">' + r.pref + '</span></td>';
       tr.addEventListener('click', () => selectTarget(r.id));
       tbody.appendChild(tr);
     });
   }
+
   function sortS1(col) {
     if (s1C === col) s1A = !s1A; else { s1C = col; s1A = true; }
     document.querySelectorAll('[id^="s1_"]').forEach(e => e.textContent = '⇅');
     document.getElementById('s1_' + col).textContent = s1A ? '▲' : '▼';
     applyFilters();
   }
+
   function selectTarget(id) {
     targetId = id; compIds.clear();
     const info = areaInfo[id];
@@ -789,6 +580,7 @@
     applyFilters();
     updateMap1();
   }
+
   function clearTarget() {
     targetId = null; compIds.clear();
     document.getElementById('k1c').textContent = '未選択';
@@ -798,19 +590,19 @@
     clearMarkers(m1M, map1);
     applyFilters();
   }
-  function cosineSimilarity(vecA, vecB) {
-    const length = Math.min(vecA.length, vecB.length);
-    if (length === 0) return 0;
-    let dot=0, normA=0, normB=0;
-    for (let i=0; i<length; i++) {
-      const va = Number(vecA[i])||0, vb = Number(vecB[i])||0;
-      dot += va*vb; normA += va*va; normB += vb*vb;
-    }
-    const denom = Math.sqrt(normA)*Math.sqrt(normB);
-    if (denom === 0) return 0;
-    return Math.min(1, Math.max(-1, dot/denom));
+
+  // ========================= STEP 2 =========================
+  // 対象エリアとの類似度：自然文化・空間・機能・活動の4次元プロファイルのユークリッド距離を
+  // 類似度(0〜100%)に変換。プロファイルが近いほど高い値になる。
+  function calcSimilarity(t, r) {
+    let sum = 0;
+    ENV_CATS.forEach(c => { const d = (Number(t[c])||0) - (Number(r[c])||0); sum += d*d; });
+    const dist = Math.sqrt(sum);
+    const maxDist = Math.sqrt(ENV_CATS.length) * 100; // 4次元・各0〜100の最大距離 = 200
+    return Math.max(0, (1 - dist / maxDist)) * 100;
   }
-  // 並び替え後の上位4件を自動選択（ユーザーは後から自由に変更可能）
+
+  // 現在のソート順で上位4件を自動選択
   function autoSelectTop4() {
     if (!s2Rows || s2Rows.length === 0) return;
     const rows = [...s2Rows];
@@ -822,38 +614,32 @@
     compIds.clear();
     rows.slice(0, 4).forEach(r => compIds.add(r.id));
   }
+
   function buildS2() {
     if (!targetId) { alert('STEP 1で対象エリアを選択してください'); goStep(1); return; }
     document.getElementById('s2tn').textContent = areaMap[targetId];
     if (!map2) initMap(2);
-    const tp = popMap[targetId];
-    if (!tp) {
-      s2Rows = Object.entries(areaInfo).filter(([id]) => id !== targetId).map(([id,a]) => ({ id, name: a.name, region: a.region, type: a.type, popDiff: 0, ageSim: 0, indSim: 0 }));
-      autoSelectTop4();
-      updateS2UI();
-      renderS2();
-      return;
-    }
-    const tTotal = tp['総人口']||0;
-    const tAge = AGE_KEYS.map(k => tp[k]||0);
-    const tInd = IND_KEYS.map(k => tp[k]||0);
+    const tp = pivotMap[targetId] || {};
     s2Rows = [];
-    popData.forEach(r => {
+    pivotData.forEach(r => {
       if (r.area_id === targetId) return;
+      if (!areaInfo[r.area_id]) return; // 位置情報のあるエリアのみ対象
       const info = areaInfo[r.area_id] || {};
       s2Rows.push({
-        id: r.area_id, name: areaMap[r.area_id]||r.area_id,
-        region: info.region||'', type: info.type||'',
-        popDiff: Math.abs(tTotal - (r['総人口']||0)),
-        ageSim: cosineSimilarity(tAge, AGE_KEYS.map(k => r[k]||0)),
-        indSim: cosineSimilarity(tInd, IND_KEYS.map(k => r[k]||0))
+        id: r.area_id, name: areaMap[r.area_id] || r.area_id,
+        region: info.region || '', type: info.type || '',
+        nature: Number(r['自然文化'])||0,
+        space:  Number(r['空間'])||0,
+        func:   Number(r['機能'])||0,
+        act:    Number(r['活動'])||0,
+        sim: calcSimilarity(tp, r)
       });
     });
-    // 初期表示時に上位4件を自動選択
     autoSelectTop4();
     updateS2UI();
     renderS2();
   }
+
   function renderS2() {
     const keyword = (document.getElementById('s2Search')?.value || '').toLowerCase().trim();
     const rows = [...s2Rows].filter(r => !keyword || r.name.toLowerCase().includes(keyword));
@@ -862,7 +648,6 @@
       if (typeof va === 'string') return s2A ? va.localeCompare(vb) : vb.localeCompare(va);
       return s2A ? va-vb : vb-va;
     });
-    const maxPop = Math.max(...rows.map(r=>r.popDiff), 1);
     const tbody = document.getElementById('s2B');
     tbody.innerHTML = '';
     rows.forEach(r => {
@@ -873,9 +658,11 @@
         '<td class="cc"><input type="checkbox" ' + (isSelected?'checked':'') + '></td>' +
         '<td><strong>' + r.name + '</strong><br><span style="color:var(--muted2);font-size:.7rem;">' + r.id + '</span></td>' +
         '<td><span class="tag tgr">' + r.region + '</span></td>' +
-                '<td class="bc"><div class="bbg"><div class="bf" style="width:' + (r.popDiff/maxPop*100).toFixed(1) + '%;background:linear-gradient(90deg,#2563eb,#60a5fa);"></div></div><div class="bv">' + Math.round(r.popDiff).toLocaleString() + '人</div></td>' +
-        '<td class="bc"><div class="bbg"><div class="bf" style="width:' + (r.ageSim*100).toFixed(1) + '%;background:' + getSimColor(r.ageSim) + ';"></div></div><div class="bv">' + (r.ageSim*100).toFixed(1) + '%</div></td>' +
-        '<td class="bc"><div class="bbg"><div class="bf" style="width:' + (r.indSim*100).toFixed(1) + '%;background:' + getSimColor(r.indSim) + ';"></div></div><div class="bv">' + (r.indSim*100).toFixed(1) + '%</div></td>';
+        '<td class="bc">' + envBar(r.nature) + '</td>' +
+        '<td class="bc">' + envBar(r.space) + '</td>' +
+        '<td class="bc">' + envBar(r.func) + '</td>' +
+        '<td class="bc">' + envBar(r.act) + '</td>' +
+        '<td class="bc"><div class="bbg"><div class="bf" style="width:' + Math.min(100,r.sim).toFixed(1) + '%;background:' + getSimColor(r.sim) + ';"></div></div><div class="bv">' + r.sim.toFixed(1) + '%</div></td>';
       tr.addEventListener('click', () => toggleS2Selection(r.id));
       const cb = tr.querySelector('input[type="checkbox"]');
       cb.addEventListener('click', (e) => e.stopPropagation());
@@ -883,34 +670,41 @@
       tbody.appendChild(tr);
     });
   }
+
+  function envBar(v) {
+    const val = Number(v)||0;
+    return '<div class="bbg"><div class="bf" style="width:' + Math.min(100,val).toFixed(1) + '%;background:linear-gradient(90deg,#2563eb,#60a5fa);"></div></div><div class="bv">' + val.toFixed(1) + '</div>';
+  }
+
   function getSimColor(v) {
-    if (v>=.98) return '#1d4ed8';
-    if (v>=.95) return '#3b82f6';
-    if (v>=.9)  return '#60a5fa';
+    if (v>=90) return '#1d4ed8';
+    if (v>=80) return '#3b82f6';
+    if (v>=70) return '#60a5fa';
     return '#94a3b8';
   }
+
   function sortS2(col) {
-    if (s2C === col) s2A = !s2A; else { s2C = col; s2A = col === 'popDiff'; }
+    if (s2C === col) s2A = !s2A;
+    else { s2C = col; s2A = (col === 'name' || col === 'region' || col === 'type'); } // 文字列は昇順・数値は降順
     document.querySelectorAll('[id^="s2_"]').forEach(e => e.textContent = '⇅');
-    document.getElementById('s2_' + col).textContent = s2A ? '▲' : '▼';
-    document.querySelectorAll('.step2-tile[data-s2sort]').forEach(x => {
-      x.classList.toggle('active', x.dataset.s2sort === col);
-    });
-    // 並び替え後、上位4件を自動選択（ユーザーは後から変更可）
+    const el = document.getElementById('s2_' + col); if (el) el.textContent = s2A ? '▲' : '▼';
     autoSelectTop4();
     updateS2UI();
     renderS2();
   }
+
   function toggleS2Selection(id) {
     if (compIds.has(id)) compIds.delete(id); else compIds.add(id);
     updateS2UI(); renderS2();
   }
+
   function toggleAllS2(masterCheckbox) {
     s2Rows.forEach(r => {
       if (masterCheckbox.checked) compIds.add(r.id); else compIds.delete(r.id);
     });
     updateS2UI(); renderS2();
   }
+
   function updateS2UI() {
     const total = compIds.size;
     document.getElementById('s2cn').textContent = total;
@@ -933,47 +727,54 @@
     });
     updateMap2();
   }
+
+  // ========================= STEP 3 =========================
   function buildS3() {
     const ids = [targetId, ...compIds];
     if (ids.length < 2) { alert('比較エリアを1つ以上選択してください'); goStep(2); return; }
-    currentWB = null;
+    currentCat = null;
     document.getElementById('drilldownSection').style.display = 'none';
     document.getElementById('map3Container').style.display = 'flex';
-    if (wbChart) { wbChart.destroy(); wbChart = null; }
+    if (catChart) { catChart.destroy(); catChart = null; }
     if (detailChart) { detailChart.destroy(); detailChart = null; }
     updateMap3(ids);
-    renderWBChart(ids);
-    buildMiddleIndexButtons(ids);
+    renderCategoryChart(ids);
+    buildMiddleCategoryButtons(ids);
   }
-  function buildMiddleIndexButtons(ids) {
+
+  // 中央：環境カテゴリボタン（自然文化・空間・機能・活動）
+  function buildMiddleCategoryButtons(ids) {
     const btnBox = document.getElementById('indexBtnBox');
     btnBox.innerHTML = '';
-    wbList.forEach(wb => {
+    ENV_CATS.forEach(cat => {
       const btn = document.createElement('button');
-      btn.className = 'idx-btn-mid'; btn.textContent = wb; btn.title = wb;
+      btn.className = 'idx-btn-mid'; btn.textContent = cat; btn.title = cat;
       btn.addEventListener('click', () => {
         if (btn.classList.contains('active')) { hideDrilldown(); return; }
         document.querySelectorAll('.idx-btn-mid').forEach(b=>b.classList.remove('active'));
         btn.classList.add('active');
-        drillDown(wb, ids);
+        drillDown(cat, ids);
       });
       btnBox.appendChild(btn);
     });
   }
-  function renderWBChart(ids) {
+
+  // 左：環境カテゴリ別スコア（自然文化・空間・機能・活動）比較
+  function renderCategoryChart(ids) {
     const canvas = document.getElementById('wbChart');
-    const dynamicHeight = Math.max(340, wbList.length * 60);
+    const dynamicHeight = Math.max(340, ENV_CATS.length * 70);
     canvas.parentNode.style.height = '340px';
     canvas.style.height = dynamicHeight + 'px';
-    wbChart = new Chart(canvas, {
+    catChart = new Chart(canvas, {
       type: 'bar',
       data: {
-        labels: wbList,
+        labels: ENV_CATS,
         datasets: ids.map((id, i) => {
           const barColor = (i === 0) ? '#ef4444' : COLORS[i % COLORS.length];
+          const p = pivotMap[id] || {};
           return {
-            label: areaMap[id]||id,
-            data: wbList.map(wb => Math.round(((wbAvg[wb] && wbAvg[wb][id])||0) * 10) / 10),
+            label: areaMap[id] || id,
+            data: ENV_CATS.map(c => Math.round((Number(p[c])||0) * 10) / 10),
             backgroundColor: barColor, borderRadius: 5, barPercentage: .75
           };
         })
@@ -982,30 +783,32 @@
         indexAxis: 'y', responsive: true, maintainAspectRatio: false,
         plugins: {
           legend: { labels: { color: '#334155', font: { size: 11 } } },
-          tooltip: { callbacks: { label: (ctx) => ctx.dataset.label + ': ' + ctx.parsed.x + '（重み付き）' } }
+          tooltip: { callbacks: { label: (ctx) => ctx.dataset.label + ': ' + ctx.parsed.x } }
         },
         scales: {
-          x: { ticks: { color: '#64748b' }, grid: { color: '#f1f5f9' }, min: 0, max: 100, title: { display: true, text: '重み付きスコア (avg(normalized × weight))', color: '#64748b', font: { size: 10 } } },
-          y: { ticks: { color: '#64748b', font: { size: 11 } }, grid: { display: false } }
+          x: { ticks: { color: '#64748b' }, grid: { color: '#f1f5f9' }, min: 0, max: 100, title: { display: true, text: '正規化スコア（カテゴリ平均）', color: '#64748b', font: { size: 10 } } },
+          y: { ticks: { color: '#64748b', font: { size: 13 } }, grid: { display: false } }
         }
       }
     });
   }
-  function drillDown(wb, ids) {
-    currentWB = wb;
+
+  // 右：選択した環境カテゴリの明細指標ブレイクダウン
+  function drillDown(cat, ids) {
+    currentCat = cat;
     if (detailChart) detailChart.destroy();
     document.getElementById('map3Container').style.display = 'none';
     const section = document.getElementById('drilldownSection');
     section.style.display = 'flex';
     const drillBar = document.getElementById('drillBar');
-    drillBar.innerHTML = '<div class="drill-bar" style="width:100%;"><button class="btn bsc" id="drillCloseBtn" style="font-size:.78rem;padding:4px 12px;background:#fff;">✕ 地図を表示</button><span>📂 表示中:</span><span class="wbn">' + currentWB + '</span><button class="bd-toggle" id="bdToggleBtn">📋 指標の内訳</button></div>';
+    drillBar.innerHTML = '<div class="drill-bar" style="width:100%;"><button class="btn bsc" id="drillCloseBtn" style="font-size:.78rem;padding:4px 12px;background:#fff;">✕ 地図を表示</button><span>📂 表示中:</span><span class="wbn">' + currentCat + '</span><button class="bd-toggle" id="bdToggleBtn">📋 指標の内訳</button></div>';
     drillBar.querySelector('#drillCloseBtn').addEventListener('click', hideDrilldown);
-    const codes = wbCodes[currentWB] || [];
-    const labels = codes.map(c => indexMap[c] || c);
-    document.getElementById('detailTit').innerHTML = '<span class="dot" style="background:var(--red);"></span>' + currentWB + ' ─ 詳細指標ブレイクダウン（正規化スコア）';
-    document.getElementById('detailNote').textContent = codes.length + ' 件の詳細指標を表示（比重なし・normalized_scoreそのまま）／「指標の内訳」で各指標の構成カテゴリを確認できます';
-    // 詳細指標の内訳（tips_indexbreakdown_concat.json）を構築し、トグルで表示切替
-    buildBreakdownPanel(codes);
+    const indices = envIndexList[currentCat] || [];
+    const codes = indices.map(x => x.code);
+    const labels = indices.map(x => x.name);
+    document.getElementById('detailTit').innerHTML = '<span class="dot" style="background:var(--red);"></span>' + currentCat + ' ─ 明細指標ブレイクダウン（正規化スコア）';
+    document.getElementById('detailNote').textContent = codes.length + ' 件の明細指標を表示（normalized_score）／「指標の内訳」で明細指標の一覧を確認できます';
+    buildBreakdownPanel(currentCat, indices);
     const chartWrap = document.getElementById('detailChartWrap');
     const bdPanel = document.getElementById('breakdownPanel');
     const bdBtn = document.getElementById('bdToggleBtn');
@@ -1020,15 +823,8 @@
       bdBtn.classList.toggle('active', showBreakdown);
       bdBtn.textContent = showBreakdown ? '📊 スコアグラフ' : '📋 指標の内訳';
     });
-    const mappedData = {};
-    ids.forEach(id => {
-      mappedData[id] = {};
-      martData.filter(r => r.area_id === id && r.wb_index === currentWB).forEach(r => {
-        mappedData[id][r.index_code] = r.normalized_score;
-      });
-    });
     const canvas = document.getElementById('detailChart');
-    const dynamicHeight = Math.max(220, codes.length * 50);
+    const dynamicHeight = Math.max(220, codes.length * 40);
     canvas.parentNode.style.height = '100%';
     canvas.style.height = dynamicHeight + 'px';
     detailChart = new Chart(canvas, {
@@ -1038,8 +834,8 @@
         datasets: ids.map((id, i) => {
           const barColor = (i === 0) ? '#ef4444' : COLORS[i % COLORS.length];
           return {
-            label: areaMap[id]||id,
-            data: codes.map(c => mappedData[id][c] || 0),
+            label: areaMap[id] || id,
+            data: codes.map(c => (scoreMap[id] && scoreMap[id][c] != null) ? scoreMap[id][c] : 0),
             backgroundColor: barColor, borderRadius: 4, barPercentage: .7
           };
         })
@@ -1047,22 +843,7 @@
       options: {
         indexAxis: 'y', responsive: true, maintainAspectRatio: false,
         plugins: {
-          legend: { labels: { color: '#334155', font: { size: 11 } } },
-          tooltip: {
-            callbacks: {
-              // 各指標にホバーすると、tips_indexbreakdown_concat.json の構成カテゴリを表示
-              afterBody: (items) => {
-                if (!items || !items.length) return '';
-                const code = codes[items[0].dataIndex];
-                const bd = indexBreakdownMap[code];
-                if (!bd || !bd.categories.length) return '';
-                const cats = bd.categories;
-                const shown = cats.slice(0, 12).join('、');
-                const more = cats.length > 12 ? ' ほか' + (cats.length - 12) + '件' : '';
-                return '構成カテゴリ (' + cats.length + '件):\n' + shown + more;
-              }
-            }
-          }
+          legend: { labels: { color: '#334155', font: { size: 11 } } }
         },
         scales: {
           x: { ticks: { color: '#64748b' }, grid: { color: '#f1f5f9' }, min: 0, max: 100 },
@@ -1071,43 +852,26 @@
       }
     });
   }
-  // tips_indexbreakdown_concat.json の内容を、指標ごとの構成カテゴリ一覧として描画する
-  function buildBreakdownPanel(codes) {
+
+  // 環境カテゴリを構成する明細指標の一覧
+  function buildBreakdownPanel(cat, indices) {
     const panel = document.getElementById('breakdownPanel');
     if (!panel) return;
     panel.innerHTML = '';
-    const withData = codes.filter(c => indexBreakdownMap[c] && indexBreakdownMap[c].categories.length);
-    if (!withData.length) {
-      panel.innerHTML = '<div class="bd-empty">この指標に紐づくカテゴリ内訳（tips_indexbreakdown_concat.json）は登録されていません。</div>';
+    if (!indices.length) {
+      panel.innerHTML = '<div class="bd-empty">この環境カテゴリに紐づく明細指標はありません。</div>';
       return;
     }
-    codes.forEach(code => {
-      const bd = indexBreakdownMap[code];
-      const name = (bd && bd.index_name) || indexMap[code] || code;
-      const cats = (bd && bd.categories) || [];
+    indices.forEach(x => {
       const item = document.createElement('div');
       item.className = 'bd-item';
-      const head = document.createElement('div');
-      head.className = 'bd-item-head';
-      head.innerHTML = '<span class="bd-item-code">' + code + '</span><span>' + name + '</span>' +
-        (cats.length ? '<span class="bd-item-count">' + cats.length + ' カテゴリ</span>' : '<span class="bd-item-count">内訳なし</span>');
-      item.appendChild(head);
-      if (cats.length) {
-        const catBox = document.createElement('div');
-        catBox.className = 'bd-cats';
-        cats.forEach(c => {
-          const chip = document.createElement('span');
-          chip.className = 'bd-cat';
-          chip.textContent = c;
-          catBox.appendChild(chip);
-        });
-        item.appendChild(catBox);
-      }
+      item.innerHTML = '<div class="bd-item-head"><span class="bd-item-code">' + x.code + '</span><span>' + x.name + '</span></div>';
       panel.appendChild(item);
     });
   }
+
   function hideDrilldown() {
-    currentWB = null;
+    currentCat = null;
     document.querySelectorAll('.idx-btn-mid').forEach(b => b.classList.remove('active'));
     document.getElementById('drilldownSection').style.display = 'none';
     document.getElementById('map3Container').style.display = 'flex';
@@ -1118,6 +882,8 @@
     if (detailChart) { detailChart.destroy(); detailChart = null; }
     if (map3) setTimeout(() => { map3.invalidateSize(); }, 50);
   }
+
+  // ========================= マップ =========================
   function initMap(n) {
     const targetDiv = 'map' + n;
     const map = L.map(targetDiv, { zoomControl: true }).setView([36.5, 137], 5);
@@ -1128,11 +894,13 @@
     if (n === 3) map3 = map;
     return map;
   }
+
   function clearMarkers(markersArr, mapObj) {
     if (!mapObj) return;
     markersArr.forEach(m => mapObj.removeLayer(m));
     markersArr.length = 0;
   }
+
   function renderMapPin(mapObj, markersArr, lat, lng, color, name, isTarget) {
     if (!lat || !lng) return null;
     const pinColor = isTarget ? '#ef4444' : color;
@@ -1146,6 +914,7 @@
     markersArr.push(label);
     return [lat,lng];
   }
+
   function updateMap1() {
     clearMarkers(m1M, map1);
     if (!targetId) return;
@@ -1155,6 +924,7 @@
       map1.setView([info.lat, info.lng], 7);
     }
   }
+
   function updateMap2() {
     clearMarkers(m2M, map2);
     const bounds = [];
@@ -1171,6 +941,7 @@
     const valid = bounds.filter(Boolean);
     if (valid.length > 0) map2.fitBounds(valid, { padding:[40,40], maxZoom:8 });
   }
+
   function updateMap3(ids) {
     if (map3) { map3.remove(); map3 = null; }
     map3 = initMap(3);
@@ -1185,6 +956,7 @@
     const valid = bounds.filter(Boolean);
     if (valid.length > 0) map3.fitBounds(valid, { padding:[40,40], maxZoom:8 });
   }
+
   document.addEventListener('DOMContentLoaded', init);
 })();
 </script>
