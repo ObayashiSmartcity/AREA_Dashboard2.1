@@ -164,6 +164,8 @@
     .cnote { font-size:.76rem; color:var(--muted); margin-bottom:16px; flex-shrink:0; }
     .cscroll { flex:1; overflow-y:auto; overflow-x:hidden; min-height:0; display:block; position:relative; width:100%; }
     .cscroll canvas { display:block; width:100% !important; }
+    /* グラフを縦に伸ばしてスクロール表示するための内側ラッパー（高さ固定） */
+    .chart-inner { position:relative; width:100%; }
     .drilldown-section { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:24px; box-shadow:var(--shadow); height:100%; min-height:0; display:flex; flex-direction:column; overflow:hidden; }
     .drill-bar { display:flex; align-items:center; gap:12px; margin-bottom:14px; padding:12px 18px; background:var(--grad-brand-soft); border:1px solid #c7dbfb; border-radius:12px; font-size:.85rem; flex-shrink:0; }
     .drill-bar .wbn { font-weight:700; color:var(--accent); }
@@ -834,8 +836,19 @@
       bdBtn.textContent = showBreakdown ? '📊 スコアグラフ' : '📋 指標の内訳';
     });
     const canvas = document.getElementById('detailChart');
-    const dynamicHeight = Math.max(220, codes.length * 40);
-    canvas.parentNode.style.height = '100%';
+    // 指標数に応じてグラフの高さを算出（1指標あたり最低52px確保）。機能レイヤーのように
+    // 指標が多い場合は縦に長くなり、外側の .cscroll 枠でスクロールできるようにする。
+    const dynamicHeight = Math.max(240, codes.length * 52);
+    // canvas を高さ固定の内側ラッパーで包む（Chart.js が親の高さに合わせて縮めるのを防ぐ）
+    let inner = canvas.parentElement;
+    if (!inner || !inner.classList.contains('chart-inner')) {
+      inner = document.createElement('div');
+      inner.className = 'chart-inner';
+      chartWrap.insertBefore(inner, canvas);
+      inner.appendChild(canvas);
+    }
+    chartWrap.style.height = '';        // スクロールは .cscroll(flex:1) に任せる
+    inner.style.height = dynamicHeight + 'px';
     canvas.style.height = dynamicHeight + 'px';
     detailChart = new Chart(canvas, {
       type: 'bar',
