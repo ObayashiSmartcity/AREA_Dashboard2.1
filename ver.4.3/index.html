@@ -93,6 +93,10 @@
     .step2-tile.active { border-color: transparent; background: var(--grad-brand); color: #fff; box-shadow:0 9px 18px -9px rgba(37,99,235,.65); }
     /* 並び替えボタンだけ大きく */
     .step2-tile[data-s2sort] { padding: 12px 30px; font-size: .92rem; border-radius: 999px; }
+    /* STEP 3 対象者フィルタ */
+    .s3-filter { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+    .s3-filter-lbl { font-size:.72rem; font-weight:600; letter-spacing:.05em; text-transform:uppercase; color:var(--muted); margin-right:2px; }
+    .s3-filter .step2-tile { padding:8px 16px; font-size:.78rem; }
     /* 検索窓 */
     .search-box { width:100%; margin-bottom:12px; }
     .search-input { width:100%; padding:12px 16px; border:1px solid var(--border-strong); border-radius:12px; background:#fbfbfe; font-size:.85rem; font-family:inherit; color:var(--text); transition:all .2s; }
@@ -318,6 +322,13 @@
           <h2>STEP 3 ─ 比較ダッシュボード</h2>
           <span class="desc">環境指標（自然文化・空間・機能）の強み・弱みを比較（正規化スコア）</span>
           <div style="flex:1"></div>
+          <div class="s3-filter" id="s3Filter">
+            <span class="s3-filter-lbl">対象者フィルタ</span>
+            <button class="step2-tile" data-s3filter="就業者">就業者</button>
+            <button class="step2-tile" data-s3filter="居住者">居住者</button>
+            <button class="step2-tile" data-s3filter="来街者">来街者</button>
+            <button class="step2-tile active" data-s3filter="フィルタなし">フィルタなし</button>
+          </div>
           <button class="btn bsc" data-back-to="2">← 戻る</button>
         </div>
         <div class="step3-layout">
@@ -354,12 +365,18 @@
 <script>
 (() => {
   // データ保持
-  let pivotData = [], normData = [], tipsData = [];
+  let pivotData = [], normData = [], tipsData = [], targetData = null;
   let areaMap = {}, areaInfo = {}, pivotMap = {};
   let envIndexList = {};   // 環境カテゴリ -> [{code, name}]（明細指標一覧）
   let scoreMap = {};       // area_id -> { index_code: normalized_score }
   let indexMap = {};       // index_code -> index_name
   let tipsMap = {};        // index_code -> [category_name, ...]（tips_indexbreakdown.json 由来）
+  let targetAttrMap = {};  // index_code -> { 就業者:bool, 居住者:bool, 来街者:bool, フィルタなし:bool }（master_target.json 由来）
+
+  // STEP 3：対象者フィルタ（就業者 / 居住者 / 来街者 / フィルタなし）。既定は「フィルタなし」
+  const TARGET_ATTRS = ['就業者','居住者','来街者','フィルタなし'];
+  let s3TargetFilter = 'フィルタなし';
+  let s3Ids = [];          // STEP 3 で表示中のエリアID（フィルタ再描画用）
   let targetId = null, compIds = new Set();
   let s1C = 'name', s1A = true, s2C = 'sim', s2A = false; // Step2 既定：類似度の降順
   let s1SearchMode = 'keyword'; // STEP 1 検索モード：'keyword' / 'filter'（併用不可）
@@ -397,14 +414,17 @@
       //  - mart_index_normalized.json：エリア×明細指標（environment / normalized_score を保持）
       //  - mart_index_area_environment_pivot.json：エリア×環境カテゴリ（自然文化・空間・機能・活動）集計値
       //  - tips_indexbreakdown.json：明細指標ごとの構成POI業種カテゴリ（tips）
-      const [nR, pR, tR] = await Promise.all([
+      //  - master_target.json：明細指標（index_code）ごとの対象者属性（就業者・居住者・来街者・フィルタなし）
+      const [nR, pR, tR, mR] = await Promise.all([
         fetch('mart_index_normalized.json'),
         fetch('mart_index_area_environment_pivot.json'),
-        fetch('tips_indexbreakdown.json')
+        fetch('tips_indexbreakdown.json'),
+        fetch('master_target.json')
       ]);
       normData = await nR.json();
       pivotData = await pR.json();
       tipsData = await tR.json();
+      targetData = await mR.json();
       buildData();
       populateSelect('fR', [...new Set(Object.values(areaInfo).map(a=>a.region).filter(Boolean))].sort());
       populateSelect('fP', [...new Set(Object.values(areaInfo).map(a=>a.pref).filter(Boolean))].sort());
@@ -421,7 +441,13 @@
   }
 
   function buildData() {
-    areaMap = {}; areaInfo = {}; pivotMap = {}; envIndexList = {}; scoreMap = {}; indexMap = {}; tipsMap = {};
+    areaMap = {}; areaInfo = {}; pivotMap = {}; envIndexList = {}; scoreMap = {}; indexMap = {}; tipsMap = {}; targetAttrMap = {};
+    // master_target.json：index_code -> 対象者属性（就業者・居住者・来街者・フィルタなし）
+    const targetItems = Array.isArray(targetData) ? targetData : ((targetData && targetData.items) || []);
+    targetItems.forEach(t => {
+      if (!t || !t.index_code) return;
+      targetAttrMap[t.index_code] = t.attributes || {};
+    });
     // tips_indexbreakdown.json：index_code -> 構成POI業種カテゴリ（重複除去）
     (tipsData || []).forEach(t => {
       if (!t || !t.index_code) return;
@@ -487,6 +513,30 @@
       btn.addEventListener('click', () => setStep1Mode(btn.dataset.s1mode));
     });
     setStep1Mode(s1SearchMode);
+    // STEP 3 対象者フィルタ（就業者 / 居住者 / 来街者 / フィルタなし）
+    document.querySelectorAll('[data-s3filter]').forEach(btn => {
+      btn.addEventListener('click', () => setStep3TargetFilter(btn.dataset.s3filter));
+    });
+  }
+
+  // STEP 3：対象者フィルタの切替。選択中の環境カテゴリがあれば明細ブレイクダウンを再描画
+  function setStep3TargetFilter(attr) {
+    if (!TARGET_ATTRS.includes(attr)) return;
+    s3TargetFilter = attr;
+    document.querySelectorAll('[data-s3filter]').forEach(b =>
+      b.classList.toggle('active', b.dataset.s3filter === attr));
+    if (currentCat && s3Ids.length >= 2) drillDown(currentCat, s3Ids);
+  }
+
+  // 選択中の対象者フィルタで、環境カテゴリの明細指標（index_code）を絞り込む
+  function getFilteredIndices(cat) {
+    const list = envIndexList[cat] || [];
+    return list.filter(x => {
+      const attr = targetAttrMap[x.code];
+      // master_target.json に定義がない指標は「フィルタなし」時のみ表示（既定挙動を維持）
+      if (!attr) return s3TargetFilter === 'フィルタなし';
+      return !!attr[s3TargetFilter];
+    });
   }
 
   // STEP 1 の検索モード切替（キーワード検索 / フィルタ検索は併用不可）
@@ -744,6 +794,7 @@
   function buildS3() {
     const ids = [targetId, ...compIds];
     if (ids.length < 2) { alert('比較エリアを1つ以上選択してください'); goStep(2); return; }
+    s3Ids = ids;
     currentCat = null;
     document.getElementById('drilldownSection').style.display = 'none';
     document.getElementById('map3Container').style.display = 'flex';
@@ -815,11 +866,12 @@
     const drillBar = document.getElementById('drillBar');
     drillBar.innerHTML = '<div class="drill-bar" style="width:100%;"><button class="btn bsc" id="drillCloseBtn" style="font-size:.78rem;padding:4px 12px;background:#fff;">✕ 地図を表示</button><span>📂 表示中:</span><span class="wbn">' + currentCat + '</span><button class="bd-toggle" id="bdToggleBtn">📋 指標の内訳</button></div>';
     drillBar.querySelector('#drillCloseBtn').addEventListener('click', hideDrilldown);
-    const indices = envIndexList[currentCat] || [];
+    // 対象者フィルタ（就業者 / 居住者 / 来街者 / フィルタなし）で明細指標を絞り込む
+    const indices = getFilteredIndices(currentCat);
     const codes = indices.map(x => x.code);
     const labels = indices.map(x => x.name);
     document.getElementById('detailTit').innerHTML = '<span class="dot" style="background:var(--red);"></span>' + currentCat + ' ─ 明細指標ブレイクダウン（正規化スコア）';
-    document.getElementById('detailNote').textContent = codes.length + ' 件の明細指標を表示（normalized_score）／「指標の内訳」で明細指標の一覧を確認できます';
+    document.getElementById('detailNote').textContent = codes.length + ' 件の明細指標を表示（対象者フィルタ：' + s3TargetFilter + ' / normalized_score）／「指標の内訳」で明細指標の一覧を確認できます';
     buildBreakdownPanel(currentCat, indices);
     const chartWrap = document.getElementById('detailChartWrap');
     const bdPanel = document.getElementById('breakdownPanel');
